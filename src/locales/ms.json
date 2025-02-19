@@ -1,0 +1,1282 @@
+{
+  "navigation": {
+    "dashboard": {
+      "title": "Papan Pemuka Admin",
+      "device": {
+        "title": "Pengurusan Peranti",
+        "children": {
+          "group": {
+            "title": "Pengurusan Kumpulan",
+            "tableHeader": {
+              "cate_name": "Nama Kumpulan",
+              "describe": "Penerangan Kumpulan",
+              "device_count": "Bilangan Peranti",
+              "up_time": "Masa",
+              "status": "Status Kumpulan",
+              "create_time": "Masa Penciptaan",
+              "selectDev": "Pilih Peranti"
+            }
+          },
+          "deviceList": {
+            "title": "Senarai Peranti",
+            "tableHeader": {
+              "id": "Id",
+              "equipment_nickname": "Nama Peranti",
+              "equipment_number": "Nombor Peranti",
+              "backups_time": "Masa Sandaran Terakhir",
+              "create_time": "Masa Penciptaan",
+              "remarks": "Catatan",
+              "operate": "Tindakan",
+              "backup": "Sandaran",
+              "editRemark": "Edit Catatan",
+              "switchBackup": "Tukar Sandaran",
+              "backuptip": "Masukkan nombor peranti untuk sandaran",
+              "delete": "Padam",
+              "edit": "Edit",
+              "historyBackUp": "Sandaran Sejarah",
+              "backUpTime": "Masa Sandaran",
+              "flashingMachine": "Satu Klik Kilat"
+            }
+          }
+        }
+      },
+      "taskParams": {
+        "title": "Pengurusan Tugas",
+        "tiktok": {
+          "title": "TikTok",
+          "children": {
+            "yanghao": {
+              "title": "Penyelenggaraan Akaun",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "wayType": "Jenis Penyelenggaraan",
+                "wayTypeList": [
+                  "Penyelenggaraan Sistem",
+                  "Blogger Tertentu"
+                ],
+                "bloggerId": "ID Blogger",
+                "search_name": "Kata Kunci Carian",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Suka",
+                "see_comment_probability": "Kebarangkalian Melihat Komen",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "collectProbability": "Kebarangkalian Mengumpul",
+                "duration_stay": "Tempoh Tinggal/Saat",
+                "seeCount": "Bilangan Tontonan",
+                "script_grouping_name": "Jenis Skrip",
+                "number_maintenance_duration": "Tempoh Penyelenggaraan/Saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "update": {
+              "title": "Kemas Kini Akaun",
+              "tableHeader": {
+                "update_value": "Item Kemas Kini",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "order": "Urutan",
+                "imagesContent": "Avatar",
+                "name": "Nama Pengguna",
+                "bio": "Bio",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "getuid": {
+              "title": "Pengumpulan Data",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Kumpul Pautan Video",
+                  "Kumpul Pengomen Video",
+                  "Kumpul Senarai Blogger",
+                  "Kumpul Senarai Diikuti Blogger Tertentu",
+                  "Kumpul Pengikut Blogger Tertentu",
+                  "Kumpul Pengikut Blogger Bilik Siaran Langsung",
+                  "",
+                  "Kumpul Penyuka Siaran Sendiri",
+                  "Kumpul Pengomen Siaran Sendiri"
+                ],
+                "blogger_ids": "ID Blogger",
+                "keyword": "Kata Kunci",
+                "fans_num": "Bilangan Peminat",
+                "fans_area": "Sumber Pengumpulan",
+                "collection_num": "Bilangan Pengumpulan",
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan",
+                "dialogTitle": "Butiran Pengumpulan"
+              }
+            },
+            "follow": {
+              "title": "Ikut Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "follow_way": "Kaedah Mengikuti",
+                "followWayList": [
+                  "Pengikut Blogger",
+                  "Blogger Tertentu",
+                  "Cadangan Sistem",
+                  "",
+                  "",
+                  "Ikut Kenalan",
+                  "Ikut Penyuka",
+                  "Ikut Pengomen",
+                  "Ikut Balik Peminat"
+                ],
+                "blogger_ids": "ID Blogger",
+                "search_name": "Kata Kunci Carian",
+                "collect_percent": "Kebarangkalian Mengikuti",
+                "like_percent": "Kebarangkalian Suka",
+                "follow_range": "Julat Mengikuti",
+                "follow_range_list": [
+                  "Peminat"
+                ],
+                "follow_num": "Bilangan Mengikuti",
+                "follow_time": "Tempoh Selang/Saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "message": {
+              "title": "Pesanan Peribadi Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "message_num": "Bilangan Pesanan",
+                "message_content": "Kandungan Pesanan",
+                "message_time": "Masa Selang/Saat",
+                "private_message": "Pesanan Peribadi Kepada",
+                "private_message_list": [
+                  "Rakan"
+                ],
+                "address": "Masukkan Lokasi",
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "post": {
+              "title": "Siaran Matriks",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "upload_content_arr": "Kandungan Siaran",
+                "upload_type": "Jenis Siaran",
+                "upload_type_list": [
+                  "Video",
+                  "Imej"
+                ],
+                "title": "Tajuk",
+                "topic": "Topik",
+                "topic_tips": " #Topik #Topik #Topik",
+                "call_who": "Tag Siapa",
+                "call_who_tips": "Nama Pengguna, Nama Pengguna, Nama Pengguna",
+                "address": "Lokasi",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "like": {
+              "title": "Suka Secara Pukal",
+              "tableHeader": {
+                "bloggerId": "ID Blogger",
+                "pending_execution_time": "Masa Selang/Saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "comment": {
+              "title": "Komen Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "keyword": "Kata Kunci Video",
+                "content": "Kandungan Komen",
+                "task_num": "Bilangan Komen",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            }
+          }
+        },
+        "douyin": {
+          "title": "Douyin",
+          "children": {
+            "yanghao": {
+              "title": "Pemeliharaan Akaun Satu Klik",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "wayType": "Jenis Pemeliharaan",
+                "wayTypeList": [
+                  "Pemeliharaan Sistem",
+                  "Blogger Tertentu",
+                  "Video",
+                  "Bilik Langsung"
+                ],
+                "bloggerId": "ID Blogger",
+                "search_name": "Kata Kunci Carian",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Suka",
+                "see_comment_probability": "Kebarangkalian Melihat Komen",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "collectProbability": "Kebarangkalian Mengumpul",
+                "duration_stay": "Tempoh Tinggal (saat)",
+                "seeCount": "Bilangan Tontonan",
+                "script_grouping_name": "Jenis Skrip",
+                "number_maintenance_duration": "Tempoh Pemeliharaan (saat)",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "update": {
+              "title": "Kemas Kini Profil",
+              "tableHeader": {
+                "update_value": "Item Kemas Kini",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "order": "Urutan",
+                "imagesContent": "Avatar",
+                "name": "Nama Pengguna",
+                "bio": "Bio",
+                "sex": "Jantina",
+                "man": "Lelaki",
+                "woman": "Perempuan",
+                "notDisplay": "Jangan Papar",
+                "birthday": "Tarikh Lahir",
+                "location": "Lokasi",
+                "country": "Negara",
+                "province": "Negeri",
+                "city": "Bandar",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "getuid": {
+              "title": "Pengumpulan Data",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Kumpul Pautan Video",
+                  "Kumpul Pengguna Komen Video",
+                  "Kumpul Senarai Blogger",
+                  "Kumpul Senarai Diikuti Blogger Tertentu",
+                  "Kumpul Pengikut Blogger Tertentu",
+                  "Kumpul Pengikut dari Hos Bilik Langsung",
+                  "Kumpul Pengguna yang Menyukai Siaran Anda",
+                  "Kumpul Pengguna yang Mengomen Siaran Anda"
+                ],
+                "blogger_ids": "ID Blogger",
+                "keyword": "Kata Kunci",
+                "coll_direction": "Arah Pengumpulan",
+                "coll_direction_list": [
+                  "Video",
+                  "Bilik Langsung"
+                ],
+                "search_type": "Kaedah Carian",
+                "search_type_list": [
+                  "Kata Kunci",
+                  "Pautan"
+                ],
+                "link": "Pautan",
+                "fans_num": "Bilangan Peminat",
+                "fans_num_list": [
+                  "Tidak Terhad",
+                  "Di bawah 1000",
+                  "1k-10k",
+                  "10k-100k",
+                  "100k-1M",
+                  "Melebihi 1M"
+                ],
+                "user_type": "Jenis Pengguna",
+                "user_type_list": [
+                  "Tidak Terhad",
+                  "Pengguna Biasa",
+                  "Perniagaan Disahkan",
+                  "Peribadi Disahkan"
+                ],
+                "see_num": [
+                  "Bilangan Blogger Dilihat",
+                  "Bilangan Video Dilihat"
+                ],
+                "collection_num": [
+                  "Bilangan Peminat Dikumpul",
+                  "Bilangan Pengumpulan"
+                ],
+                "followers_num": "Bilangan Pengumpulan Pengikut",
+                "coll_area": "Sumber Pengumpulan",
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan",
+                "dialogTitle": "Butiran Pengumpulan"
+              }
+            },
+            "follow": {
+              "title": "Ikut Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "follow_way": "Kaedah Mengikuti",
+                "followWayList": [
+                  "Pengikut Blogger",
+                  "Blogger Tertentu",
+                  "Cadangan Sistem",
+                  "Cari Blogger Video menggunakan Kata Kunci",
+                  "Pengomen Video Tertentu",
+                  "Pengikut Rakan",
+                  "Ikut Kenalan",
+                  "Ikut Penyuka",
+                  "Ikut Pengomen",
+                  "Ikut Balik Pengikut"
+                ],
+                "blogger_ids": "ID Blogger",
+                "search_name": "Kata Kunci Carian",
+                "comment_section_keywords": "Kata Kunci Komen",
+                "before_operation": "Pra-Operasi",
+                "latestVideo": "Tonton Video Terbaru",
+                "collect_percent": "Kebarangkalian Mengikuti",
+                "like_percent": "Kebarangkalian Suka",
+                "comment_percent": "Kebarangkalian Komen",
+                "comment_content": "Kandungan Komen",
+                "after_operation": "Pasca-Operasi",
+                "private_message": "Pesanan Peribadi",
+                "message_content": "Kandungan Pesanan",
+                "follow_num": "Bilangan Mengikuti",
+                "follow_time": "Masa Selang (saat)",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "message": {
+              "title": "Pesanan Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "message_num": "Bilangan Pesanan",
+                "message_content": "Kandungan Pesanan",
+                "message_time": "Masa Selang (saat)",
+                "private_message": "Pesanan Peribadi",
+                "private_message_list": [
+                  "Rakan",
+                  "penggemar"
+                ],
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "post": {
+              "title": "Siaran Matriks",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "upload_content_arr": "Kandungan Muat Naik",
+                "upload_type": "Jenis Muat Naik",
+                "upload_type_list": [
+                  "Video",
+                  "Imej"
+                ],
+                "title": "Tajuk",
+                "topic": "Topik",
+                "topic_tips": " #Topik #Topik #Topik",
+                "call_who": "Sebut",
+                "call_who_tips": "Nama Pengguna, Nama Pengguna, Nama Pengguna",
+                "address": "Lokasi",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "comment": {
+              "title": "Komen Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "comment_way": "Kaedah Komen",
+                "commentWayList": [
+                  "Cari Video menggunakan Kata Kunci",
+                  "Komen Pengguna dari Video Tertentu",
+                  "Komen di Bilik Langsung",
+                  "Komen pada Video Terbaru Pengguna Tertentu",
+                  "Komen pada Pengomen Siaran Anda"
+                ],
+                "keyword": "Kata Kunci Carian",
+                "bloggerId": "ID Blogger",
+                "content": "Kandungan Komen",
+                "see_num": "Bilangan Tontonan",
+                "comment_num": "Bilangan Komen",
+                "collect_percent": "Kebarangkalian Mengumpul",
+                "follow_percent": "Kebarangkalian Mengikuti",
+                "like_percent": "Kebarangkalian Suka",
+                "comment_content": "Kandungan Komen",
+                "comment_percent": "Kebarangkalian Komen",
+                "comment_section": "Komen Tertentu",
+                "comment_section_list": [
+                  "Komen Pengguna Secara Berurutan",
+                  "Komen Berdasarkan Kata Kunci Bahagian Komen"
+                ],
+                "comment_section_keywords": "Padanan Kata Kunci Bahagian Komen",
+                "duration_interval": "Masa Selang (saat)",
+                "duration_stay": "Tempoh Tinggal (saat)",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            }
+          }
+        },
+        "line": {
+          "title": "Line",
+          "children": {
+            "yanghao": {
+              "title": "Pemeliharaan Akaun",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "wayType": "Jenis Pemeliharaan",
+                "wayTypeList": [
+                  "HARI INI",
+                  "Sembang Rakan",
+                  "Sembang Kumpulan"
+                ],
+                "friend_name": "Nama Rakan",
+                "group_name": "Nama Kumpulan",
+                "search_name": "Kata Kunci Carian",
+                "message_value": "Kandungan Pesanan",
+                "duration_interval": "Tempoh Selang/saat",
+                "duration_chat": "Tempoh Sembang/saat",
+                "number_maintenance_duration": "Tempoh Pemeliharaan/saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "update": {
+              "title": "Kemas Kini Profil",
+              "tableHeader": {
+                "update_value": "Item Pengubahsuaian",
+                "imagesContent": "Avatar",
+                "name": "Nama Pengguna",
+                "bio": "Bio",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "order": "Urutan",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "addFriend": {
+              "title": "Tambah Rakan",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "AddFriendWayList": [
+                  "Tambah Carian - ID Rakan",
+                  "Cadangan Rasmi",
+                  "Orang yang Mungkin Anda Kenal",
+                  "Tetapan Tambah Rakan"
+                ],
+                "AddFriend_way": "Kaedah Tambah Rakan",
+                "friends_ids": "ID Rakan",
+                "friends_phone": "Nombor Telefon Rakan",
+                "message_content": "Kandungan Pesanan",
+                "add_total_number": "Kuantiti Tambahan",
+                "addFrends_atuo_setting": "Tambah Rakan Automatik",
+                "addFrends_allow_setting": "Benarkan Menambah Rakan",
+                "AddFriend_time": "Tempoh Selang/saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "post": {
+              "title": "Siaran Matriks",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "upload_content_arr": "Kandungan Siaran",
+                "upload_type": "Jenis Siaran",
+                "image": "Imej",
+                "video": "Video",
+                "title": "Tajuk",
+                "uploadTips": "Untuk pelbagai nilai, sila pisahkan dengan koma Inggeris ,,,",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Penglibatan Kumpulan Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "grouping_name": "Nama Kumpulan",
+                "message_content": "Pesanan Rawak",
+                "duration_interval": "Selang Masa/s",
+                "duration_chat": "Selang Sembang/s",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            }
+          }
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "children": {
+            "update": {
+              "title": "Kemas Kini Profil",
+              "tableHeader": {
+                "updateList": {
+                  "upload_content_arr": "Avatar",
+                  "name": "Nama",
+                  "userStatus": "Status",
+                  "pwdVerify": "Pengesahan Kata Laluan"
+                },
+                "update_value": "Item Pengubahsuaian",
+                "regulation": "Peraturan",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "yanghao": {
+              "title": "Pemeliharaan Akaun",
+              "tableHeader": {
+                "wayType": "Jenis Pemeliharaan",
+                "friendPhone": "Nombor Telefon Rakan",
+                "friend": "Perbualan Rakan",
+                "group": "Perbualan Kumpulan",
+                "wsGroupName": "Nama Kumpulan",
+                "chatDuration": "Tempoh Sembang/saat",
+                "chatInterva": "Selang Sembang/saat",
+                "romdomMessage": "Pesanan Rawak",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "addFriend": {
+              "title": "Tambah Rakan",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Kaedah Tambah",
+                  "lxr": "Kenalan",
+                  "txl": "Rakan Buku Alamat"
+                },
+                "callType": {
+                  "title": "Jenis Panggilan",
+                  "yuyin": "Panggilan Suara",
+                  "video": "Panggilan Video"
+                },
+                "hangUpTime": "Masa Tutup Panggilan",
+                "contactsUploadList": "Muat Naik Nombor Telefon",
+                "num": "Kuantiti",
+                "time": "Selang Masa",
+                "randomMessage": "Pesanan Rawak",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "uploadTips1": "Untuk pelbagai nilai, sila pisahkan dengan koma Inggeris ,,,",
+                "uploadTips2": "Nama|Nama Keluarga|Kod Negara|Telefon (tanpa kod negara)"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Penglibatan Kumpulan Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "stirfry_groups_id": "Nama Kumpulan untuk Penglibatan",
+                "message_time": "Masa Selang/s",
+                "stirfry_timer": "Tempoh Penglibatan/s",
+                "romdomMessage": "Pesanan Rawak",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "message": {
+              "title": "Pesanan Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "private_message": {
+                  "title": "Penerima Pesanan",
+                  "all": "Semua Rakan",
+                  "appoint": "Rakan Tertentu"
+                },
+                "friend_id": "ID Rakan",
+                "romdomMessage": "Pesanan Rawak",
+                "message_time": "Masa Selang/s",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "title": "Snapchat",
+          "children": {
+            "yanghao": {
+              "title": "Pemeliharaan Akaun",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Jenis Pemeliharaan",
+                  "gs": "Pemeliharaan Cerita",
+                  "jgd": "Pemeliharaan Spotlight"
+                },
+                "see_count": "Bilangan Tontonan",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Suka",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "comment_content": "Kandungan Komen",
+                "duration_stay": "Tempoh Tinggal/saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "update": {
+              "title": "Kemas Kini Profil",
+              "tableHeader": {
+                "update_value": "Item Pengubahsuaian",
+                "imagesContent": "Avatar",
+                "realName": "Nama Sebenar",
+                "username": "Nama Pengguna",
+                "bio": "Bio",
+                "birthday": "Tarikh Lahir",
+                "location": {
+                  "title": "Lokasi",
+                  "country": "Negara",
+                  "province": "Negeri",
+                  "city": "Bandar"
+                },
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "likeLink": {
+              "title": "Suka dan Komen",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Jenis Sumber",
+                  "base": "Rawak",
+                  "link": "Pautan"
+                },
+                "link_urls": "Pautan Siaran",
+                "see_count": "Bilangan Tontonan",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Suka",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "comment_content": "Kandungan Komen",
+                "duration_stay": "Tempoh Tinggal/saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "post": {
+              "title": "Siaran Matriks",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Jenis Pemeliharaan",
+                  "gs": "Pemeliharaan Cerita",
+                  "jgd": "Pemeliharaan Spotlight"
+                },
+                "videoContent": "Kandungan Media",
+                "mediaSuffic": "Akhiran Media",
+                "txt": "Kandungan Teks",
+                "isAddMusic": {
+                  "title": "Tambah Muzik",
+                  "yes": "Ya",
+                  "no": "Tidak"
+                },
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "addFriend": {
+              "title": "Tambah Rakan",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Kaedah Tambah",
+                  "tuijian": "Dicadangkan",
+                  "txl": "Buku Alamat"
+                },
+                "chatType": {
+                  "title": "Jenis Kandungan",
+                  "text": "Teks",
+                  "image": "Imej",
+                  "text_image": "Teks/Imej",
+                  "isChat": "Paksa Sembang",
+                  "yes": "Ya",
+                  "no": "Tidak"
+                },
+                "text": "Pesanan Teks",
+                "imagesContent": "Pilihan Imej",
+                "addNumber": "Kuantiti Tambahan",
+                "addGap": "Selang Tambahan/s",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "message": {
+              "title": "Pesanan Pukal",
+              "tableHeader": {
+                "chatNumber": "Kuantiti Pesanan",
+                "duration_interval": "Selang Pesanan/s",
+                "chatType": {
+                  "title": "Jenis Kandungan",
+                  "text": "Teks",
+                  "image": "Imej",
+                  "text_image": "Teks/Imej"
+                },
+                "imagesContent": "Pilihan Imej",
+                "msgChat": "Kandungan Pesanan",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "comment": {
+              "title": "Komen Pukal",
+              "tableHeader": {
+                "tip": "Untuk input berganda, pisahkan dengan koma Inggeris",
+                "linkUrls": "Pautan Siaran",
+                "maxRoll": "Bilangan Maksimum Skrol Komen",
+                "keywords": "Padanan Kata Kunci",
+                "keywordNum": "Operasi Padanan Kata Kunci Maksimum",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Suka",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "comment_content": "Kandungan Komen",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "getuid": {
+              "title": "Pengumpulan Data",
+              "tableHeader": {
+                "keywords": "Padanan Kata Kunci",
+                "tip": "Untuk input berganda, pisahkan dengan koma Inggeris",
+                "coll_type": "Jenis Koleksi",
+                "collType_option": {
+                  "gjc": " Keyword Collection ",
+                  "txl": " Koleksi Buku Alamat "
+                },
+                "collection_num": "Kuantiti Pengumpulan",
+                "collComment_num": "Kuantiti Pengumpulan Komen",
+                "duration_interval": "Selang Pengumpulan/s",
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan",
+                "dialogTitle": "Butiran Pengumpulan"
+              }
+            },
+            "logTask": {
+              "title": "Log Tugas",
+              "tableHeader": {}
+            }
+          }
+        },
+        "instagram": {
+          "title": "Instagram",
+          "children": {
+            "yanghao": {
+              "title": "Pemeliharaan Akaun Satu Klik",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "wayType": {
+                  "title": "Jenis Pemeliharaan",
+                  "home": "Cadangan Laman Utama",
+                  "appoint": "Akaun Tertentu",
+                  "keyword": "Padanan Kata Kunci"
+                },
+                "recommend": "Jenis Cadangan",
+                "recommend_option": [
+                  "Laman Utama",
+                  "Reels"
+                ],
+                "keyword": "Kata Kunci",
+                "account": "ID Akaun",
+                "tip": "Masukkan berbilang, dipisahkan dengan koma",
+                "see_count": "Bilangan Tontonan",
+                "follow_probability": "Kebarangkalian Mengikuti",
+                "like_probability": "Kebarangkalian Menyukai",
+                "hair_comment_probability": "Kebarangkalian Mengulas",
+                "comment_content": "Kandungan Ulasan",
+                "duration_stay": "Tempoh Tinggal/Saat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "update": {
+              "title": "Kemas Kini Profil",
+              "tableHeader": {
+                "update_value": "Item Pengubahsuaian",
+                "imagesContent": "Gambar Profil",
+                "realName": "Nama Sebenar",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "order": "Urutan",
+                "bio": "Bio",
+                "gender": {
+                  "title": "Jantina",
+                  "male": "Lelaki",
+                  "female": "Perempuan",
+                  "unspecified": "Tidak Mahu Menjawab"
+                },
+                "links": "Laman Peribadi",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "post": {
+              "title": "Penerbitan Matriks",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Jenis Matriks",
+                  "image": "Gambar",
+                  "video": "Video"
+                },
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "videoContent": "Kandungan Media",
+                "mediaSuffic": "Akhiran Media",
+                "txt": "Kandungan Teks",
+                "address": "Alamat",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "addFriend": {
+              "title": "Tambah Rakan",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Kaedah Penambahan",
+                  "tuijian": "Cadangan",
+                  "txl": "Kenalan"
+                },
+                "chatType": {
+                  "title": "Jenis Kandungan",
+                  "text": "Teks",
+                  "image": "Gambar",
+                  "text_image": "Teks/Gambar",
+                  "isChat": "Paksa Perbualan",
+                  "yes": "Ya",
+                  "no": "Tidak"
+                },
+                "text": "Mesej Teks",
+                "imagesContent": "Pilihan Gambar",
+                "addNumber": "Bilangan Penambahan",
+                "addGap": "Selang Penambahan/s",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "message": {
+              "title": "Mesej Pukal",
+              "tableHeader": {
+                "duration_interval": "Selang Mesej/s",
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Berasingan",
+                "chatType": {
+                  "title": "Arah Mesej",
+                  "account": "Mesej Akaun Tertentu",
+                  "fans": "Mesej Pengikut",
+                  "follow": "Mesej Mengikuti"
+                },
+                "cententType": {
+                  "title": "Jenis Kandungan",
+                  "text": "Teks",
+                  "image": "Gambar",
+                  "text_image": "Teks/Gambar"
+                },
+                "accounts": "ID Akaun",
+                "chatNumber": "Bilangan Mesej",
+                "imagesContent": "Pilihan Gambar",
+                "msgChat": "Kandungan Mesej",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "follow": {
+              "title": "Ikut Secara Pukal",
+              "tableHeader": {
+                "regulation": "Peraturan",
+                "whole": "Semua",
+                "separate": "Individu",
+                "followBefore": "Tindakan Pra-Ikut",
+                "duration_stay": "Tempoh Kekal",
+                "viewPostsNumber": "Bilangan Paparan Pos",
+                "collectProbability": "Kebarangkalian Kumpul",
+                "like_probability": "Kebarangkalian Suka",
+                "hair_comment_probability": "Kebarangkalian Komen",
+                "comment_content": "Kandungan Komen",
+                "follow_interval": "Sela Masa Ikut",
+                "follow_interval_start": "Masa Mula Sela Masa Ikut",
+                "follow_interval_end": "Masa Tamat Sela Masa Ikut",
+                "follow_type": "Jenis Ikut",
+                "follow_type_option": [
+                  "Pengikut Akaun Tertentu",
+                  "Akaun Tertentu",
+                  "Cadangan Sistem",
+                  "Sohor Kini Kata Kunci",
+                  "Ikut Pengguna Yang Mengomen/Menyukai Pautan Pos"
+                ],
+                "usernames": "Akaun Bloggers Tertentu",
+                "number": "Bilangan Ikut",
+                "keywords": "Padanan Kata Kunci",
+                "links": "Ikut Alamat Pautan",
+                "commentFilter": "Padanan Kata Kunci Komen",
+                "commentFollowNumber": "Bilangan Ikut Komen",
+                "likeNum": "Jumlah Like dan Follow",
+                "no": "Tidak",
+                "yes": "Ya",
+                "status": "Status Tugasan",
+                "create_time": "Masa Penciptaan"
+              }
+            },
+            "getuid": {
+              "title": "Pengumpulan Data",
+              "tableHeader": {
+                "keywords": "Akaun Influencer Tertentu",
+                "tip": "Masukkan berbilang, dipisahkan dengan koma",
+                "fansNum": "Jumlah Pengumpulan Pengikut",
+                "followNum": "Jumlah Pengumpulan Mengikuti",
+                "duration_interval": "Selang Pengumpulan/s",
+                "details": "Butiran Tugas",
+                "status": "Status Tugas",
+                "create_time": "Masa Penciptaan",
+                "dialogTitle": "Butiran Pengumpulan"
+              }
+            },
+            "logTask": {
+              "title": "Log Tugas",
+              "tableHeader": {}
+            }
+          }
+        }
+      },
+      "resourceManagement": {
+        "title": "Pengurusan Sumber",
+        "children": {
+          "scripts": {
+            "title": "Sumber Skrip",
+            "formLabel": {
+              "appPlatform": "Platform Aplikasi",
+              "selectScriptType": "Pilih Jenis Skrip",
+              "scriptContent": "Kandungan Skrip",
+              "selectMessage": "Sila pilih"
+            },
+            "tableHeader": {
+              "scriptContent": "Kandungan Skrip",
+              "scriptGroupingId": "ID Kategori",
+              "scriptGroupingName": "Kategori Skrip",
+              "appType": "Jenis Aplikasi",
+              "createTime": "Masa Penciptaan",
+              "operate": "Operasi"
+            }
+          },
+          "images": {
+            "title": "Sumber Imej",
+            "tableHeader": ""
+          },
+          "videos": {
+            "title": "Sumber Video",
+            "tableHeader": ""
+          },
+          "addressBook": {
+            "title": "Muat Naik Buku Alamat",
+            "formLabel": {
+              "selectGroup": "Pilih Kumpulan",
+              "selectDevice": "Pilih Peranti",
+              "uploadFile": "Muat Naik Buku Alamat",
+              "message": "Hanya satu fail boleh dimuat naik, hanya fail format vcf disokong",
+              "sussess": "Muat naik berjaya",
+              "fail": "Muat naik gagal",
+              "deletionMessage": {
+                "title": "Sila muat naik buku alamat",
+                "device": "Sila pilih peranti",
+                "fileTypeError": "Fail yang dimuat naik hanya boleh dalam format vcf!"
+              }
+            }
+          }
+        }
+      },
+      "aiClip": {
+        "title": "Pengeditan AI",
+        "uploadTime": "Masa Muat Naik",
+        "children": {
+          "credits": {
+            "title": "Intro dan Outro",
+            "list": "Senarai Bahan",
+            "uploadDesc": "<p>1. Anda boleh memuat naik video</p> <p>2. Bahan digunakan untuk intro dan outro dalam penyuntingan campuran</p> <p>3. Jika menghapus bahan, sila sahkan bahawa bahan ini tidak berada dalam keadaan tugas penerbitan! Jika tidak, tugas akan gagal!</p> <p>4. Disebabkan sekatan API, saiz maksimum muat naik untuk bahan adalah 50MB!</p> <p>5. Disyorkan untuk memuat naik video format MP4, kerana format lain mungkin tidak menyokong pratonton akibat kesan OSS!</p>",
+            "tableHeader": {
+              "uname": "Nama",
+              "type": "Jenis",
+              "titles": "Intro",
+              "end": "Outro",
+              "content": "Nama Kategori",
+              "num": "Kiraan Bahan",
+              "create_time": "Masa Penciptaan",
+              "operate": "Operasi"
+            },
+            "dialog": {
+              "title": "Nama Kategori Intro dan Outro"
+            }
+          },
+          "captions": {
+            "title": "Pengurusan Sarikata",
+            "tableHeader": {
+              "uname": "Nama Kategori",
+              "content": "Sarikata",
+              "num": "Kiraan Bahan",
+              "create_time": "Masa Penciptaan",
+              "operate": "Operasi"
+            },
+            "dialog": {
+              "title": "Nama Kategori Sarikata"
+            }
+          },
+          "musicalMat": {
+            "title": "Perpustakaan Bahan Muzik",
+            "list": "Senarai Bahan",
+            "uploadDesc": "<p>1. Bahan yang boleh dimuat naik: muzik format MP3</p> <p>2. Bahan adalah untuk penggunaan penyuntingan campuran, sila ingat!</p>",
+            "tableHeader": {
+              "uname": "Nama Kategori",
+              "content": "Sarikata",
+              "num": "Kiraan Bahan",
+              "create_time": "Masa Penciptaan",
+              "operate": "Operasi"
+            }
+          },
+          "stickerMat": {
+            "title": "Perpustakaan Bahan Stiker",
+            "list": "Senarai Bahan",
+            "uploadDesc": "<p>1. Bahan yang boleh dimuat naik: gambar jpg, png, jpeg, gif</p> <p>2. Bahan digunakan untuk penggunaan stiker penyuntingan campuran, sila ingat!</p>",
+            "tableHeader": {
+              "uname": "Nama Kategori",
+              "content": "Sarikata",
+              "num": "Kiraan Bahan",
+              "create_time": "Masa Penciptaan",
+              "operate": "Operasi"
+            }
+          },
+          "preClip": {
+            "title": "Bahan Pra-suntingan",
+            "list": "Senarai Bahan",
+            "uploadDesc": "<p>1. Bahan yang boleh dimuat naik: gambar, video, muzik, dll.</p> <p>2. Bahan digunakan untuk penyuntingan campuran video, dan tidak akan digunakan sebagai sumber video untuk video yang diterbitkan, sila ingat!</p> <p>3. Jika menghapus bahan, sila sahkan bahawa bahan ini tidak berada dalam keadaan penyuntingan campuran! Jika tidak, penyuntingan campuran akan gagal!</p> <p>4. Disebabkan sekatan API, saiz maksimum muat naik untuk bahan adalah 50MB!</p> <p>5. Disyorkan untuk memuat naik video format MP4, kerana format lain mungkin tidak menyokong pratonton akibat kesan OSS!</p>",
+            "tableHeader": {
+              "uname": "Nama Kategori",
+              "content": "Sarikata",
+              "num": "Kiraan Bahan",
+              "create_time": "Masa Penciptaan",
+              "operate": "Operasi"
+            }
+          },
+          "mixedShearWarehouse": {
+            "title": "Perpustakaan Penyuntingan Campuran",
+            "list": "Senarai Campuran"
+          }
+        }
+      },
+      "schedule": {
+        "title": "Tugas Berjadual",
+        "children": {
+          "viewSchedule": "Lihat Jadual"
+        }
+      },
+      "system": {
+        "title": "Tetapan Sistem",
+        "children": {
+          "pathConfig": {
+            "title": "Konfigurasi Laluan",
+            "version": "Versi Semasa",
+            "nowAppPath": "Laluan Perisian Semasa",
+            "resourcesPath": "Laluan Penyimpanan Sumber",
+            "mobilePath": "Laluan Sumber Mudah Alih",
+            "language": "Tukar Bahasa",
+            "tips": "Aplikasi perlu ditetapkan semula selepas konfigurasi diubah, adakah anda mahu menetapkan semula?",
+            "success": "Penyimpanan selesai",
+            "later": "Tetapkan semula kemudian",
+            "confirm": "Sahkan tetapan semula",
+            "successTips": "Sila klik butang tetapan semula di bawah selepas mengubah semua konfigurasi"
+          },
+          "btn": {
+            "save": "Simpan",
+            "reset": "Set Semula",
+            "replace": "Gantikan",
+            "quit": "Keluar",
+            "cancel": "Batal",
+            "resetApp": "Set Semula Perisian"
+          }
+        }
+      },
+      "notice": {
+        "title": "Notis Penggunaan",
+        "main": "<h2>Notis Penggunaan</h2> <p>1. Selamat menggunakan perisian dan perkhidmatan ini. Perisian ini dibangunkan untuk tujuan promosi dan digunakan dalam bidang promosi industri dan penjanaan prospek. Perisian kami tidak percuma dan tidak mengandungi virus.</p> <p>2. Perisian ini tidak bertanggungjawab atas sebarang kemalangan, kecuaian, pemusnahan kontrak, fitnah, pelanggaran hak cipta atau harta intelek dan sebarang kerugian yang disebabkan oleh penggunaan perisian sistem ini. Ia tidak berkaitan dengan pembangun perisian dan pembekal perkhidmatan, dan tidak menanggung sebarang tanggungjawab undang-undang.</p> <p>3. Entiti perniagaan yang kami sediakan perisian untuk harus menerima penggunaan yang sah dan mematuhi undang-undang, dan tidak boleh menggunakan sistem perisian ini untuk aktiviti perniagaan yang menyalahi undang-undang. Kami hanya bertindak sebagai pembangun perisian dan tidak bertanggungjawab bersama untuk sebarang hasil perniagaan. Kami tidak bertanggungjawab atas sebarang akibat undang-undang yang timbul daripada penggunaan perisian dan tidak menanggung sebarang tanggungjawab undang-undang.</p> <p>4. Sebarang tingkah laku syarikat atau individu yang menerbitkan dan menyebarkan perisian kami di rangkaian adalah dibenarkan, tetapi kami pembangun tidak bertanggungjawab atas sebarang insiden undang-undang dan jenayah yang mungkin disebabkan oleh penyebaran perisian oleh syarikat atau individu, dan kami pembangun tidak bertanggungjawab atas sebarang insiden undang-undang dan jenayah yang mungkin disebabkan oleh penyebaran perisian oleh individu.</p>"
+      },
+      "course": {
+        "title": "Panduan Pengguna"
+      },
+      "login": {
+        "title": "Log Masuk Sistem",
+        "username": "Nama Pengguna",
+        "password": "Kata Laluan",
+        "login": "Log Masuk",
+        "exit": "Log Keluar"
+      }
+    },
+    "system": {
+      "title": "Tetapan Sistem",
+      "children": {
+        "pathConfig": {
+          "title": "Konfigurasi Laluan",
+          "version": "Versi Semasa",
+          "nowAppPath": "Laluan Perisian Semasa",
+          "resourcesPath": "Laluan Penyimpanan Sumber",
+          "mobilePath": "Laluan Sumber Mudah Alih",
+          "language": "Tukar Bahasa"
+        },
+        "btn": {
+          "save": "Simpan",
+          "reset": "Set Semula",
+          "quit": "Keluar",
+          "cancel": "Batal",
+          "resetApp": "Set Semula Perisian"
+        }
+      }
+    },
+    "notice": {
+      "title": "Notis Penggunaan",
+      "main": "<h2>Notis Penggunaan</h2> <p>1. Selamat menggunakan perisian dan perkhidmatan kami. Perisian ini dibangunkan untuk tujuan promosi dan digunakan dalam bidang promosi dan penarikan trafik industri. Perisian kami tidak percuma dan bebas virus.</p> <p>2. Kami tidak bertanggungjawab dan tidak mempunyai kaitan dengan pembekal perkhidmatan pembangunan perisian ini untuk sebarang kemalangan, kecuaian, pelanggaran kontrak, fitnah, pelanggaran hak cipta atau harta intelek yang disebabkan oleh penggunaan perisian sistem ini, dan tidak akan menanggung sebarang liabiliti undang-undang.</p> <p>3. Entiti perniagaan yang menggunakan perisian yang kami sediakan harus menerima penggunaan yang sah dan mematuhi undang-undang. Penggunaan sistem perisian ini untuk aktiviti perniagaan yang menyalahi undang-undang adalah dilarang. Kami hanya bertindak sebagai pembangun perisian dan tidak bertanggungjawab terhadap sebarang hasil perniagaan. Kami tidak bertanggungjawab dan tidak akan menanggung sebarang liabiliti undang-undang untuk sebarang akibat undang-undang yang timbul semasa penggunaan perisian.</p> <p>4. Sebarang syarikat atau individu dibenarkan untuk menyiarkan dan menyebarkan perisian kami di internet, tetapi kami sebagai pembangun tidak bertanggungjawab terhadap sebarang isu undang-undang dan jenayah yang mungkin timbul akibat penyebaran perisian oleh syarikat atau individu tersebut.</p>"
+    },
+    "course": {
+      "title": "Tutorial Penggunaan"
+    },
+    "login": {
+      "title": "Log Masuk Sistem",
+      "username": "Nama Pengguna",
+      "password": "Kata Laluan",
+      "login": "Log Masuk",
+      "exit": "Log Keluar"
+    },
+    "btn": {
+      "save": "Simpan",
+      "close": "Tutup",
+      "addGrouping": "Tambah Kumpulan",
+      "addTask": "Tambah Tugas",
+      "delete": "Padam",
+      "deleteTask": "Padam Tugas",
+      "edit": "Ubah",
+      "add": "Tambah",
+      "execute": "Laksana",
+      "deactivate": "Nyahaktif",
+      "start": "Mula",
+      "stop": "Henti",
+      "stopAll": "Henti Semua",
+      "message": "Mesej",
+      "determine": "Tentukan",
+      "cancel": "Batal",
+      "view": "Lihat",
+      "searchContent": "Cari Kumpulan Peranti",
+      "creditsAdd": "Tambah Pembukaan/Penutup",
+      "upload": "Muat Naik",
+      "uploadSourceMaterial": "Muat Naik Bahan Sumber",
+      "uploadChild": {
+        "message": "Sila muat naik video dalam format mp4",
+        "success": "Muat naik berjaya",
+        "fail": "Muat naik gagal"
+      },
+      "delectChild": {
+        "determineMessage": "Adakah anda pasti mahu memadamkan bahan ini?",
+        "message": "Sila pilih bahan yang ingin dipadamkan",
+        "success": "Padam berjaya",
+        "fail": "Padam gagal"
+      },
+      "sourceMaterial": "Senarai Bahan",
+      "captionAdd": "Tambah Kumpulan Kapsyen",
+      "captionEdit": "Ubah Kumpulan Kapsyen",
+      "musicAddType": "Tambah Kategori Bahan Muzik Baharu",
+      "stickerMatAdd": "Tambah Kategori Bahan Pelekat Baharu",
+      "preClipAdd": "Tambah Kategori Bahan Pra-potong Baharu",
+      "createMixedShear": "Cipta Potongan Campuran Lanjutan",
+      "listTitle": "Senarai",
+      "selectListArr1": "Pilih",
+      "selectListArr2": "bahan",
+      "sourceMaterialAdd": "Tambah Bahan",
+      "allSelect": "Pilih Semua",
+      "cancelSelect": "Batal Pilihan",
+      "pushResources": "Hantar Bahan",
+      "pushMessage": "Hantar ke Peranti (Pilihan Berganda):",
+      "download": "Muat Turun ke Lokal",
+      "downChild": {
+        "loading": "Sedang memuat turun...",
+        "success": "Muat turun berjaya",
+        "successMessage": "Video berjaya dimuat turun dan disimpan",
+        "fail": "Muat turun gagal",
+        "timeout": "Muat turun tamat masa, sila cuba lagi",
+        "pushing": "Sedang menghantar...",
+        "pushSuccess": "Hantar berjaya",
+        "pushFail": "Ralat semasa memuat turun atau menyimpan video",
+        "message": "Sila pilih bahan yang ingin dimuat turun"
+      },
+      "dirErrorMessage": "Gagal mendapatkan folder, sila periksa sama ada folder sumber wujud, pergi ke tetapan untuk melihat",
+      "sourceMaterialDelect": "Padam Bahan",
+      "local": "Lokal",
+      "cloud": "Awan",
+      "uploadTime": "Masa Muat Naik",
+      "uploadFileMsg": "Seret fail ke sini atau <em>klik untuk muat naik</em>",
+      "addScript": "Tambah Skrip",
+      "delScript": "Padam Skrip",
+      "addImage": "Tambah Imej",
+      "delImage": "Padam Imej",
+      "addVideo": "Tambah Video",
+      "delVideo": "Padam Video",
+      "selectMessage": "Sila pilih"
+    },
+    "public": {
+      "groupName": "Nama Kumpulan",
+      "deviceName": "Nama Peranti",
+      "search": "Cari Kumpulan Peranti",
+      "operation": "Operasi",
+      "notRuning": "Tidak Berjalan",
+      "empty": "Tidak boleh kosong",
+      "message": {
+        "blogger": "Maksimum 200 blogger",
+        "limitation": "Maksimum 200",
+        "maxTips": "Maksimum menyokong",
+        "closeDialog": "Adakah anda pasti mahu menutup dialog semasa?",
+        "tips": "Notis Pemberitahuan",
+        "lackDelect": "Sila pilih tugas yang ingin dipadamkan",
+        "delectDetermine1": "Adakah anda pasti mahu memadamkan",
+        "delectDetermine2": "tugas ini?",
+        "lackStop": "Sila pilih tugas yang ingin dihentikan",
+        "stopDetermine1": "Adakah anda pasti mahu menghentikan",
+        "stopDetermine2": "tugas ini?",
+        "empty": "Tidak boleh kosong",
+        "warptips": "Untuk pelbagai nilai, sila gunakan baris baharu untuk memisahkan",
+        "uploadTips": "Untuk pelbagai nilai, sila gunakan koma Inggeris untuk memisahkan ,,,",
+        "group_device_name": "Kumpulan peranti dan nombor peranti tidak boleh kosong!",
+        "videoUndefined": "Fail video tidak wujud!",
+        "imageUndefined": "Fail imej tidak wujud!"
+      }
+    }
+  }
+}

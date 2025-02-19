@@ -1,0 +1,1210 @@
+{
+  "navigation": {
+    "dashboard": {
+      "title": "แดชบอร์ดผู้ดูแลระบบ",
+      "device": {
+        "title": "การจัดการอุปกรณ์",
+        "children": {
+          "group": {
+            "title": "การจัดการกลุ่ม",
+            "tableHeader": {
+              "cate_name": "ชื่อกลุ่ม",
+              "describe": "คำอธิบายกลุ่ม",
+              "device_count": "จำนวนอุปกรณ์",
+              "up_time": "เวลา",
+              "status": "สถานะกลุ่ม",
+              "create_time": "เวลาที่สร้าง",
+              "selectDev": "เลือกอุปกรณ์"
+            }
+          },
+          "deviceList": {
+            "title": "รายการอุปกรณ์",
+            "tableHeader": {
+              "id": "Id",
+              "equipment_nickname": "ชื่ออุปกรณ์",
+              "equipment_number": "หมายเลขอุปกรณ์",
+              "backups_time": "เวลาสำรองข้อมูลล่าสุด",
+              "create_time": "เวลาที่สร้าง",
+              "remarks": "หมายเหตุ",
+              "operate": "การดำเนินการ",
+              "backup": "สำรองข้อมูล",
+              "editRemark": "แก้ไขหมายเหตุ",
+              "switchBackup": "สลับการสำรองข้อมูล",
+              "backuptip": "ป้อนหมายเลขอุปกรณ์เพื่อสำรองข้อมูล",
+              "delete": "ลบ",
+              "edit": "แก้ไข",
+              "historyBackUp": "ประวัติการสำรองข้อมูล",
+              "backUpTime": "เวลาสำรองข้อมูล",
+              "flashingMachine": "แฟลชครั้งเดียว"
+            }
+          }
+        }
+      },
+      "taskParams": {
+        "title": "การจัดการงาน",
+        "tiktok": {
+          "title": "TikTok",
+          "children": {
+            "yanghao": {
+              "title": "การเลี้ยงบัญชีแบบวันคลิก",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "wayType": "ประเภทการเลี้ยงบัญชี",
+                "wayTypeList": [
+                  "เลี้ยงบัญชีโดยระบบ",
+                  "เลี้ยงบัญชีโดยกำหนดผู้สร้างคอนเทนต์"
+                ],
+                "bloggerId": "ไอดีผู้สร้างคอนเทนต์",
+                "search_name": "คำค้นหา",
+                "follow_probability": "โอกาสในการติดตาม",
+                "like_probability": "โอกาสในการกดไลค์",
+                "see_comment_probability": "โอกาสในการดูความคิดเห็น",
+                "hair_comment_probability": "โอกาสในการแสดงความคิดเห็น",
+                "collectProbability": "โอกาสในการบันทึก",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "seeCount": "จำนวนการดู",
+                "script_grouping_name": "ประเภทสคริปต์",
+                "number_maintenance_duration": "ระยะเวลาการเลี้ยงบัญชี/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "update": {
+              "title": "การแก้ไขข้อมูล",
+              "tableHeader": {
+                "update_value": "รายการที่แก้ไข",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "order": "ลำดับ",
+                "imagesContent": "รูปโปรไฟล์",
+                "name": "ชื่อผู้ใช้",
+                "bio": "ชีวประวัติ",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "getuid": {
+              "title": "การเก็บข้อมูล",
+              "tableHeader": {
+                "collAreaselect": [
+                  "เก็บลิงก์วิดีโอ",
+                  "เก็บผู้ใช้ที่แสดงความคิดเห็นในวิดีโอ",
+                  "เก็บรายชื่อผู้สร้างคอนเทนต์",
+                  "เก็บรายชื่อผู้ที่ผู้สร้างคอนเทนต์ติดตาม",
+                  "เก็บรายชื่อผู้ติดตามของผู้สร้างคอนเทนต์",
+                  "เก็บผู้ติดตามของผู้สร้างคอนเทนต์ในห้องไลฟ์",
+                  "",
+                  "เก็บผู้ใช้ที่กดไลค์โพสต์ของตัวเอง",
+                  "เก็บผู้ใช้ที่แสดงความคิดเห็นในโพสต์ของตัวเอง"
+                ],
+                "blogger_ids": "ไอดีผู้สร้างคอนเทนต์",
+                "keyword": "คำสำคัญ",
+                "fans_num": "จำนวนผู้ติดตาม",
+                "fans_area": "แหล่งที่มาของการเก็บข้อมูล",
+                "collection_num": "จำนวนที่เก็บ",
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง",
+                "dialogTitle": "รายละเอียดการเก็บข้อมูล"
+              }
+            },
+            "follow": {
+              "title": "การติดตามจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "follow_way": "วิธีการติดตาม",
+                "followWayList": [
+                  "ผู้ติดตามของผู้สร้างคอนเทนต์",
+                  "ผู้สร้างคอนเทนต์ที่กำหนด",
+                  "แนะนำโดยระบบ",
+                  "",
+                  "",
+                  "ติดตามจากรายชื่อติดต่อ",
+                  "ติดตามผู้ที่กดไลค์",
+                  "ติดตามผู้ที่แสดงความคิดเห็น",
+                  "ติดตามกลับผู้ติดตาม"
+                ],
+                "blogger_ids": "ไอดีผู้สร้างคอนเทนต์",
+                "search_name": "คำค้นหา",
+                "collect_percent": "โอกาสในการติดตาม",
+                "like_percent": "โอกาสในการกดไลค์",
+                "follow_range": "ขอบเขตการติดตาม",
+                "follow_range_list": [
+                  "ผู้ติดตาม"
+                ],
+                "follow_num": "จำนวนการติดตาม",
+                "follow_time": "ระยะห่างเวลา/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "message": {
+              "title": "ส่งข้อความส่วนตัวจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "message_num": "จำนวนข้อความ",
+                "message_content": "เนื้อหาข้อความ",
+                "message_time": "ระยะห่างเวลา/วินาที",
+                "private_message": "ผู้รับข้อความส่วนตัว",
+                "private_message_list": [
+                  "เพื่อน"
+                ],
+                "address": "ป้อนสถานที่",
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "post": {
+              "title": "โพสต์แบบเมทริกซ์",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "upload_content_arr": "เนื้อหาที่โพสต์",
+                "upload_type": "ประเภทการโพสต์",
+                "upload_type_list": [
+                  "วิดีโอ",
+                  "รูปภาพ"
+                ],
+                "title": "หัวข้อ",
+                "topic": "แฮชแท็ก",
+                "topic_tips": " #แฮชแท็ก #แฮชแท็ก #แฮชแท็ก",
+                "call_who": "แท็กใครในโพสต์",
+                "call_who_tips": "ชื่อผู้ใช้,ชื่อผู้ใช้,ชื่อผู้ใช้",
+                "address": "สถานที่",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "like": {
+              "title": "กดไลค์จำนวนมาก",
+              "tableHeader": {
+                "bloggerId": "ไอดีผู้สร้างคอนเทนต์",
+                "pending_execution_time": "ระยะห่างเวลา/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "comment": {
+              "title": "แสดงความคิดเห็นจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "keyword": "คำสำคัญของวิดีโอ",
+                "content": "เนื้อหาความคิดเห็น",
+                "task_num": "จำนวนความคิดเห็น",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            }
+          }
+        },
+        "douyin": {
+          "title": "douyin",
+          "children": {
+            "yanghao": {
+              "title": "การเลี้ยงบัญชีแบบวันคลิก",
+              "tableHeader": {
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "wayType": "ประเภทการเลี้ยงบัญชี",
+                "wayTypeList": [
+                  "การเลี้ยงบัญชีระบบ",
+                  "บล็อกเกอร์ที่ระบุ",
+                  "วิดีโอ",
+                  "ห้องไลฟ์"
+                ],
+                "bloggerId": "รหัสบล็อกเกอร์",
+                "search_name": "คำค้นหา",
+                "follow_probability": "โอกาสการติดตาม",
+                "like_probability": "โอกาสการกดไลค์",
+                "see_comment_probability": "โอกาสการดูความคิดเห็น",
+                "hair_comment_probability": "โอกาสการแสดงความคิดเห็น",
+                "collectProbability": "โอกาสการบันทึก",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "seeCount": "จำนวนการดู",
+                "script_grouping_name": "ประเภทบทสนทนา",
+                "number_maintenance_duration": "ระยะเวลาการเลี้ยงบัญชี/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "update": {
+              "title": "อัปเดตข้อมูล",
+              "tableHeader": {
+                "update_value": "รายการที่แก้ไข",
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "order": "ลำดับ",
+                "imagesContent": "รูปโปรไฟล์",
+                "name": "ชื่อผู้ใช้",
+                "bio": "ชีวประวัติ",
+                "sex": "เพศ",
+                "man": "ชาย",
+                "woman": "หญิง",
+                "notDisplay": "ไม่แสดง",
+                "birthday": "วันเกิด",
+                "location": "พื้นที่",
+                "country": "ประเทศ",
+                "province": "จังหวัด",
+                "city": "เมือง",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "getuid": {
+              "title": "การเก็บข้อมูล",
+              "tableHeader": {
+                "collAreaselect": [
+                  "เก็บลิงก์วิดีโอ",
+                  "เก็บผู้ใช้ที่แสดงความคิดเห็นในวิดีโอ",
+                  "เก็บรายชื่อบล็อกเกอร์",
+                  "เก็บรายชื่อผู้ติดตามของบล็อกเกอร์ที่ระบุ",
+                  "เก็บรายชื่อแฟนคลับของบล็อกเกอร์ที่ระบุ",
+                  "เก็บแฟนคลับของบล็อกเกอร์ในห้องไลฟ์",
+                  "",
+                  "เก็บผู้ใช้ที่กดไลค์โพสต์ของคุณ",
+                  "เก็บผู้ใช้ที่แสดงความคิดเห็นในโพสต์ของคุณ"
+                ],
+                "blogger_ids": "รหัสบล็อกเกอร์",
+                "keyword": "คำสำคัญ",
+                "coll_direction": "ทิศทางการเก็บข้อมูล",
+                "coll_direction_list": [
+                  "วิดีโอ",
+                  "ห้องไลฟ์"
+                ],
+                "search_type": "วิธีการค้นหา",
+                "search_type_list": [
+                  "คำสำคัญ",
+                  "ลิงก์"
+                ],
+                "link": "ลิงก์",
+                "fans_num": "จำนวนแฟนคลับ",
+                "fans_num_list": [
+                  "ไม่จำกัด",
+                  "ต่ำกว่า 1,000",
+                  "1k-10k",
+                  "10k-100k",
+                  "100k-1M",
+                  "มากกว่า 1M"
+                ],
+                "user_type": "ประเภทผู้ใช้",
+                "user_type_list": [
+                  "ไม่จำกัด",
+                  "ผู้ใช้ทั่วไป",
+                  "ยืนยันธุรกิจ",
+                  "ยืนยันบุคคล"
+                ],
+                "see_num": [
+                  "จำนวนบล็อกเกอร์ที่ดู",
+                  "จำนวนวิดีโอที่ดู"
+                ],
+                "collection_num": [
+                  "จำนวนแฟนคลับที่เก็บ",
+                  "จำนวนที่เก็บ"
+                ],
+                "followers_num": "จำนวนผู้ติดตามที่เก็บ",
+                "coll_area": "แหล่งที่มาของการเก็บข้อมูล",
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง",
+                "dialogTitle": "รายละเอียดการเก็บข้อมูล"
+              }
+            },
+            "follow": {
+              "title": "การติดตามจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "follow_way": "วิธีการติดตาม",
+                "followWayList": [
+                  "แฟนคลับของบล็อกเกอร์",
+                  "บล็อกเกอร์ที่ระบุ",
+                  "ระบบแนะนำ",
+                  "บล็อกเกอร์ของวิดีโอที่ค้นหาด้วยคำสำคัญ",
+                  "ผู้แสดงความคิดเห็นในวิดีโอที่ระบุ",
+                  "แฟนคลับของเพื่อน",
+                  "ติดตามรายชื่อติดต่อ",
+                  "ติดตามผู้กดไลค์",
+                  "ติดตามผู้แสดงความคิดเห็น",
+                  "ติดตามกลับแฟนคลับ"
+                ],
+                "blogger_ids": "รหัสบล็อกเกอร์",
+                "search_name": "คำค้นหา",
+                "comment_section_keywords": "คำสำคัญในส่วนความคิดเห็น",
+                "before_operation": "การดำเนินการก่อน",
+                "latestVideo": "ดูวิดีโอล่าสุด",
+                "collect_percent": "โอกาสการติดตาม",
+                "like_percent": "โอกาสการกดไลค์",
+                "comment_percent": "โอกาสการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "after_operation": "การดำเนินการหลัง",
+                "private_message": "ข้อความส่วนตัว",
+                "private_message_list": [
+                  "เพื่อน",
+                  "แฟนคลับ"
+                ],
+                "message_content": "เนื้อหาข้อความส่วนตัว",
+                "follow_num": "จำนวนการติดตาม",
+                "follow_time": "ระยะเวลาระหว่าง/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "message": {
+              "title": "ข้อความส่วนตัวจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "message_num": "จำนวนข้อความส่วนตัว",
+                "message_content": "เนื้อหาข้อความส่วนตัว",
+                "message_time": "ระยะเวลาระหว่าง/วินาที",
+                "private_message": "ผู้รับข้อความส่วนตัว",
+                "private_message_list": [
+                  "เพื่อน",
+                  "แฟนคลับ"
+                ],
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "post": {
+              "title": "โพสต์แบบเมทริกซ์",
+              "tableHeader": {
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "upload_content_arr": "เนื้อหาที่โพสต์",
+                "upload_type": "ประเภทการโพสต์",
+                "upload_type_list": [
+                  "วิดีโอ",
+                  "รูปภาพ"
+                ],
+                "title": "หัวข้อ",
+                "topic": "หัวข้อ",
+                "topic_tips": " #หัวข้อ #หัวข้อ #หัวข้อ",
+                "call_who": "แท็กใครในโพสต์",
+                "call_who_tips": "ชื่อผู้ใช้,ชื่อผู้ใช้,ชื่อผู้ใช้",
+                "address": "สถานที่",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "comment": {
+              "title": "แสดงความคิดเห็นจำนวนมาก",
+              "tableHeader": {
+                "regulation": "กฎระเบียบ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "comment_way": "วิธีการแสดงความคิดเห็น",
+                "commentWayList": [
+                  "ค้นหาวิดีโอด้วยคำสำคัญ",
+                  "ผู้ใช้ที่แสดงความคิดเห็นในวิดีโอที่ระบุ",
+                  "แสดงความคิดเห็นในห้องไลฟ์",
+                  "แสดงความคิดเห็นในวิดีโอล่าสุดของผู้ใช้ที่ระบุ",
+                  "แสดงความคิดเห็นต่อผู้ใช้ที่แสดงความคิดเห็นในโพสต์ของคุณ"
+                ],
+                "keyword": "คำสำคัญในการค้นหา",
+                "bloggerId": "รหัสบล็อกเกอร์ของผู้ใช้",
+                "content": "เนื้อหาความคิดเห็น",
+                "see_num": "จำนวนการดู",
+                "comment_num": "จำนวนความคิดเห็น",
+                "collect_percent": "โอกาสการบันทึก",
+                "follow_percent": "โอกาสการติดตาม",
+                "like_percent": "โอกาสการกดไลค์",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "comment_percent": "โอกาสการแสดงความคิดเห็น",
+                "comment_section": "ความคิดเห็นที่ระบุ",
+                "comment_section_list": [
+                  "แสดงความคิดเห็นต่อผู้ใช้ตามลำดับ",
+                  "แสดงความคิดเห็นตามคำสำคัญในส่วนความคิดเห็น"
+                ],
+                "comment_section_keywords": "การจับคู่คำสำคัญในส่วนความคิดเห็น",
+                "duration_interval": "ระยะเวลาระหว่าง/วินาที",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            }
+          }
+        },
+        "line": {
+          "title": "Line",
+          "children": {
+            "yanghao": {
+              "title": "การเลี้ยงบัญชี",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "wayType": "ประเภทการเลี้ยง",
+                "wayTypeList": [
+                  "วันนี้",
+                  "แชทเพื่อน",
+                  "แชทกลุ่ม"
+                ],
+                "friend_name": "ชื่อเพื่อน",
+                "group_name": "ชื่อกลุ่ม",
+                "search_name": "คำค้นหา",
+                "message_value": "เนื้อหาข้อความ",
+                "duration_interval": "ระยะเวลาระหว่าง/วินาที",
+                "duration_chat": "ระยะเวลาแชท/วินาที",
+                "number_maintenance_duration": "ระยะเวลาการเลี้ยง/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "update": {
+              "title": "อัปเดตโปรไฟล์",
+              "tableHeader": {
+                "update_value": "รายการที่แก้ไข",
+                "imagesContent": "รูปโปรไฟล์",
+                "name": "ชื่อผู้ใช้",
+                "bio": "ประวัติย่อ",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "order": "ลำดับ",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "addFriend": {
+              "title": "เพิ่มเพื่อน",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "AddFriendWayList": [
+                  "ค้นหาเพิ่ม - รหัสเพื่อน",
+                  "การแนะนำอย่างเป็นทางการ",
+                  "คนที่คุณอาจรู้จัก",
+                  "ตั้งค่าการเพิ่มเพื่อน"
+                ],
+                "AddFriend_way": "วิธีการเพิ่มเพื่อน",
+                "friends_ids": "รหัสเพื่อน",
+                "friends_phone": "เบอร์โทรศัพท์เพื่อน",
+                "message_content": "เนื้อหาข้อความ",
+                "add_total_number": "จำนวนที่เพิ่ม",
+                "addFrends_atuo_setting": "เพิ่มเพื่อนอัตโนมัติ",
+                "addFrends_allow_setting": "อนุญาตให้เพิ่มเพื่อน",
+                "AddFriend_time": "ระยะเวลาระหว่าง/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "post": {
+              "title": "โพสต์แบบเมทริกซ์",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "upload_content_arr": "เนื้อหาโพสต์",
+                "upload_type": "ประเภทโพสต์",
+                "image": "รูปภาพ",
+                "video": "วิดีโอ",
+                "title": "หัวข้อ",
+                "uploadTips": "สำหรับหลายค่า กรุณาคั่นด้วยเครื่องหมายจุลภาค ,,,",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "stirFryGroups": {
+              "title": "การมีส่วนร่วมกลุ่มแบบกลุ่ม",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "grouping_name": "ชื่อกลุ่ม",
+                "message_content": "ข้อความสุ่ม",
+                "duration_interval": "ช่วงเวลา/วินาที",
+                "duration_chat": "ช่วงเวลาแชท/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            }
+          }
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "children": {
+            "update": {
+              "title": "อัปเดตโปรไฟล์",
+              "tableHeader": {
+                "updateList": {
+                  "upload_content_arr": "รูปโปรไฟล์",
+                  "name": "ชื่อ",
+                  "userStatus": "สถานะ",
+                  "pwdVerify": "การยืนยันรหัสผ่าน"
+                },
+                "update_value": "รายการที่แก้ไข",
+                "regulation": "กฎ",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "yanghao": {
+              "title": "การเลี้ยงบัญชี",
+              "tableHeader": {
+                "wayType": "ประเภทการเลี้ยง",
+                "friendPhone": "เบอร์โทรศัพท์เพื่อน",
+                "friend": "การสนทนากับเพื่อน",
+                "group": "การสนทนากลุ่ม",
+                "wsGroupName": "ชื่อกลุ่ม",
+                "chatDuration": "ระยะเวลาแชท/วินาที",
+                "chatInterva": "ช่วงเวลาแชท/วินาที",
+                "romdomMessage": "ข้อความสุ่ม",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "addFriend": {
+              "title": "เพิ่มเพื่อน",
+              "tableHeader": {
+                "wayType": {
+                  "title": "วิธีการเพิ่ม",
+                  "lxr": "รายชื่อติดต่อ",
+                  "txl": "เพื่อนในสมุดที่อยู่"
+                },
+                "callType": {
+                  "title": "ประเภทการโทร",
+                  "yuyin": "โทรด้วยเสียง",
+                  "video": "โทรวิดีโอ"
+                },
+                "hangUpTime": "เวลาวางสาย",
+                "contactsUploadList": "อัปโหลดเบอร์โทรศัพท์",
+                "num": "จำนวน",
+                "time": "ช่วงเวลา",
+                "randomMessage": "ข้อความสุ่ม",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "uploadTips1": "สำหรับหลายค่า กรุณาคั่นด้วยเครื่องหมายจุลภาค ,,,",
+                "uploadTips2": "ชื่อ|นามสกุล|รหัสปร��เทศ|เบอร์โทรศัพท์ (ไม่รวมรหัสประเทศ)"
+              }
+            },
+            "stirFryGroups": {
+              "title": "การมีส่วนร่วมกลุ่มแบบกลุ่ม",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "stirfry_groups_id": "ชื่อกลุ่มสำหรับการมีส่วนร่วม",
+                "message_time": "ช่วงเวลา/วินาที",
+                "stirfry_timer": "ระยะเวลาการมีส่วนร่วม/วินาที",
+                "romdomMessage": "ข้อความสุ่ม",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "message": {
+              "title": "ข้อความกลุ่ม",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "private_message": {
+                  "title": "ผู้รับข้อความ",
+                  "all": "เพื่อนทั้งหมด",
+                  "appoint": "เพื่อนที่ระบุ"
+                },
+                "friend_id": "รหัสเพื่อน",
+                "romdomMessage": "ข้อความสุ่ม",
+                "message_time": "ช่วงเวลา/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "title": "Snapchat",
+          "children": {
+            "yanghao": {
+              "title": "การเลี้ยงบัญชี",
+              "tableHeader": {
+                "wayType": {
+                  "title": "ประเภทการเลี้ยง",
+                  "gs": "การเลี้ยงสตอรี่",
+                  "jgd": "การเลี้ยง Spotlight"
+                },
+                "see_count": "จำนวนการดู",
+                "follow_probability": "โอกาสการติดตาม",
+                "like_probability": "โอกาสการกดไลค์",
+                "hair_comment_probability": "โอกาสการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "update": {
+              "title": "อัปเดตโปรไฟล์",
+              "tableHeader": {
+                "update_value": "รายการที่แก้ไข",
+                "imagesContent": "รูปโปรไฟล์",
+                "realName": "ชื่อจริง",
+                "username": "ชื่อผู้ใช้",
+                "bio": "ประวัติย่อ",
+                "birthday": "วันเกิด",
+                "location": {
+                  "title": "ตำแหน่งที่ตั้ง",
+                  "country": "ประเทศ",
+                  "province": "จังหวัด",
+                  "city": "เมือง"
+                },
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "likeLink": {
+              "title": "กดไลค์และแสดงความคิดเห็น",
+              "tableHeader": {
+                "wayType": {
+                  "title": "ประเภทแหล่งที่มา",
+                  "base": "สุ่ม",
+                  "link": "ลิงก์"
+                },
+                "link_urls": "ลิงก์โพสต์",
+                "see_count": "จำนวนการดู",
+                "follow_probability": "โอกาสการติดตาม",
+                "like_probability": "โอกาสการกดไลค์",
+                "hair_comment_probability": "โอกาสการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "post": {
+              "title": "โพสต์แบบเมทริกซ์",
+              "tableHeader": {
+                "wayType": {
+                  "title": "ประเภทการเลี้ยง",
+                  "gs": "การเลี้ยงสตอรี่",
+                  "jgd": "การเลี้ยง Spotlight"
+                },
+                "videoContent": "เนื้อหาสื่อ",
+                "mediaSuffic": "นามสกุลไฟล์สื่อ",
+                "txt": "เนื้อหาข้อความ",
+                "isAddMusic": {
+                  "title": "เพิ่มเพลง",
+                  "yes": "ใช่",
+                  "no": "ไม่"
+                },
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "addFriend": {
+              "title": "เพิ่มเพื่อน",
+              "tableHeader": {
+                "wayType": {
+                  "title": "วิธีการเพิ่ม",
+                  "tuijian": "แนะนำ",
+                  "txl": "สมุดที่อยู่"
+                },
+                "chatType": {
+                  "title": "ประเภทเนื้อหา",
+                  "text": "ข้อความ",
+                  "image": "รูปภาพ",
+                  "text_image": "ข้อความ/รูปภาพ",
+                  "isChat": "บังคับแชท",
+                  "yes": "ใช่",
+                  "no": "ไม่"
+                },
+                "text": "ข้อความ",
+                "imagesContent": "เลือกรูปภาพ",
+                "addNumber": "จำนวนที่เพิ่ม",
+                "addGap": "ช่วงเวลาการเพิ่ม/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "message": {
+              "title": "ข้อความกลุ่ม",
+              "tableHeader": {
+                "chatNumber": "จำนวนข้อความ",
+                "duration_interval": "ช่วงเวลาระหว่างข้อความ/วินาที",
+                "chatType": {
+                  "title": "ประเภทเนื้อหา",
+                  "text": "ข้อความ",
+                  "image": "รูปภาพ",
+                  "text_image": "ข้อความ/รูปภาพ"
+                },
+                "imagesContent": "เลือกรูปภาพ",
+                "msgChat": "เนื้อหาข้อความ",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "comment": {
+              "title": "แสดงความคิดเห็นกลุ่ม",
+              "tableHeader": {
+                "tip": "สำหรับหลายค่า กรุณาคั่นด้วยเครื่องหมายจุลภาค",
+                "linkUrls": "ลิงก์โพสต์",
+                "maxRoll": "จำนวนสูงสุดของการเลื่อนความคิดเห็น",
+                "keywords": "การจับคู่คำสำคัญ",
+                "keywordNum": "จำนวนสูงสุดของการดำเนินการจับคู่คำสำคัญ",
+                "follow_probability": "โอกาสการติดตาม",
+                "like_probability": "โอกาสการกดไลค์",
+                "hair_comment_probability": "โอกาสการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "getuid": {
+              "title": "การเก็บข้อมูล",
+              "tableHeader": {
+                "keywords": "การจับคู่คำสำคัญ",
+                "tip": "สำหรับหลายค่า กรุณาคั่นด้วยเครื่องหมายจุลภาค",
+                "coll_type": "ประเภทของคอลเลกชัน",
+                "collType_option": {
+                  "gjc": "การรวบรวมคำหลัก",
+                  "txl": "การรวบรวมสมุดที่อยู่"
+                },
+                "collection_num": "จำนวนการเก็บข้อมูล",
+                "collComment_num": "จำนวนการเก็บความคิดเห็น",
+                "duration_interval": "ช่วงเวลาการเก็บข้อมูล/วินาที",
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง",
+                "dialogTitle": "รายละเอียดการเก็บข้อมูล"
+              }
+            },
+            "logTask": {
+              "title": "บันทึกงาน",
+              "tableHeader": {}
+            }
+          }
+        },
+        "instagram": {
+          "title": "Instagram",
+          "children": {
+            "yanghao": {
+              "title": "การเลี้ยงบัญชีแบบคลิกเดียว",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "wayType": {
+                  "title": "ประเภทการเลี้ยง",
+                  "home": "แนะนำหน้าแรก",
+                  "appoint": "บัญชีที่กำหนด",
+                  "keyword": "ตรงกับคำสำคัญ"
+                },
+                "recommend": "ประเภทการแนะนำ",
+                "recommend_option": [
+                  "หน้าแรก",
+                  "รีลส์"
+                ],
+                "keyword": "คำสำคัญ",
+                "account": "ไอดีบัญชี",
+                "tip": "ป้อนหลายรายการ คั่นด้วยเครื่องหมายจุลภาค",
+                "see_count": "จำนวนการดู",
+                "follow_probability": "โอกาสการติดตาม",
+                "like_probability": "โอกาสการกดไลค์",
+                "hair_comment_probability": "โอกาสการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "duration_stay": "ระยะเวลาที่อยู่/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "update": {
+              "title": "อัปเดตโปรไฟล์",
+              "tableHeader": {
+                "update_value": "รายการที่แก้ไข",
+                "imagesContent": "รูปโปรไฟล์",
+                "realName": "ชื่อจริง",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "order": "ลำดับ",
+                "bio": "ชีวประวัติ",
+                "gender": {
+                  "title": "เพศ",
+                  "male": "ชาย",
+                  "female": "หญิง",
+                  "unspecified": "ไม่ต้องการตอบ"
+                },
+                "links": "หน้าเว็บส่วนตัว",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "post": {
+              "title": "โพสต์แบบเมทริกซ์",
+              "tableHeader": {
+                "wayType": {
+                  "title": "ประเภทเมทริกซ์",
+                  "image": "รูปภาพ",
+                  "video": "วิดีโอ"
+                },
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "videoContent": "เนื้อหาสื่อ",
+                "mediaSuffic": "นามสกุลสื่อ",
+                "txt": "เนื้อหาข้อความ",
+                "address": "ที่อยู่",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "addFriend": {
+              "title": "เพิ่มเพื่อน",
+              "tableHeader": {
+                "wayType": {
+                  "title": "วิธีการเพิ่ม",
+                  "tuijian": "แนะนำ",
+                  "txl": "รายชื่อติดต่อ"
+                },
+                "chatType": {
+                  "title": "ประเภทเนื้อหา",
+                  "text": "ข้อความ",
+                  "image": "รูปภาพ",
+                  "text_image": "ข้อความ/รูปภาพ",
+                  "isChat": "บังคับแชท",
+                  "yes": "ใช่",
+                  "no": "ไม่"
+                },
+                "text": "ข้อความตัวอักษร",
+                "imagesContent": "เลือกรูปภาพ",
+                "addNumber": "จำนวนที่เพิ่ม",
+                "addGap": "ช่วงเวลาการเพิ่ม/วินาที",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "message": {
+              "title": "ข้อความจำนวนมาก",
+              "tableHeader": {
+                "duration_interval": "ช่วงเวลาระหว่างข้อความ/วินาที",
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "chatType": {
+                  "title": "ทิศทางข้อความ",
+                  "account": "ส่งข้อความถึงบัญชีที่ระบุ",
+                  "fans": "ส่งข้อความถึงผู้ติดตาม",
+                  "follow": "ส่งข้อความถึงผู้ที่กำลังติดตาม"
+                },
+                "cententType": {
+                  "title": "ประเภทเนื้อหา",
+                  "text": "ข้อความ",
+                  "image": "รูปภาพ",
+                  "text_image": "ข้อความ/รูปภาพ"
+                },
+                "accounts": "ไอดีบัญชี",
+                "chatNumber": "จำนวนข้อความ",
+                "imagesContent": "เลือกรูปภาพ",
+                "msgChat": "เนื้อหาข้อความ",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "follow": {
+              "title": "ติดตามเป็นกลุ่ม",
+              "tableHeader": {
+                "regulation": "กฎ",
+                "whole": "ทั้งหมด",
+                "separate": "แยก",
+                "followBefore": "การดำเนินการก่อนติดตาม",
+                "duration_stay": "ระยะเวลาการเข้าชม",
+                "viewPostsNumber": "จำนวนโพสต์ที่ดู",
+                "collectProbability": "ความน่าจะเป็นในการรวบรวม",
+                "like_probability": "ความน่าจะเป็นในการกดไลค์",
+                "hair_comment_probability": "ความน่าจะเป็นในการแสดงความคิดเห็น",
+                "comment_content": "เนื้อหาความคิดเห็น",
+                "follow_interval": "ช่วงเวลาการติดตาม",
+                "follow_interval_start": "เวลาเริ่มต้นช่วงเวลาการติดตาม",
+                "follow_interval_end": "เวลาสิ้นสุดช่วงเวลาการติดตาม",
+                "follow_type": "ประเภทการติดตาม",
+                "follow_type_option": [
+                  "ผู้ติดตามบัญชีที่ระบุ",
+                  "บัญชีที่ระบุ",
+                  "คำแนะนำของระบบ",
+                  "คำหลักยอดนิยม",
+                  "ติดตามผู้ใช้ที่แสดงความคิดเห็น/กดไลค์ลิงก์โพสต์"
+                ],
+                "usernames": "บัญชีบล็อกเกอร์ที่ระบุ",
+                "number": "จำนวนการติดตาม",
+                "keywords": "การจับคู่คำหลัก",
+                "links": "ติดตามที่อยู่ลิงก์",
+                "commentFilter": "การจับคู่คำหลักความคิดเห็น",
+                "commentFollowNumber": "จำนวนการติดตามความคิดเห็น",
+                "likeNum": "จำนวนการติดตามจากการกดไลค์",
+                "no": "ไม่",
+                "yes": "ใช่",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง"
+              }
+            },
+            "getuid": {
+              "title": "เก็บข้อมูล",
+              "tableHeader": {
+                "keywords": "บัญชีอินฟลูเอนเซอร์ที่ระบุ",
+                "tip": "ป้อนหลายรายการ คั่นด้วยเครื่องหมายจุลภาค",
+                "fansNum": "จำนวนผู้ติดตามที่เก็บ",
+                "followNum": "จำนวนการติดตามที่เก็บ",
+                "duration_interval": "ช่วงเวลาการเก็บ/วินาที",
+                "details": "รายละเอียดงาน",
+                "status": "สถานะงาน",
+                "create_time": "เวลาที่สร้าง",
+                "dialogTitle": "รายละเอียดการเก็บข้อมูล"
+              }
+            },
+            "logTask": {
+              "title": "บันทึกงาน",
+              "tableHeader": {}
+            }
+          }
+        }
+      },
+      "resourceManagement": {
+        "title": "การจัดการทรัพยากร",
+        "children": {
+          "scripts": {
+            "title": "ทรัพยากรบทพูด",
+            "formLabel": {
+              "appPlatform": "แพลตฟอร์มแอปพลิเคชัน",
+              "selectScriptType": "เลือกประเภทบทพูด",
+              "scriptContent": "เนื้อหาบทพูด",
+              "selectMessage": "กรุณาเลือก"
+            },
+            "tableHeader": {
+              "scriptContent": "เนื้อหาบทพูด",
+              "scriptGroupingId": "รหัสหมวดหมู่",
+              "scriptGroupingName": "หมวดหมู่บทพูด",
+              "appType": "ประเภทแอปพลิเคชัน",
+              "createTime": "เวลาที่สร้าง",
+              "operate": "ดำเนินการ"
+            }
+          },
+          "images": {
+            "title": "ทรัพยากรรูปภาพ",
+            "tableHeader": ""
+          },
+          "videos": {
+            "title": "ทรัพยากรวิดีโอ",
+            "tableHeader": ""
+          },
+          "addressBook": {
+            "title": "อัปโหลดสมุดที่อยู่",
+            "formLabel": {
+              "selectGroup": "เลือกกลุ่ม",
+              "selectDevice": "เลือกอุปกรณ์",
+              "uploadFile": "อัปโหลดสมุดที่อยู่",
+              "message": "สามารถอัปโหลดได้เพียงหนึ่งไฟล์ รองรับเฉพาะไฟล์นามสกุล vcf",
+              "sussess": "อัปโหลดสำเร็จ",
+              "fail": "อัปโหลดล้มเหลว",
+              "deletionMessage": {
+                "title": "กรุณาอัปโหลดสมุดที่อยู่",
+                "device": "กรุณาเลือกอุปกรณ์",
+                "fileTypeError": "ไฟล์ที่อัปโหลดต้องเป็นนามสกุล vcf เท่านั้น!"
+              }
+            }
+          }
+        }
+      },
+      "aiClip": {
+        "title": "การตัดต่อ AI",
+        "uploadTime": "เวลาอัปโหลด",
+        "children": {
+          "credits": {
+            "title": "ไตเติ้ลและเอนดิ้ง",
+            "list": "รายการวัสดุ",
+            "uploadDesc": "<p>1. สามารถอัปโหลดวิดีโอได้</p> <p>2. วัสดุใช้สำหรับไตเติ้ลและเอนดิ้งในการตัดต่อ</p> <p>3. หากลบวัสดุ โปรดตรวจสอบว่าวัสดุนี้ไม่ได้อยู่ในสถานะงานที่กำลังเผยแพร่! มิฉะนั้นงานจะล้มเหลว!</p> <p>4. เนื่องจากข้อจำกัดของ API วัสดุสามารถอัปโหลดได้สูงสุด 50MB!</p> <p>5. แนะนำให้อัปโหลดวิดีโอรูปแบบ MP4 เนื่องจากผลกระทบจาก OSS รูปแบบวิดีโออื่นๆ อาจไม่รองรับการดูตัวอย่าง!</p>"
+          },
+          "captions": {
+            "title": "การจัดการคำบรรยาย"
+          },
+          "musicalMat": {
+            "title": "คลังเพลงประกอบ",
+            "list": "รายการวัสดุ",
+            "uploadDesc": "<p>1. วัสดุที่สามารถอัปโหลดได้: เพลงรูปแบบ MP3</p> <p>2. วัสดุใช้สำหรับการตัดต่อ โปรดจำไว้!</p>"
+          },
+          "stickerMat": {
+            "title": "คลังสติกเกอร์",
+            "list": "รายการวัสดุ",
+            "uploadDesc": "<p>1. วัสดุที่สามารถอัปโหลดได้: วัสดุรูปภาพ jpg, png, jpeg, gif</p> <p>2. วัสดุใช้สำหรับการตัดต่อ โปรดจำไว้!</p>"
+          },
+          "preClip": {
+            "title": "วัสดุตัดต่อล่วงหน้า",
+            "list": "รายการวัสดุ",
+            "uploadDesc": "<p>1. วัสดุที่สามารถอัปโหลดได้: รูปภาพ วิดีโอ เพลง ฯลฯ</p> <p>2. วัสดุใช้สำหรับการตัดต่อวิดีโอ ไม่ใช่สำหรับใช้เป็นแหล่งที่มาของวิดีโอที่เผยแพร่ โปรดจำไว้!</p> <p>3. หากลบวัสดุ โปรดตรวจสอบว่าวัสดุนั้นไม่ได้อยู่ในสถานะกำลังตัดต่อ! มิฉะนั้นการตัดต่อจะล้มเหลว!</p> <p>4. เนื่องจากข้อจำกัดของ API วัสดุสามารถอัปโหลดได้สูงสุด 50MB!</p> <p>5. แนะนำให้อัปโหลดวิดีโอรูปแบบ MP4 เนื่องจากผลกระทบจาก OSS รูปแบบวิดีออื่นๆ อาจไม่รองรับการดูตัวอย่าง!</p>"
+          },
+          "mixedShearWarehouse": {
+            "title": "คลังการตัดต่อผสม",
+            "list": "รายการการตัดต่อผสม"
+          }
+        }
+      },
+      "schedule": {
+        "title": "งานตามกำหนดการ",
+        "children": {
+          "viewSchedule": "ดูกำหนดการ"
+        }
+      }
+    },
+    "system": {
+      "title": "การตั้งค่าระบบ",
+      "children": {
+        "pathConfig": {
+          "title": "การกำหนดค่าเส้นทาง",
+          "version": "เวอร์ชันปัจจุบัน",
+          "nowAppPath": "เส้นทางซอฟต์แวร์ปัจจุบัน",
+          "resourcesPath": "เส้นทางโครงสร้างทรัพยากร",
+          "mobilePath": "เส้นทางทรัพยากรมือถือ",
+          "language": "เปลี่ยนภาษา",
+          "tips": "แอปพลิเคชันจำเป็นต้องรีเซ็ตหลังจากการเปลี่ยนแปลงการกำหนดค่า คุณต้องการรีเซ็ตหรือไม่?",
+          "success": "บันทึกเสร็จสิ้น",
+          "later": "รีเซ็ตภายหลัง",
+          "confirm": "ยืนยันการรีเซ็ต",
+          "successTips": "กรุณาคลิกปุ่มรีเซ็ตด้านล่างหลังจากแก้ไขการตั้งค่าทั้งหมด"
+        },
+        "btn": {
+          "save": "บันทึก",
+          "reset": "รีเซ็ต",
+          "replace": "เปลี่ยนเส้นทาง",
+          "quit": "ออก",
+          "cancel": "ยกเลิก",
+          "resetApp": "รีเซ็ตซอฟต์แวร์"
+        }
+      }
+    },
+    "notice": {
+      "title": "ข้อควรทราบในการใช้งาน",
+      "main": "<h2>ข้อควรทราบในการใช้งาน</h2> <p>1. ยินดีต้อนรับสู่การใช้ซอฟต์แวร์และบริการของเรา ซอฟต์แวร์นี้พัฒนาขึ้นเพื่อจุดประสงค์ในการโปรโมท ใช้ในด้านการโปรโมทและดึงดูดลูกค้าในอุตสาหกรรม ซอฟต์แวร์ของเราไม่ใช่ฟรีและไม่มีไวรัส</p> <p>2. เราจะไม่รับผิดชอบต่อความเสียหายใดๆ ที่เกิดจากอุบัติเหตุ ความประมาท ความเสียหายทางอ้อม การละเมิดลิขสิทธิ์หรือทรัพย์สินทางปัญญาอันเนื่องมาจากการใช้ระบบซอฟต์แวร์นี้ และไม่เกี่ยวข้องกับผู้ให้บริการพัฒนาซอฟต์แวร์นี้ รวมถึงไม่รับผิดชอบทางกฎหมายใดๆ</p> <p>3. นิติบุคคลที่ใช้ซอฟต์แวร์ของเราควรใช้เพื่อวัตถุประสงค์ที่ถูกกฎหมายและเป็นไปตามระเบียบ ห้ามใช้ระบบซอฟต์แวร์นี้ในกิจกรรมทางธุรกิจที่ผิดกฎหมาย เราไม่รับผิดชอบต่อผลลัพธ์ทางธุรกิจของบุคคลใดๆ และไม่รับผิดชอบต่อผลทางกฎหมายใดๆ ที่เกิดขึ้นระหว่างการใช้ซอฟต์แวร์</p> <p>4. บริษัทหรือบุคคลใดๆ สามารถเผยแพร่และแจกจ่ายซอฟต์แวร์ของเราบนอินเทอร์เน็ตได้ แต่เราจะไม่รับผิดชอบต่อเหตุการณ์ทางกฎหมายหรืออาญาใดๆ ที่อาจเกิดขึ้นจากการเผยแพร่ซอฟต์แวร์โดยบริษัทหรือบุคคล</p>"
+    },
+    "course": {
+      "title": "คู่มือการใช้งาน"
+    },
+    "login": {
+      "title": "เข้าสู่ระบบ",
+      "username": "ชื่อผู้ใช้",
+      "password": "รหัสผ่าน",
+      "login": "เข้าสู่ระบบ",
+      "exit": "ออกจากระบบ"
+    },
+    "btn": {
+      "save": "บันทึก",
+      "close": "ปิด",
+      "addGrouping": "เพิ่มกลุ่ม",
+      "addTask": "เพิ่มงาน",
+      "delete": "ลบ",
+      "deleteTask": "ลบงาน",
+      "edit": "แก้ไข",
+      "add": "เพิ่ม",
+      "execute": "ดำเนินการ",
+      "deactivate": "ยกเลิกการใช้งาน",
+      "start": "เริ่ม",
+      "stop": "หยุด",
+      "stopAll": "หยุดทั้งหมดด้วยคลิกเดียว",
+      "message": "ข้อความ",
+      "define": "ยืนยัน",
+      "determine": "ยืนยัน",
+      "cancel": "ยกเลิก",
+      "view": "ดู",
+      "searchContent": "ค้นหากลุ่มและอุปกรณ์",
+      "creditsAdd": "เพิ่มไตเติ้ล/เอนดิ้ง",
+      "upload": "อัปโหลด",
+      "uploadSourceMaterial": "อัปโหลดวัสดุ",
+      "uploadChild": {
+        "message": "กรุณาอัปโหลดวิดีโอรูปแบบ mp4",
+        "success": "อัปโหลดสำเร็จ",
+        "fail": "อัปโหลดล้มเหลว"
+      },
+      "delectChild": {
+        "defineMessage": "คุณแน่ใจหรือไม่ที่จะลบวัสดุนี้?",
+        "message": "กรุณาเลือกวัสดุที่ต้องการลบ",
+        "success": "ลบสำเร็จ",
+        "fail": "ลบล้มเหลว"
+      },
+      "sourceMaterial": "รายการวัสดุ",
+      "captionAdd": "เพิ่มกลุ่มคำบรรยาย",
+      "captionEdit": "แก้ไขกลุ่มคำบรรยาย",
+      "musicAddType": "เพิ่มหมวดหมู่วัสดุเพลง",
+      "stickerMatAdd": "เพิ่มหมวดหมู่วัสดุสติกเกอร์",
+      "preClipAdd": "เพิ่มหมวดหมู่วัสดุการตัดต่อล่วงหน้า",
+      "createMixedShear": "สร้างการตัดต่อแบบผสมขั้นสูง",
+      "listTitle": "รายการของ",
+      "selectListArr1": "ที่เลือก",
+      "selectListArr2": "วัสดุ",
+      "sourceMaterialAdd": "เพิ่มวัสดุ",
+      "allSelect": "เลือกทั้งหมด",
+      "cancelSelect": "ยกเลิกการเลือก",
+      "pushResources": "ผลักดันทรัพยากร",
+      "pushMessage": "ผลักดันไปยังอุปกรณ์ (เลือกหลายรายการ):",
+      "download": "ดาวน์โหลดลงเครื่อง",
+      "downChild": {
+        "loading": "กำลังดาวน์โหลด...",
+        "success": "ดาวน์โหลดสำเร็จ",
+        "successMessage": "วิดีโอถูกดาวน์โหลดและบันทึกสำเร็จ",
+        "fail": "ดาวน์โหลดล้มเหลว",
+        "timeout": "หมดเวลาดาวน์โหลด กรุณาลองอีกครั้ง",
+        "pushing": "กำลังผลักดัน...",
+        "pushSuccess": "ผลักดันสำเร็จ",
+        "pushFail": "เกิดข้อผิดพลาดในการดาวน์โหลดหรือบันทึกวิดีโอ",
+        "message": "กรุณาเลือกวัสดุที่จะดาวน์โหลด"
+      },
+      "dirErrorMessage": "ไม่สามารถเข้าถึงโฟลเดอร์ได้ กรุณาตรวจสอบว่ามีโฟลเดอร์ทรัพยากรอยู่หรือไม่ ไปที่การตั้งค่าเพื่อดู",
+      "sourceMaterialDelect": "ลบวัสดุ",
+      "local": "ในเครื่อง",
+      "cloud": "คลาวด์",
+      "uploadTime": "เวลาอัปโหลด",
+      "uploadFileMsg": "ลากไฟล์มาที่นี่หรือ <em>คลิกเพื่ออัปโหลด</em>",
+      "addScript": "เพิ่มสคริปต์",
+      "delScript": "ลบสคริปต์",
+      "addImage": "เพิ่มรูปภาพ",
+      "delImage": "ลบรูปภาพ",
+      "addVideo": "เพิ่มวิดีโอ",
+      "delVideo": "ลบวิดีโอ",
+      "selectMessage": "กรุณาเลือก"
+    },
+    "public": {
+      "groupName": "ชื่อกลุ่ม",
+      "deviceName": "ชื่ออุปกรณ์",
+      "search": "ค้นหากลุ่มอุปกรณ์",
+      "operation": "การดำเนินการ",
+      "notRuning": "ไม่ได้ทำงาน",
+      "empty": "ไม่สามารถเว้นว่างได้",
+      "message": {
+        "blogger": "บล็อกเกอร์สูงสุด 200 คน",
+        "limitation": "สูงสุด 200",
+        "maxTips": "รองรับสูงสุด",
+        "closeDialog": "คุณแน่ใจหรือไม่ว่าต้องการปิดกล่องโต้ตอบนี้?",
+        "tips": "การแจ้งเตือน",
+        "lackDelect": "กรุณาเลือกงานที่ต้องการลบ",
+        "delectDetermine1": "คุณแน่ใจหรือไม่ว่าต้องการลบ",
+        "delectDetermine2": "งานเหล่านี้?",
+        "lackStop": "กรุณาเลือกงานที่ต้องการหยุดชั่วคราว",
+        "stopDetermine1": "คุณแน่ใจหรือไม่ว่าต้องการหยุด",
+        "stopDetermine2": "งานเหล่านี้ชั่วคราว?",
+        "empty": "ไม่สามารถเว้นว่างได้",
+        "warptips": "สำหรับหลายค่า กรุณาใช้การขึ้นบรรทัดใหม่เพื่อแยก",
+        "uploadTips": "สำหรับหลายค่า กรุณาใช้เครื่องหมายจุลภาคภาษาอังกฤษเพื่อแยก ,,,",
+        "group_device_name": "กลุ่มอุปกรณ์และหมายเลขอุปกรณ์ไม่สามารถเว้นว่างได้!",
+        "videoUndefined": "ไม่พบไฟล์วิดีโอ!",
+        "imageUndefined": "ไม่พบไฟล์รูปภาพ!"
+      }
+    }
+  }
+}

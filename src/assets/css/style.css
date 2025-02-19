@@ -1,0 +1,256 @@
+:root {
+  --theme-color: #5161ce;
+  --el-color-primary: var(--theme-color) !important;
+  --el-color-primary-light-3: #7a8be8 !important;
+  --el-color-primary-light-5: #a0aeeb !important;
+  --el-color-primary-light-7: #c6d2f0 !important;
+  --el-color-primary-light-8: #d3ddee !important;
+  --el-color-primary-light-9: #e0e9f3 !important;
+  --el-button-hover-bg-color: #9b96d3 !important;
+  --el-text-color-regular: #111 !important;
+  --el-color-success: #67c23a !important;
+}
+
+::selection {
+  background-color: #f56c6c !important;
+  color: #fff;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(245, 245, 245);
+  background-color: #eee;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: rgb(245, 245, 245);
+}
+
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  height: 7px !important;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  width: 7px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 8px;
+  background-color: var(--theme-color);
+}
+
+html {
+  height: 101vh;
+}
+
+body {
+  width: 100vw !important;
+  height: 101vh;
+  padding: 0;
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  /* 隐藏超出边界的内容 */
+}
+
+body.maximize {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0;
+  margin: 0;
+}
+
+*:focus-visible {
+  outline: none !important;
+}
+
+#nprogress .bar {
+  /*自定义进度条颜色*/
+  background: #d9393b !important;
+}
+
+audio {
+  width: 100%;
+}
+
+
+/* div, */
+b,
+button,
+button span {
+  user-select: none !important;
+}
+
+
+
+textarea {
+  min-height: 50px !important;
+  max-height: 120px;
+  height: 50px;
+
+  ::-webkit-scrollbar {
+    width: 4px !important;
+  }
+}
+
+.animate__faster {
+  animation-duration: 0.9s;
+}
+
+.animate__shakeX {
+  --el-color-primary: var(--el-color-danger);
+
+  .el-form-item__label,
+  .el-input__inner,
+  .el-form-item__content,
+  .el-icon {
+    color: var(--el-color-danger) !important;
+  }
+
+  .el-select__wrapper {
+    border: 1px solid var(--el-color-danger) !important;
+    border-radius: 5px;
+  }
+}
+
+
+.selectResouce {
+  transition: all 0.5s;
+
+  .el-select-dropdown__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 180px;
+
+    li {
+      height: 80px;
+      padding: 5px;
+      display: flex;
+      justify-content: center;
+
+      &.is-selected {
+
+        video,
+        img {
+          border: 2px solid var(--theme-color);
+          filter: grayscale(0);
+        }
+      }
+    }
+
+    video,
+    img {
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border: 2px solid transparent;
+      width: 100%;
+      border-radius: 5px;
+      filter: grayscale(30%);
+
+      &:hover {
+        border: 2px solid var(--theme-color);
+        filter: grayscale(0);
+      }
+    }
+  }
+}
+
+.zycard-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  button+button {
+    margin-left: 10px;
+  }
+
+  .tools {
+    margin-bottom: 10px;
+
+    button {
+      margin-left: 10px;
+    }
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+
+    .listitem {
+      cursor: pointer;
+      padding: 10px;
+      border: 2px solid #e8e8e8;
+      border-radius: 10px;
+      margin: 10px 0;
+
+      &:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      }
+
+      b {
+        color: #fff;
+        background-color: var(--theme-color);
+        padding: 2px 5px;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+
+      &.active {
+        border-color: #f56c6c;
+      }
+    }
+  }
+
+  .card-video {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-video-player {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .resDetBrief {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  /* 分页 */
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+  }
+
+  
+}
+
+/* 没有数据时的样式 */
+.no-data {
+  text-align: center;
+  color: #999;
+  height: auto;
+  border: none;
+}
+/* 上传弹窗的提示文字 */
+.introduce {
+  margin-bottom: 10px;
+  line-height: 30px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  color: #666;
+  padding: 2px 10px;
+  p{
+    margin: 4px;
+  }
+}

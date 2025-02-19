@@ -1,0 +1,1381 @@
+{
+  "navigation": {
+    "dashboard": {
+      "title": "后台管理",
+      "device": {
+        "title": "设备管理",
+        "children": {
+          "group": {
+            "title": "分组管理",
+            "tableHeader": {
+              "id": "ID",
+              "title": "分组名称",
+              "describe": "分组描述",
+              "device_count": "设备数量",
+              "up_time": "时间",
+              "status": "分组状态",
+              "create_time": "创建时间",
+              "selectDev": "选择设备",
+              "equipment_number": "备份号"
+            }
+          },
+          "deviceList": {
+            "title": "设备列表",
+            "tableHeader": {
+              "id": "Id",
+              "refresh": "刷新设备状态",
+              "online": "在线",
+              "offline": "离线",
+              "controllerDeviceId": "控制端ID",
+              "equipment_number": "设备号",
+              "platform": "平台",
+              "holographic": "全息",
+              "backups_time": "最新备份时间",
+              "wsClientId": "是否使用过",
+              "wsClientId_status": "在线状态",
+              "create_time": "创建时间",
+              "remarks": "备注",
+              "operate": "操作",
+              "backup": "备份",
+              "editRemark": "编辑备注",
+              "switchBackup": "切换备份",
+              "backuptip": "输入一个设备号备份",
+              "delete": "删除",
+              "edit": "编辑备注",
+              "historyBackUp": "历史备份",
+              "backUpTime": "备份时间",
+              "flashingMachine": "一键刷机",
+              "screenCasting": "投屏"
+            }
+          },
+          "cloudPhone": {
+            "title": "云手机",
+            "tableHeader": {
+              "id": "ID",
+              "phoneid": "手机ID",
+              "url": "投屏地址",
+              "device_count": "设备数量",
+              "up_time": "时间",
+              "status": "分组状态",
+              "create_time": "创建时间"
+            }
+          }
+        }
+      },
+      "taskManagement": {
+        "title": "任务管理",
+        "children": {
+          "taskList": {
+            "title": "任务列表",
+            "tableHeader": {
+              "id": "ID",
+              "title": "分组ID",
+              "grouping_id": "分组设备",
+              "platform": "任务平台",
+              "taskName": "任务名称",
+              "taskId": "任务ID",
+              "status": "任务状态",
+              "create_time": "创建时间"
+            }
+          },
+          "scheduledTask": {
+            "title": "定时任务",
+            "tableHeader": {
+              "taskName": "任务名称",
+              "taskType": "任务平台",
+              "taskStatus": "任务状态",
+              "taskId": "任务ID",
+              "executeTime": "执行周期",
+              "executeCount": "执行次数",
+              "taskTimeType": "时间类型",
+              "taskTimeTypeList": [
+                "每天",
+                "每周",
+                "每月"
+              ],
+              "weekList": [
+                "周一",
+                "周二",
+                "周三",
+                "周四",
+                "周五",
+                "周六",
+                "周日"
+              ],
+              "week": "星期",
+              "month": "月份",
+              "day": "日",
+              "hour": "小时",
+              "minute": "分钟",
+              "second": "秒",
+              "operate": "操作"
+            }
+          }
+        }
+      },
+      "taskParams": {
+        "title": "参数管理",
+        "tiktok": {
+          "title": "TikTok",
+          "children": {
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "wayType": "养号类型",
+                "wayTypeList": [
+                  "系统养号",
+                  "指定博主"
+                ],
+                "notes_name": "备注名称",
+                "bloggerId": "博主ID",
+                "search_name": "搜索关键词",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "see_comment_probability": "查看评论概率",
+                "hair_comment_probability": "评论概率",
+                "collectProbability": "收藏概率",
+                "duration_stay": "停留时长/秒",
+                "seeCount": "浏览数量",
+                "script_grouping_name": "话术类型",
+                "number_maintenance_duration": "养号时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "update_value": "修改项",
+                "regulation": "规则",
+                "whole": "全部",
+                "order": "顺序",
+                "imagesContent": "头像",
+                "name": "用户名",
+                "bio": "bio",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "getuid": {
+              "title": "数据采集",
+              "tableHeader": {
+                "collAreaselect": [
+                  "采集视频的链接",
+                  "采集视频的评论用户",
+                  "采集博主列表",
+                  "采集指定博主已关注列表",
+                  "采集指定博主粉丝列表",
+                  "采集直播间博主的粉丝",
+                  "",
+                  "采集自己帖子上点赞的用户",
+                  "采集自己帖子上评论的用户"
+                ],
+                "blogger_ids": "博主ID",
+                "notes_name": "备注名称",
+                "keyword": "关键词",
+                "fans_num": "粉丝数量",
+                "fans_area": "采集来源",
+                "collection_num": "采集数量",
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间",
+                "dialogTitle": "采集详情"
+              }
+            },
+            "follow": {
+              "title": "批量关注",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "follow_way": "关注方式",
+                "followWayList": [
+                  "博主粉丝",
+                  "指定博主",
+                  "系统推荐",
+                  "",
+                  "",
+                  "关注通讯录",
+                  "关注点赞者",
+                  "关注评论者",
+                  "回关粉丝"
+                ],
+                "blogger_ids": "博主ID",
+                "notes_name": "备注名称",
+                "search_name": "搜索关键词",
+                "collect_percent": "关注概率",
+                "like_percent": "点赞概率",
+                "follow_range": "关注范围",
+                "follow_range_list": [
+                  "粉丝"
+                ],
+                "follow_num": "关注数",
+                "follow_time": "间隔时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "message": {
+              "title": "批量私信",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "message_num": "私信数量",
+                "message_content": "私信内容",
+                "message_time": "间隔时间/s",
+                "private_message": "私信人",
+                "private_message_list": [
+                  "朋友"
+                ],
+                "address": "输入地点",
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "post": {
+              "title": "矩阵发帖",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "upload_content_arr": "发布内容",
+                "upload_type": "发布类型",
+                "upload_type_list": [
+                  "视频",
+                  "图片"
+                ],
+                "title": "标题",
+                "topic": "话题",
+                "topic_tips": " #话题 #话题 #话题",
+                "call_who": "提到什么人",
+                "call_who_tips": "用户名,用户名,用户名",
+                "address": "地点",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "like": {
+              "title": "批量点赞",
+              "tableHeader": {
+                "bloggerId": "博主ID",
+                "pending_execution_time": "间隔时间/s",
+                "notes_name": "备注名称",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "comment": {
+              "title": "批量评论",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "keyword": "视频关键词",
+                "content": "评论内容",
+                "task_num": "评论数量",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            }
+          }
+        },
+        "douyin": {
+          "title": "抖音",
+          "children": {
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "wayType": "养号类型",
+                "wayTypeList": [
+                  "系统养号",
+                  "指定博主",
+                  "视频",
+                  "直播间"
+                ],
+                "bloggerId": "博主ID",
+                "search_name": "搜索关键词",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "see_comment_probability": "查看评论概率",
+                "hair_comment_probability": "评论概率",
+                "collectProbability": "收藏概率",
+                "duration_stay": "停留时长/秒",
+                "seeCount": "浏览数量",
+                "script_grouping_name": "话术类型",
+                "number_maintenance_duration": "养号时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "update_value": "修改项",
+                "regulation": "规则",
+                "whole": "全部",
+                "order": "顺序",
+                "notes_name": "备注名称",
+                "imagesContent": "头像",
+                "name": "用户名",
+                "bio": "bio",
+                "sex": "性别",
+                "man": "男",
+                "woman": "女",
+                "notDisplay": "不显示",
+                "birthday": "生日",
+                "location": "地区",
+                "country": "国家",
+                "province": "省份",
+                "city": "城市",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "getuid": {
+              "title": "数据采集",
+              "tableHeader": {
+                "collAreaselect": [
+                  "采集视频的链接",
+                  "采集视频的评论用户",
+                  "采集博主列表",
+                  "采集指定博主已关注列表",
+                  "采集指定博主粉丝列表",
+                  "采集直播间博主的粉丝",
+                  "",
+                  "采集自己帖子上点赞的用户",
+                  "采集自己帖子上评论的用户"
+                ],
+                "blogger_ids": "博主ID",
+                "notes_name": "备注名称",
+                "keyword": "关键词",
+                "coll_direction": "采集方向",
+                "coll_direction_list": [
+                  "视频",
+                  "直播间"
+                ],
+                "search_type": "搜索方式",
+                "search_type_list": [
+                  "关键词",
+                  "链接"
+                ],
+                "link": "链接",
+                "fans_num": "粉丝数量",
+                "fans_num_list": [
+                  "不限",
+                  "1000以下",
+                  "1k-1w",
+                  "1w-10w",
+                  "10w-100w",
+                  "100w以上"
+                ],
+                "user_type": "用户类型",
+                "user_type_list": [
+                  "不限",
+                  "普通用户",
+                  "企业认证",
+                  "个人认证"
+                ],
+                "see_num": [
+                  "浏览博主数量",
+                  "浏览视频数量"
+                ],
+                "collection_num": [
+                  "采集粉丝数量",
+                  "采集数量"
+                ],
+                "followers_num": "采集关注数量",
+                "coll_area": "采集来源",
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间",
+                "dialogTitle": "采集详情"
+              }
+            },
+            "follow": {
+              "title": "批量关注",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "follow_way": "关注方式",
+                "followWayList": [
+                  "博主粉丝",
+                  "指定博主",
+                  "系统推荐",
+                  "搜索关键字视频的博主",
+                  "指定视频的评论者",
+                  "朋友的粉丝",
+                  "关注通讯录",
+                  "关注点赞者",
+                  "关注评论者",
+                  "回关粉丝"
+                ],
+                "blogger_ids": "博主ID",
+                "notes_name": "备注名称",
+                "search_name": "搜索关键词",
+                "comment_section_keywords": "评论关键词",
+                "before_operation": "前置操作",
+                "latestVideo": "观看最新视频",
+                "collect_percent": "关注概率",
+                "like_percent": "点赞概率",
+                "comment_percent": "评论概率",
+                "comment_content": "评论内容",
+                "after_operation": "后置操作",
+                "private_message": "私信",
+                "private_message_list": [
+                  "朋友",
+                  "粉丝"
+                ],
+                "message_content": "私信内容",
+                "follow_num": "关注数",
+                "follow_time": "间隔时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "message": {
+              "title": "批量私信",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "message_num": "私信数量",
+                "message_content": "私信内容",
+                "message_time": "间隔时间/s",
+                "private_message": "私信人",
+                "private_message_list": [
+                  "朋友",
+                  "粉丝"
+                ],
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "post": {
+              "title": "矩阵发帖",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "upload_content_arr": "发布内容",
+                "upload_type": "发布类型",
+                "upload_type_list": [
+                  "视频",
+                  "图片"
+                ],
+                "title": "标题",
+                "topic": "话题",
+                "topic_tips": " #话题 #话题 #话题",
+                "call_who": "提到什么人",
+                "call_who_tips": "用户名,用户名,用户名",
+                "address": "地点",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "comment": {
+              "title": "批量评论",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "comment_way": "评论方式",
+                "commentWayList": [
+                  "关键词搜索视频",
+                  "指定视频中的评论用户",
+                  "评论直播间",
+                  "评论指定用户的最新视频",
+                  "评论自己帖子的评论用户"
+                ],
+                "keyword": "搜索关键字",
+                "bloggerId": "用户博主id",
+                "content": "评论内容",
+                "see_num": "浏览次数",
+                "comment_num": "评论次数",
+                "collect_percent": "收藏概率",
+                "follow_percent": "关注概率",
+                "like_percent": "点赞概率",
+                "comment_content": "评论内容",
+                "comment_percent": "评论概率",
+                "comment_section": "指定评论",
+                "comment_section_list": [
+                  "依次评论用户",
+                  "根据评论区关键字评论"
+                ],
+                "comment_section_keywords": "评论区关键词匹配",
+                "duration_interval": "间隔时长/s",
+                "duration_stay": "停留时长/s",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            }
+          }
+        },
+        "line": {
+          "title": "Line",
+          "children": {
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "wayType": "养号类型",
+                "wayTypeList": [
+                  "TODAY",
+                  "好友聊天",
+                  "群聊天"
+                ],
+                "friend_name": "好友名称",
+                "group_name": "群名称",
+                "search_name": "搜索关键词",
+                "message_value": "消息内容",
+                "duration_interval": "间隔时长/秒",
+                "duration_chat": "聊天时长/秒",
+                "number_maintenance_duration": "养号时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "update_value": "修改项",
+                "notes_name": "备注名称",
+                "imagesContent": "头像",
+                "name": "用户名",
+                "bio": "bio",
+                "regulation": "规则",
+                "whole": "全部",
+                "order": "顺序",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "addFriend": {
+              "title": "添加好友",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "AddFriendWayList": [
+                  "搜索添加-好友id",
+                  "官方推荐",
+                  "可能认识的人",
+                  "添加好友设置"
+                ],
+                "AddFriend_way": "添加好友方式",
+                "friends_ids": "好友id",
+                "friends_phone": "好友手机号",
+                "message_content": "消息内容",
+                "add_total_number": "添加数量",
+                "addFrends_atuo_setting": "自动添加好友",
+                "addFrends_allow_setting": "允许添加好友",
+                "AddFriend_time": "间隔时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "post": {
+              "title": "矩阵发帖",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "upload_content_arr": "发布内容",
+                "upload_type": "发布类型",
+                "image": "图片",
+                "video": "视频",
+                "title": "标题",
+                "uploadTips": "多个值请使用英文逗号分隔 ,,,",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "stirFryGroups": {
+              "title": "批量炒群",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "grouping_name": "群名称",
+                "message_content": "随机消息",
+                "duration_interval": "时间间隔/s",
+                "duration_chat": "聊天间隔/s",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            }
+          }
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "children": {
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "updateList": {
+                  "upload_content_arr": "头像",
+                  "name": "名称",
+                  "userStatus": "状态",
+                  "pwdVerify": "密码验证"
+                },
+                "notes_name": "备注名称",
+                "update_value": "修改项",
+                "regulation": "规则",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "notes_name": "备注名称",
+                "wayType": "养号类型",
+                "friendPhone": "好友手机号",
+                "friend": "好友对话",
+                "group": "群组对话",
+                "wsGroupName": "群名称",
+                "chatDuration": "聊天时长/秒",
+                "chatInterva": "聊天间隔/秒",
+                "romdomMessage": "随机信息",
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "addFriend": {
+              "title": "添加好友",
+              "tableHeader": {
+                "wayType": {
+                  "title": "添加方式",
+                  "lxr": "联系人",
+                  "txl": "通讯录好友"
+                },
+                "callType": {
+                  "title": "拨打类型",
+                  "yuyin": "拨打语言",
+                  "video": "拨打视频"
+                },
+                "notes_name": "备注名称",
+                "hangUpTime": "挂断时间",
+                "contactsUploadList": "手机号上传",
+                "num": "数量",
+                "time": "时间间隔",
+                "randomMessage": "随机信息",
+                "status": "任务状态",
+                "create_time": "创建时间",
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "uploadTips1": "多个值请使用英文逗号分隔 ,,,",
+                "uploadTips2": "名字|姓氏|国家代码|电话(不带国家代码)"
+              }
+            },
+            "stirFryGroups": {
+              "title": "批量炒群",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "stirfry_groups_id": "炒群群名",
+                "message_time": "间隔时间/s",
+                "stirfry_timer": "炒群时长/s",
+                "romdomMessage": "随机信息",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "message": {
+              "title": "批量私信",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "private_message": {
+                  "title": "私信人",
+                  "all": "全部好友",
+                  "appoint": "指定好友"
+                },
+                "friend_id": "好友ID",
+                "romdomMessage": "随机信息",
+                "message_time": "间隔时间/s",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "title": "Snapchat",
+          "children": {
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "wayType": {
+                  "title": "养号类型",
+                  "gs": "故事养号",
+                  "jgd": "聚光灯养号"
+                },
+                "notes_name": "备注名称",
+                "see_count": "浏览数量",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "hair_comment_probability": "评论概率",
+                "comment_content": "评论内容",
+                "duration_stay": "停留时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "update_value": "修改项",
+                "imagesContent": "头像",
+                "realName": "真实姓名",
+                "username": "用户名",
+                "bio": "bio",
+                "notes_name": "备注名称",
+                "birthday": "生日",
+                "location": {
+                  "title": "地区",
+                  "country": "国家",
+                  "province": "省份",
+                  "city": "城市"
+                },
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "likeLink": {
+              "title": "点赞评论",
+              "tableHeader": {
+                "wayType": {
+                  "title": "来源类型",
+                  "base": "随机",
+                  "link": "链接"
+                },
+                "link_urls": "帖子链接",
+                "notes_name": "备注名称",
+                "see_count": "浏览数量",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "hair_comment_probability": "评论概率",
+                "comment_content": "评论内容",
+                "duration_stay": "停留时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "post": {
+              "title": "矩阵发帖",
+              "tableHeader": {
+                "wayType": {
+                  "title": "发布类型",
+                  "gs": "故事养号",
+                  "jgd": "聚光灯养号"
+                },
+                "notes_name": "备注名称",
+                "videoContent": "媒体内容",
+                "mediaSuffic": "媒体后缀",
+                "txt": "文本内容",
+                "isAddMusic": {
+                  "title": "是否添加音乐",
+                  "yes": "是",
+                  "no": "否"
+                },
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "addFriend": {
+              "title": "添加好友",
+              "tableHeader": {
+                "wayType": {
+                  "title": "添加方式",
+                  "tuijian": "推荐",
+                  "txl": "通讯录",
+                  "account": "账号id"
+                },
+                "chatType": {
+                  "title": "内容类型",
+                  "text": "文本",
+                  "image": "图片",
+                  "text_image": "文本/图片",
+                  "isChat": "是否强制聊天",
+                  "yes": "是",
+                  "no": "否"
+                },
+                "text": "文本消息",
+                "imagesContent": "图片选择",
+                "notes_name": "备注名称",
+                "addNumber": "添加数量",
+                "addGap": "添加间隔/s",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "message": {
+              "title": "批量私信",
+              "tableHeader": {
+                "chatNumber": "私信数量",
+                "duration_interval": "私信间隔/s",
+                "chatType": {
+                  "title": "内容类型",
+                  "text": "文本",
+                  "image": "图片",
+                  "text_image": "文本/图片"
+                },
+                "imagesContent": "图片选择",
+                "notes_name": "备注名称",
+                "msgChat": "私信内容",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "comment": {
+              "title": "批量评论",
+              "tableHeader": {
+                "notes_name": "备注名称",
+                "tip": "输入多个，以英文逗号分隔",
+                "linkUrls": "帖子链接 ",
+                "maxRoll": "评论滚动次数",
+                "keywords": "关键词匹配",
+                "keywordNum": "关键字匹配操作最大数",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "hair_comment_probability": "评论概率",
+                "comment_content": "评论内容",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "getuid": {
+              "title": "数据采集",
+              "tableHeader": {
+                "notes_name": "备注名称",
+                "keywords": "关键词匹配",
+                "tip": "输入多个，以英文逗号分隔",
+                "coll_type": "采集类型",
+                "collType_option": {
+                  "gjc": "关键词采集",
+                  "txl": "通讯录采集"
+                },
+                "collection_num": "采集数量",
+                "collComment_num": "采集评论数量",
+                "duration_interval": "采集间隔/s",
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间",
+                "dialogTitle": "采集详情"
+              }
+            },
+            "logTask": {
+              "title": "任务日志",
+              "tableHeader": {}
+            }
+          }
+        },
+        "instagram": {
+          "title": "Instagram",
+          "children": {
+            "yanghao": {
+              "title": "一键养号",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "wayType": {
+                  "title": "养号类型",
+                  "home": "首页推荐",
+                  "appoint": "指定账户",
+                  "keyword": "关键词匹配"
+                },
+                "recommend": "推荐类型",
+                "recommend_option": [
+                  "首页",
+                  "reels"
+                ],
+                "keyword": "关键词",
+                "account": "账号id",
+                "tip": "输入多个，以英文逗号分隔",
+                "see_count": "浏览数量",
+                "follow_probability": "关注概率",
+                "like_probability": "点赞概率",
+                "hair_comment_probability": "评论概率",
+                "comment_content": "评论内容",
+                "duration_stay": "停留时长/秒",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "update": {
+              "title": "更新资料",
+              "tableHeader": {
+                "update_value": "修改项",
+                "imagesContent": "头像",
+                "realName": "真实姓名",
+                "regulation": "规则",
+                "whole": "全部",
+                "order": "顺序",
+                "bio": "bio",
+                "notes_name": "备注名称",
+                "gender": {
+                  "title": "性别",
+                  "male": "男",
+                  "female": "女",
+                  "unspecified": "不想回答"
+                },
+                "links": "个人主页",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "post": {
+              "title": "矩阵发帖",
+              "tableHeader": {
+                "wayType": {
+                  "title": "矩阵类型",
+                  "image": "图片",
+                  "video": "视频"
+                },
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "videoContent": "媒体内容",
+                "mediaSuffic": "媒体后缀",
+                "txt": "文本内容",
+                "address": "地址",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "addFriend": {
+              "title": "添加好友",
+              "tableHeader": {
+                "wayType": {
+                  "title": "添加方式",
+                  "tuijian": "推荐",
+                  "txl": "通讯录"
+                },
+                "chatType": {
+                  "title": "内容类型",
+                  "text": "文本",
+                  "image": "图片",
+                  "text_image": "文本/图片",
+                  "isChat": "是否强制聊天",
+                  "yes": "是",
+                  "no": "否"
+                },
+                "notes_name": "备注名称",
+                "text": "文本消息",
+                "imagesContent": "图片选择",
+                "addNumber": "添加数量",
+                "addGap": "添加间隔/s",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "message": {
+              "title": "批量私信",
+              "tableHeader": {
+                "duration_interval": "私信间隔/s",
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "chatType": {
+                  "title": "私信方向",
+                  "account": "指定账号私信",
+                  "fans": "粉丝私信",
+                  "follow": "关注私信"
+                },
+                "cententType": {
+                  "title": "内容类型",
+                  "text": "文本",
+                  "image": "图片",
+                  "text_image": "文本/图片"
+                },
+                "accounts": "账号id",
+                "chatNumber": "私信数量",
+                "imagesContent": "图片选择",
+                "msgChat": "私信内容",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "follow": {
+              "title": "批量关注",
+              "tableHeader": {
+                "regulation": "规则",
+                "whole": "全部",
+                "separate": "单独",
+                "notes_name": "备注名称",
+                "followBefore": "关注前操作",
+                "duration_stay": "停留时间",
+                "viewPostsNumber": "浏览帖子数量",
+                "collectProbability": "收藏概率",
+                "like_probability": "点赞概率",
+                "hair_comment_probability": "发评论概率",
+                "comment_content": "评论内容",
+                "follow_interval": "关注间隔",
+                "follow_interval_start": "关注间隔开始时间",
+                "follow_interval_end": "关注间隔结束时间",
+                "follow_type": "关注类型",
+                "follow_type_option": [
+                  "指定账号粉丝",
+                  "指定账号",
+                  "系统推荐",
+                  "关键词热门",
+                  "关注帖子链接评论或者点赞用户"
+                ],
+                "usernames": "指定博主账号",
+                "number": "关注数量",
+                "keywords": "关键词匹配",
+                "links": "链接地址关注",
+                "commentFilter": "评论关键词匹配",
+                "commentFollowNumber": "评论关注数量",
+                "likeNum": "点赞关注数量",
+                "no": "否",
+                "yes": "是",
+                "status": "任务状态",
+                "create_time": "创建时间"
+              }
+            },
+            "getuid": {
+              "title": "数据采集",
+              "tableHeader": {
+                "keywords": "指定博主账号",
+                "notes_name": "备注名称",
+                "tip": "输入多个，以英文逗号分隔",
+                "fansNum": "粉丝采集量",
+                "followNum": "关注采集量",
+                "duration_interval": "采集间隔/s",
+                "details": "任务详情",
+                "status": "任务状态",
+                "create_time": "创建时间",
+                "dialogTitle": "采集详情"
+              }
+            },
+            "logTask": {
+              "title": "任务日志",
+              "tableHeader": {}
+            }
+          }
+        }
+      },
+      "resourceManagement": {
+        "title": "资源管理",
+        "children": {
+          "scripts": {
+            "title": "话术资源",
+            "formLabel": {
+              "appPlatform": "应用平台",
+              "selectScriptType": "选择话术类型",
+              "scriptContent": "话术内容",
+              "selectMessage": "请选择"
+            },
+            "tableHeader": {
+              "scriptContent": "话术内容",
+              "scriptGroupingId": "分类id",
+              "scriptGroupingName": "话术分类",
+              "appType": "应用类型",
+              "createTime": "创建时间",
+              "operate": "操作"
+            }
+          },
+          "images": {
+            "title": "图片资源",
+            "tableHeader": ""
+          },
+          "videos": {
+            "title": "视频资源",
+            "tableHeader": ""
+          },
+          "addressBook": {
+            "title": "通讯录上传",
+            "formLabel": {
+              "selectGroup": "选择分组",
+              "selectDevice": "选择设备",
+              "uploadFile": "上传通讯录",
+              "message": "只能上传一个文件、只支持vcf格式的文件",
+              "sussess": "上传成功",
+              "fail": "上传失败",
+              "deletionMessage": {
+                "title": "请上传通讯录",
+                "device": "请选择设备",
+                "fileTypeError": "上传文件只能是vcf格式!"
+              }
+            }
+          }
+        }
+      },
+      "aiClip": {
+        "title": "Ai剪辑",
+        "uploadTime": "上传时间",
+        "noData": "暂无数据",
+        "children": {
+          "credits": {
+            "title": "片头片尾",
+            "main": "片头片尾主页",
+            "list": "素材列表",
+            "uploadDesc": "<p>1.可上传视频</p> <p>2.素材用于混剪的片头片尾使用</p> <p>3.如删除素材，请确认此素材不是正在发布任务状态！否则任务失败！</p> <p>4.因接口限制，素材最大上传为50M！</p> <p>5.建议上传MP4格式视频，受OSS影响其他视频格式不支持预览！</p>",
+            "tableHeader": {
+              "uname": "名称",
+              "type": "类型",
+              "titles": "片头",
+              "end": "片尾",
+              "content": "分类名称",
+              "num": "素材数量",
+              "create_time": "创建时间",
+              "operate": "操作"
+            },
+            "dialog": {
+              "title": "片头片尾分类名称"
+            }
+          },
+          "captions": {
+            "title": "字幕管理",
+            "tableHeader": {
+              "uname": "分类名称",
+              "content": "字幕",
+              "num": "素材数量",
+              "create_time": "创建时间",
+              "operate": "操作"
+            },
+            "dialog": {
+              "title": "字幕分类名称"
+            }
+          },
+          "musicalMat": {
+            "title": "音乐库",
+            "main": "音乐素材主页",
+            "list": "音乐素材列表",
+            "uploadDesc": "<p>1.可上传的素材：MP3格式音乐音乐</p> <p>2.素材用于混剪素材使用，谨记！</p>",
+            "tableHeader": {
+              "uname": "分类名称",
+              "content": "字幕",
+              "num": "素材数量",
+              "create_time": "创建时间",
+              "operate": "操作"
+            }
+          },
+          "stickerMat": {
+            "title": "贴纸库",
+            "main": "贴纸素材主页",
+            "list": "贴纸素材列表",
+            "uploadDesc": "<p>1.可上传的素材：jpg,png,jpeg,gif图片素材</p> <p>2.素材用于混剪贴纸使用，谨记！</p>",
+            "tableHeader": {
+              "uname": "分类名称",
+              "content": "字幕",
+              "num": "素材数量",
+              "create_time": "创建时间",
+              "operate": "操作"
+            }
+          },
+          "preClip": {
+            "title": "预剪库",
+            "main": "预剪素材主页",
+            "list": "预剪素材列表",
+            "uploadDesc": "<p>1.可上传的素材：图片、视频、音乐等</p> <p>2.素材用于视频混剪使用，不会作为发布视频的视频源使用，谨记！</p> <p>3.如删除素材，请确认此素材不是正在混剪状态！否则混剪失败！</p> <p>4.因接口限制，素材最大上传为50M！</p> <p>5.建议上传MP4格式视频，受OSS影响其他视频格式不支持预览！</p>",
+            "tableHeader": {
+              "uname": "分类名称",
+              "content": "字幕",
+              "num": "素材数量",
+              "create_time": "创建时间",
+              "operate": "操作",
+              "label": "预剪素材分类名称："
+            }
+          },
+          "mixedShearWarehouse": {
+            "title": "混剪库",
+            "main": "混剪主页",
+            "list": "混剪素材"
+          }
+        }
+      }
+    },
+    "system": {
+      "title": "系统设置",
+      "children": {
+        "pathConfig": {
+          "title": "路径配置",
+          "version": "当前版本",
+          "nowAppPath": "当前软件路径",
+          "resourcesPath": "资源存放路径",
+          "mobilePath": "移动端资源路径",
+          "language": "切换语言",
+          "tips": "配置更改完成后需要重置应用,是否进行重置？",
+          "success": "保存完成",
+          "later": "稍后重置",
+          "confirm": "确认重置"
+        },
+        "btn": {
+          "save": "保存",
+          "reset": "重置",
+          "replace": "更换",
+          "quit": "退出",
+          "cancel": "取消",
+          "resetApp": "重置软件"
+        }
+      }
+    },
+    "notice": {
+      "title": "使用须知",
+      "main": "<p>1、欢迎使用本软件及服务，本软件以推广为目的开发，应用在行业推广引流领域使用，我们的软件非免费，无病毒。</p> <p>2、一切因使用本系统软件而引致之任何意外、疏忽、合约毁坏，诽旁，版权或知识产权侵犯及其所造成的损失，本软件概不负责，与本软件开发服务商无关，亦不承担任何法律责任.</p> <p>3、我们提供的软件经营主体应接受合法、合规用途，不得利用本软件系统从事违法经营活动，我们仅作为软件开发商，对任何经营结果不做任何连带责任，软件使用过程中产生的任何法律后果我们概不负责，亦不承担任何法律责任. </p> <p>4、任何公司或个人在网络上发布，传播我们软件的行为都是允许的，但因公司或个人传播软件可能造成的任何法律和刑事事件于我们开发商不负任何责任，个人传播软件可能造成的任何法律和刑事事件于我们开发商不负任何责任</p>"
+    },
+    "course": {
+      "title": "使用教程"
+    },
+    "login": {
+      "title": "系统登陆",
+      "username": "用户名",
+      "password": "密码",
+      "login": "登录",
+      "exit": "退出登录"
+    },
+    "btn": {
+      "save": "保存",
+      "close": "关闭",
+      "task": "任务",
+      "addGrouping": "添加分组",
+      "addDeviceListing": "添加设备",
+      "addTask": "添加任务",
+      "delete": "删除",
+      "deleteTask": "删除任务",
+      "editTask": "修改任务",
+      "startTask": "启动任务",
+      "stopTask": "停止任务",
+      "edit": "修改",
+      "add": "添加",
+      "execute": "执行",
+      "deactivate": "停用",
+      "start": "启动",
+      "stop": "停止",
+      "stopAll": "一键暂停",
+      "message": "提示",
+      "determine": "确定",
+      "cancel": "取消",
+      "view": "查看",
+      "viewScreenCasting": "查看投屏",
+      "searchContent": "分组设备搜索",
+      "creditsAdd": "添加片头/片尾 ",
+      "upload": "上传",
+      "uploadSourceMaterial": "上传素材",
+      "addParams": "添加参数",
+      "editParams": "修改参数",
+      "deleteParams": "删除参数",
+      "uploadChild": {
+        "message": "请上传mp4格式的视频",
+        "success": "上传成功",
+        "fail": "上传失败"
+      },
+      "delectChild": {
+        "determineMessage": "确定删除此素材？",
+        "message": "请选择要删除的素材",
+        "success": "删除成功",
+        "fail": "删除失败"
+      },
+      "sourceMaterial": "素材列表",
+      "captionAdd": "添加弹幕组",
+      "captionEdit": "修改弹幕组",
+      "musicAddType": "新增音乐素材分类",
+      "stickerMatAdd": "新增贴纸素材分类",
+      "preClipAdd": "新增预剪素材分类",
+      "createMixedShear": "创建高级混剪",
+      "listTitle": "的列表",
+      "selectListArr1": "选中",
+      "selectListArr2": "个素材",
+      "sourceMaterialAdd": "添加素材",
+      "allSelect": "全选",
+      "cancelSelect": "取消选择",
+      "pushResources": "推送素材",
+      "pushMessage": "推送到设备(多选)：",
+      "download": "下载至本地",
+      "downChild": {
+        "loading": "下载中...",
+        "success": "下载成功",
+        "successMessage": "视频下载并保存成功",
+        "fail": "下载失败",
+        "timeout": "下载超时，请重试",
+        "pushing": "正在推送中...",
+        "pushSuccess": "推送成功",
+        "pushFail": "下载或保存视频时出错",
+        "message": "请选择要下载的素材"
+      },
+      "dirErrorMessage": "获取文件夹失败，请检查资源文件夹是否存在，前往设置中查看",
+      "sourceMaterialDelect": "删除素材",
+      "local": "本地",
+      "cloud": "云端",
+      "uploadTime": "上传时间",
+      "uploadFileMsg": "将文件拖到此处或 <em>单击上载</em>",
+      "addScript": "添加话术",
+      "delScript": "删除话术",
+      "addImage": "添加图片",
+      "delImage": "删除图片",
+      "addVideo": "添加视频",
+      "delVideo": "删除视频",
+      "selectMessage": "请选择"
+    },
+    "public": {
+      "groupName": "分组名称",
+      "deviceName": "设备名称",
+      "notesName": "备注名称",
+      "search": "分组设备搜索",
+      "operation": "操作",
+      "notRuning": "未运行",
+      "empty": "不能为空",
+      "instructionsForUse": "使用须知",
+      "course": "使用教程",
+      "message": {
+        "taskRuning": "任务正在运行中，请稍后再试！",
+        "frequently": "操作频繁，2秒后重试！",
+        "timeout": "请求超时，请稍后再试！",
+        "blogger": "博主最多200个",
+        "limitation": "最多200个",
+        "maxTips": "最多支持",
+        "closeDialog": "确定要关闭当前对话框吗？",
+        "tips": "提示通知",
+        "lackDelect": "请勾选要删除的任务",
+        "delectDetermine1": "确定要删除这",
+        "delectDetermine2": "条任务吗？",
+        "lackStop": "请勾选要暂停的任务",
+        "stopDetermine1": "确定要暂停这",
+        "stopDetermine2": "条任务吗？",
+        "empty": "不能为空",
+        "warptips": "多个值请使用换行分隔",
+        "uploadTips": "多个值请使用英文逗号分隔 ,,,",
+        "group_device_name": "设备分组和设备编号不能为空！",
+        "videoUndefined": "视频文件不存在！",
+        "imageUndefined": "图片文件不存在！"
+      }
+    }
+  }
+}

@@ -1,0 +1,1248 @@
+{
+  "navigation": {
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "device": {
+        "title": "Device Management",
+        "children": {
+          "group": {
+            "title": "Group Management",
+            "tableHeader": {
+              "cate_name": "Group Name",
+              "describe": "Group Description",
+              "device_count": "Device Count",
+              "up_time": "Time",
+              "status": "Group Status",
+              "create_time": "Creation Time",
+              "selectDev": "Select Devices"
+            }
+          },
+          "deviceList": {
+            "title": "Device List",
+            "tableHeader": {
+              "id": "Id",
+              "equipment_nickname": "Device Name",
+              "equipment_number": "Device Number",
+              "backups_time": "Latest Backup Time",
+              "create_time": "Creation Time",
+              "remarks": "Remarks",
+              "operate": "Actions",
+              "backup": "Backup",
+              "editRemark": "Edit Remark",
+              "switchBackup": "Switch Backup",
+              "backuptip": "Enter a device number to backup",
+              "delete": "Delete",
+              "edit": "Edit",
+              "historyBackUp": "History Backup",
+              "backUpTime": "Backup Time",
+              "flashingMachine": "One-Click Flashing"
+            }
+          }
+        }
+      },
+      "taskParams": {
+        "title": "Task Management",
+        "tiktok": {
+          "title": "TikTok",
+          "children": {
+            "yanghao": {
+              "title": "Account Maintenance",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "wayType": "Maintenance Type",
+                "wayTypeList": [
+                  "System Maintenance",
+                  "Specified Blogger"
+                ],
+                "bloggerId": "Blogger ID",
+                "search_name": "Search Keywords",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "see_comment_probability": "View Comment Probability",
+                "hair_comment_probability": "Comment Probability",
+                "collectProbability": "Collect Probability",
+                "duration_stay": "Stay Duration/Seconds",
+                "seeCount": "View Count",
+                "script_grouping_name": "Script Type",
+                "number_maintenance_duration": "Maintenance Duration/Seconds",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "update": {
+              "title": "Account Update",
+              "tableHeader": {
+                "update_value": "Update Item",
+                "regulation": "Regulation",
+                "whole": "All",
+                "order": "Order",
+                "imagesContent": "Avatar",
+                "name": "Username",
+                "bio": "Bio",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "getuid": {
+              "title": "Data Collection",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Collect Video Links",
+                  "Collect Video Commenters",
+                  "Collect Blogger List",
+                  "Collect Specified Blogger's Followed List",
+                  "Collect Specified Blogger's Followers",
+                  "Collect Live Room Blogger's Followers",
+                  "",
+                  "Collect Likers of Own Post",
+                  "Collect Commenters of Own Post"
+                ],
+                "blogger_ids": "Blogger ID",
+                "keyword": "Keywords",
+                "fans_num": "Fan Count",
+                "fans_area": "Source of Collection",
+                "collection_num": "Collection Count",
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time",
+                "dialogTitle": "Collection Details"
+              }
+            },
+            "follow": {
+              "title": "Batch Follow",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "follow_way": "Follow Method",
+                "followWayList": [
+                  "Blogger's Followers",
+                  "Specified Blogger",
+                  "System Recommendation",
+                  "",
+                  "",
+                  "Follow Contacts",
+                  "Follow Likers",
+                  "Follow Commenters",
+                  "Follow Back Fans"
+                ],
+                "blogger_ids": "Blogger ID",
+                "search_name": "Search Keywords",
+                "collect_percent": "Follow Probability",
+                "like_percent": "Like Probability",
+                "follow_range": "Follow Range",
+                "follow_range_list": [
+                  "Fans"
+                ],
+                "follow_num": "Follow Count",
+                "follow_time": "Interval Duration/Seconds",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "message": {
+              "title": "Batch Private Messaging",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "message_num": "Message Count",
+                "message_content": "Message Content",
+                "message_time": "Interval Time/Seconds",
+                "private_message": "Private Message To",
+                "private_message_list": [
+                  "Friends",
+                  "fans"
+                ],
+                "address": "Input Location",
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "post": {
+              "title": "Matrix Posting",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "upload_content_arr": "Post Content",
+                "upload_type": "Post Type",
+                "upload_type_list": [
+                  "Video",
+                  "Image"
+                ],
+                "title": "Title",
+                "topic": "Topic",
+                "topic_tips": " #Topic #Topic #Topic",
+                "call_who": "Tag Who",
+                "call_who_tips": "Username, Username, Username",
+                "address": "Location",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "like": {
+              "title": "Batch Like",
+              "tableHeader": {
+                "bloggerId": "Blogger ID",
+                "pending_execution_time": "Interval Time/Seconds",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "comment": {
+              "title": "Batch Comment",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "keyword": "Video Keywords",
+                "content": "Comment Content",
+                "task_num": "Comment Count",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            }
+          }
+        },
+        "douyin": {
+          "title": "Douyin",
+          "children": {
+            "yanghao": {
+              "title": "One-click Account Nurturing",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "wayType": "Nurturing Type",
+                "wayTypeList": [
+                  "System Nurturing",
+                  "Specific Blogger",
+                  "Video",
+                  "Live Room"
+                ],
+                "bloggerId": "Blogger ID",
+                "search_name": "Search Keyword",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "see_comment_probability": "View Comment Probability",
+                "hair_comment_probability": "Comment Probability",
+                "collectProbability": "Collect Probability",
+                "duration_stay": "Stay Duration (seconds)",
+                "seeCount": "View Count",
+                "script_grouping_name": "Script Type",
+                "number_maintenance_duration": "Nurturing Duration (seconds)",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "update": {
+              "title": "Update Profile",
+              "tableHeader": {
+                "update_value": "Update Item",
+                "regulation": "Regulation",
+                "whole": "All",
+                "order": "Order",
+                "imagesContent": "Avatar",
+                "name": "Username",
+                "bio": "Bio",
+                "sex": "Gender",
+                "man": "Male",
+                "woman": "Female",
+                "notDisplay": "Do Not Display",
+                "birthday": "Birthday",
+                "location": "Location",
+                "country": "Country",
+                "province": "Province",
+                "city": "City",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "getuid": {
+              "title": "Data Collection",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Collect Video Links",
+                  "Collect Video Comment Users",
+                  "Collect Blogger List",
+                  "Collect Followed List of Specific Bloggers",
+                  "Collect Followers of Specific Bloggers",
+                  "Collect Followers from Live Room Hosts",
+                  "Collect Users Who Liked Your Posts",
+                  "Collect Users Who Commented on Your Posts"
+                ],
+                "blogger_ids": "Blogger ID",
+                "keyword": "Keyword",
+                "coll_direction": "Collection Direction",
+                "coll_direction_list": [
+                  "Video",
+                  "Live Room"
+                ],
+                "search_type": "Search Method",
+                "search_type_list": [
+                  "Keyword",
+                  "Link"
+                ],
+                "link": "Link",
+                "fans_num": "Fan Count",
+                "fans_num_list": [
+                  "Unlimited",
+                  "Below 1000",
+                  "1k-10k",
+                  "10k-100k",
+                  "100k-1M",
+                  "Above 1M"
+                ],
+                "user_type": "User Type",
+                "user_type_list": [
+                  "Unlimited",
+                  "Regular User",
+                  "Business Verified",
+                  "Personal Verified"
+                ],
+                "see_num": [
+                  "Viewed Bloggers Count",
+                  "Viewed Videos Count"
+                ],
+                "collection_num": [
+                  "Collected Fans Count",
+                  "Collection Count"
+                ],
+                "followers_num": "Follow Collection Count",
+                "coll_area": "Collection Source",
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time",
+                "dialogTitle": "Collection Details"
+              }
+            },
+            "follow": {
+              "title": "Bulk Follow",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "follow_way": "Follow Method",
+                "followWayList": [
+                  "Blogger Followers",
+                  "Specific Blogger",
+                  "System Recommendation",
+                  "Search Video Bloggers by Keywords",
+                  "Commenters of Specific Videos",
+                  "Friend's Followers",
+                  "Follow Contacts",
+                  "Follow Likers",
+                  "Follow Commenters",
+                  "Follow Back Followers"
+                ],
+                "blogger_ids": "Blogger ID",
+                "search_name": "Search Keyword",
+                "comment_section_keywords": "Comment Keywords",
+                "before_operation": "Pre-Operation",
+                "latestVideo": "Watch Latest Video",
+                "collect_percent": "Follow Probability",
+                "like_percent": "Like Probability",
+                "comment_percent": "Comment Probability",
+                "comment_content": "Comment Content",
+                "after_operation": "Post-Operation",
+                "private_message": "Private Message",
+                "message_content": "Message Content",
+                "follow_num": "Follow Count",
+                "follow_time": "Interval Time (seconds)",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "message": {
+              "title": "Bulk Messaging",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "message_num": "Message Count",
+                "message_content": "Message Content",
+                "message_time": "Interval Time (seconds)",
+                "private_message": "Private Message",
+                "private_message_list": [
+                  "Friends"
+                ],
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "post": {
+              "title": "Matrix Posting",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "upload_content_arr": "Upload Content",
+                "upload_type": "Upload Type",
+                "upload_type_list": [
+                  "Video",
+                  "Image"
+                ],
+                "title": "Title",
+                "topic": "Topic",
+                "topic_tips": " #Topic #Topic #Topic",
+                "call_who": "Mention",
+                "call_who_tips": "Username, Username, Username",
+                "address": "Location",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "comment": {
+              "title": "Bulk Commenting",
+              "tableHeader": {
+                "regulation": "Regulation",
+                "whole": "All",
+                "separate": "Separate",
+                "comment_way": "Comment Method",
+                "commentWayList": [
+                  "Search Videos by Keywords",
+                  "Comment Users from Specific Videos",
+                  "Comment on Live Room",
+                  "Comment on Latest Videos of Specific Users",
+                  "Comment on Commenters of Your Posts"
+                ],
+                "keyword": "Search Keyword",
+                "bloggerId": "Blogger ID",
+                "content": "Comment Content",
+                "see_num": "View Count",
+                "comment_num": "Comment Count",
+                "collect_percent": "Collect Probability",
+                "follow_percent": "Follow Probability",
+                "like_percent": "Like Probability",
+                "comment_content": "Comment Content",
+                "comment_percent": "Comment Probability",
+                "comment_section": "Specific Comment",
+                "comment_section_list": [
+                  "Sequentially Comment on Users",
+                  "Comment Based on Comment Section Keywords"
+                ],
+                "comment_section_keywords": "Comment Section Keywords Match",
+                "duration_interval": "Interval Time (seconds)",
+                "duration_stay": "Stay Duration (seconds)",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            }
+          }
+        },
+        "line": {
+          "title": "Line",
+          "children": {
+            "yanghao": {
+              "title": "Account Nurturing",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "wayType": "Nurturing Type",
+                "wayTypeList": [
+                  "TODAY",
+                  "Friend Chat",
+                  "Group Chat"
+                ],
+                "friend_name": "Friend Name",
+                "group_name": "Group Name",
+                "search_name": "Search Keyword",
+                "message_value": "Message Content",
+                "duration_interval": "Interval Duration/sec",
+                "duration_chat": "Chat Duration/sec",
+                "number_maintenance_duration": "Nurturing Duration/sec",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "update": {
+              "title": "Update Profile",
+              "tableHeader": {
+                "update_value": "Modification Item",
+                "imagesContent": "Avatar",
+                "name": "Username",
+                "bio": "Bio",
+                "regulation": "Rule",
+                "whole": "All",
+                "order": "Order",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "addFriend": {
+              "title": "Add Friend",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "AddFriendWayList": [
+                  "Search Add - Friend ID",
+                  "Official Recommendation",
+                  "People You May Know",
+                  "Add Friend Settings"
+                ],
+                "AddFriend_way": "Add Friend Method",
+                "friends_ids": "Friend IDs",
+                "friends_phone": "Friend Phone Numbers",
+                "message_content": "Message Content",
+                "add_total_number": "Add Quantity",
+                "addFrends_atuo_setting": "Auto Add Friends",
+                "addFrends_allow_setting": "Allow Adding Friends",
+                "AddFriend_time": "Interval Duration/sec",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "post": {
+              "title": "Matrix Posting",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "upload_content_arr": "Post Content",
+                "upload_type": "Post Type",
+                "image": "Image",
+                "video": "Video",
+                "title": "Title",
+                "uploadTips": "For multiple values, please separate with English commas ,,,",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Batch Group Engagement",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "grouping_name": "Group Name",
+                "message_content": "Random Messages",
+                "duration_interval": "Time Interval/s",
+                "duration_chat": "Chat Interval/s",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            }
+          }
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "children": {
+            "update": {
+              "title": "Update Profile",
+              "tableHeader": {
+                "updateList": {
+                  "upload_content_arr": "Avatar",
+                  "name": "Name",
+                  "userStatus": "Status",
+                  "pwdVerify": "Password Verification"
+                },
+                "update_value": "Modification Item",
+                "regulation": "Rule",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "yanghao": {
+              "title": "Account Nurturing",
+              "tableHeader": {
+                "wayType": "Nurturing Type",
+                "friendPhone": "Friend's Phone Number",
+                "friend": "Friend Conversation",
+                "group": "Group Conversation",
+                "wsGroupName": "Group Name",
+                "chatDuration": "Chat Duration/sec",
+                "chatInterva": "Chat Interval/sec",
+                "romdomMessage": "Random Messages",
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "addFriend": {
+              "title": "Add Friend",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Add Method",
+                  "lxr": "Contacts",
+                  "txl": "Address Book Friends"
+                },
+                "callType": {
+                  "title": "Call Type",
+                  "yuyin": "Voice Call",
+                  "video": "Video Call"
+                },
+                "hangUpTime": "Hang Up Time",
+                "contactsUploadList": "Phone Number Upload",
+                "num": "Quantity",
+                "time": "Time Interval",
+                "randomMessage": "Random Messages",
+                "status": "Task Status",
+                "create_time": "Creation Time",
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "uploadTips1": "For multiple values, please separate with English commas ,,,",
+                "uploadTips2": "Name|Surname|Country Code|Phone (without country code)"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Batch Group Engagement",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "stirfry_groups_id": "Group Name for Engagement",
+                "message_time": "Interval Time/s",
+                "stirfry_timer": "Engagement Duration/s",
+                "romdomMessage": "Random Messages",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "message": {
+              "title": "Batch Message",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "private_message": {
+                  "title": "Message Recipient",
+                  "all": "All Friends",
+                  "appoint": "Specific Friends"
+                },
+                "friend_id": "Friend ID",
+                "romdomMessage": "Random Messages",
+                "message_time": "Interval Time/s",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "title": "Snapchat",
+          "children": {
+            "yanghao": {
+              "title": "Account Nurturing",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Nurturing Type",
+                  "gs": "Story Nurturing",
+                  "jgd": "Spotlight Nurturing"
+                },
+                "see_count": "View Count",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "hair_comment_probability": "Comment Probability",
+                "comment_content": "Comment Content",
+                "duration_stay": "Stay Duration/sec",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "update": {
+              "title": "Update Profile",
+              "tableHeader": {
+                "update_value": "Modification Item",
+                "imagesContent": "Avatar",
+                "realName": "Real Name",
+                "username": "Username",
+                "bio": "Bio",
+                "birthday": "Birthday",
+                "location": {
+                  "title": "Location",
+                  "country": "Country",
+                  "province": "Province",
+                  "city": "City"
+                },
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "likeLink": {
+              "title": "Like and Comment",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Source Type",
+                  "base": "Random",
+                  "link": "Link"
+                },
+                "link_urls": "Post Links",
+                "see_count": "View Count",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "hair_comment_probability": "Comment Probability",
+                "comment_content": "Comment Content",
+                "duration_stay": "Stay Duration/sec",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "post": {
+              "title": "Matrix Posting",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Post Type",
+                  "gs": "Story Nurturing",
+                  "jgd": "Spotlight Nurturing"
+                },
+                "videoContent": "Media Content",
+                "mediaSuffic": "Media Suffix",
+                "txt": "Text Content",
+                "isAddMusic": {
+                  "title": "Add Music",
+                  "yes": "Yes",
+                  "no": "No"
+                },
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "addFriend": {
+              "title": "Add Friend",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Add Method",
+                  "tuijian": "Recommended",
+                  "txl": "Address Book"
+                },
+                "chatType": {
+                  "title": "Content Type",
+                  "text": "Text",
+                  "image": "Image",
+                  "text_image": "Text/Image",
+                  "isChat": "Force Chat",
+                  "yes": "Yes",
+                  "no": "No"
+                },
+                "text": "Text Message",
+                "imagesContent": "Image Selection",
+                "addNumber": "Add Quantity",
+                "addGap": "Add Interval/s",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "message": {
+              "title": "Batch Message",
+              "tableHeader": {
+                "chatNumber": "Message Quantity",
+                "duration_interval": "Message Interval/s",
+                "chatType": {
+                  "title": "Content Type",
+                  "text": "Text",
+                  "image": "Image",
+                  "text_image": "Text/Image"
+                },
+                "imagesContent": "Image Selection",
+                "msgChat": "Message Content",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "comment": {
+              "title": "Batch Comment",
+              "tableHeader": {
+                "tip": "For multiple inputs, separate with English commas",
+                "linkUrls": "Post Links",
+                "maxRoll": "Max Comment Scroll Count",
+                "keywords": "Keyword Matching",
+                "keywordNum": "Max Keyword Match Operations",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "hair_comment_probability": "Comment Probability",
+                "comment_content": "Comment Content",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "getuid": {
+              "title": "Data Collection",
+              "tableHeader": {
+                "keywords": "Keyword Matching",
+                "tip": "For multiple inputs, separate with English commas",
+                "coll_type": "Collection Type",
+                "collType_option": {
+                  "gjc ": "Keyword Collection",
+                  "txl": "Address Book Collection"
+                },
+                "collection_num": "Collection Quantity",
+                "collComment_num": "Collect Comment Quantity",
+                "duration_interval": "Collection Interval/s",
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time",
+                "dialogTitle": "Collection Details"
+              }
+            },
+            "logTask": {
+              "title": "Task Log",
+              "tableHeader": {}
+            }
+          }
+        },
+        "instagram": {
+          "title": "Instagram",
+          "children": {
+            "yanghao": {
+              "title": "One-Click Account Nurturing",
+              "tableHeader": {
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "wayType": {
+                  "title": "Nurturing Type",
+                  "home": "Home Recommendations",
+                  "appoint": "Specified Accounts",
+                  "keyword": "Keyword Matching"
+                },
+                "recommend": "Recommendation Type",
+                "recommend_option": [
+                  "Home",
+                  "Reels"
+                ],
+                "keyword": "Keyword",
+                "account": "Account ID",
+                "tip": "Enter multiple, separated by commas",
+                "see_count": "View Count",
+                "follow_probability": "Follow Probability",
+                "like_probability": "Like Probability",
+                "hair_comment_probability": "Comment Probability",
+                "comment_content": "Comment Content",
+                "duration_stay": "Stay Duration/Seconds",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "update": {
+              "title": "Update Profile",
+              "tableHeader": {
+                "update_value": "Modification Item",
+                "imagesContent": "Avatar",
+                "realName": "Real Name",
+                "regulation": "Rule",
+                "whole": "All",
+                "order": "Order",
+                "bio": "Bio",
+                "gender": {
+                  "title": "Gender",
+                  "male": "Male",
+                  "female": "Female",
+                  "unspecified": "Prefer Not to Say"
+                },
+                "links": "Personal Homepage",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "post": {
+              "title": "Matrix Posting",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Matrix Type",
+                  "image": "Image",
+                  "video": "Video"
+                },
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "videoContent": "Media Content",
+                "mediaSuffic": "Media Suffix",
+                "txt": "Text Content",
+                "address": "Address",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "addFriend": {
+              "title": "Add Friends",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Add Method",
+                  "tuijian": "Recommendations",
+                  "txl": "Contacts"
+                },
+                "chatType": {
+                  "title": "Content Type",
+                  "text": "Text",
+                  "image": "Image",
+                  "text_image": "Text/Image",
+                  "isChat": "Force Chat",
+                  "yes": "Yes",
+                  "no": "No"
+                },
+                "text": "Text Message",
+                "imagesContent": "Image Selection",
+                "addNumber": "Add Count",
+                "addGap": "Add Interval/s",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "message": {
+              "title": "Bulk Direct Messages",
+              "tableHeader": {
+                "duration_interval": "Message Interval/s",
+                "regulation": "Rule",
+                "whole": "All",
+                "separate": "Individual",
+                "chatType": {
+                  "title": "Message Direction",
+                  "account": "Message Specific Accounts",
+                  "fans": "Message Followers",
+                  "follow": "Message Following"
+                },
+                "cententType": {
+                  "title": "Content Type",
+                  "text": "Text",
+                  "image": "Image",
+                  "text_image": "Text/Image"
+                },
+                "accounts": "Account ID",
+                "chatNumber": "Message Count",
+                "imagesContent": "Image Selection",
+                "msgChat": "Message Content",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "follow": {
+              "title": "Batch Follow",
+              "tableHeader": {
+                "regulation": "Rules",
+                "whole": "All",
+                "separate": "Individual",
+                "followBefore": "Pre-Follow Actions",
+                "duration_stay": "Stay Duration",
+                "viewPostsNumber": "View Posts Count",
+                "collectProbability": "Collect Probability",
+                "like_probability": "Like Probability",
+                "hair_comment_probability": "Comment Probability",
+                "comment_content": "Comment Content",
+                "follow_interval": "Follow Interval",
+                "follow_interval_start": "Follow Interval Start Time",
+                "follow_interval_end": "Follow Interval End Time",
+                "follow_type": "Follow Type",
+                "follow_type_option": [
+                  "Specific Account Followers",
+                  "Specific Accounts",
+                  "System Recommendations",
+                  "Keyword Trending",
+                  "Follow Users Commenting/Liking Post Links"
+                ],
+                "usernames": "Specific Blogger Accounts",
+                "number": "Follow Count",
+                "keywords": "Keyword Matching",
+                "links": "Link Address Follow",
+                "commentFilter": "Comment Keyword Matching",
+                "commentFollowNumber": "Comment Follow Count",
+                "likeNum": "Like Follow Count",
+                "no": "No",
+                "yes": "Yes",
+                "status": "Task Status",
+                "create_time": "Creation Time"
+              }
+            },
+            "getuid": {
+              "title": "Data Collection",
+              "tableHeader": {
+                "keywords": "Specified Influencer Accounts",
+                "tip": "Enter multiple, separated by commas",
+                "fansNum": "Followers Collection Amount",
+                "followNum": "Following Collection Amount",
+                "duration_interval": "Collection Interval/s",
+                "details": "Task Details",
+                "status": "Task Status",
+                "create_time": "Creation Time",
+                "dialogTitle": "Collection Details"
+              }
+            },
+            "logTask": {
+              "title": "Task Log",
+              "tableHeader": {}
+            }
+          }
+        }
+      },
+      "resourceManagement": {
+        "title": "Resource Management",
+        "children": {
+          "scripts": {
+            "title": "Script Resources",
+            "formLabel": {
+              "appPlatform": "Application Platform",
+              "selectScriptType": "Select Script Type",
+              "scriptContent": "Script Content",
+              "selectMessage": "Please select"
+            },
+            "tableHeader": {
+              "scriptContent": "Script Content",
+              "scriptGroupingId": "Category ID",
+              "scriptGroupingName": "Script Category",
+              "appType": "Application Type",
+              "createTime": "Creation Time",
+              "operate": "Operation"
+            }
+          },
+          "images": {
+            "title": "Image Resources",
+            "tableHeader": ""
+          },
+          "videos": {
+            "title": "Video Resources",
+            "tableHeader": ""
+          },
+          "addressBook": {
+            "title": "Address Book Upload",
+            "formLabel": {
+              "selectGroup": "Select Group",
+              "selectDevice": "Select Device",
+              "uploadFile": "Upload Address Book",
+              "message": "Only one file can be uploaded, only vcf format files are supported",
+              "sussess": "Upload successful",
+              "fail": "Upload failed",
+              "deletionMessage": {
+                "title": "Please upload address book",
+                "device": "Please select device",
+                "fileTypeError": "Uploaded file can only be in vcf format!"
+              }
+            }
+          }
+        }
+      },
+      "aiClip": {
+        "title": "AI Editing",
+        "uploadTime": "Upload Time",
+        "children": {
+          "credits": {
+            "title": "Intro and Outro",
+            "list": "Material List",
+            "uploadDesc": "<p>1. You can upload videos</p> <p>2. Materials are used for intro and outro in mixed editing</p> <p>3. If deleting materials, please confirm that this material is not in the publishing task state! Otherwise, the task will fail!</p> <p>4. Due to API restrictions, the maximum upload size for materials is 50MB!</p> <p>5. It is recommended to upload MP4 format videos, as other formats may not support preview due to OSS impact!</p>",
+            "tableHeader": {
+              "uname": "Name",
+              "type": "Type",
+              "titles": "Intro",
+              "end": "Outro",
+              "content": "Category Name",
+              "num": "Material Count",
+              "create_time": "Creation Time",
+              "operate": "Operation"
+            },
+            "dialog": {
+              "title": "Intro and Outro Category Name"
+            }
+          },
+          "captions": {
+            "title": "Subtitle Management",
+            "tableHeader": {
+              "uname": "Category Name",
+              "content": "Subtitle",
+              "num": "Material Count",
+              "create_time": "Creation Time",
+              "operate": "Operation"
+            },
+            "dialog": {
+              "title": "Subtitle Category Name"
+            }
+          },
+          "musicalMat": {
+            "title": "Music Material Library",
+            "list": "Material List",
+            "uploadDesc": "<p>1. Uploadable materials: MP3 format music</p> <p>2. Materials are for mixed editing use, please remember!</p>",
+            "tableHeader": {
+              "uname": "Category Name",
+              "content": "Subtitle",
+              "num": "Material Count",
+              "create_time": "Creation Time",
+              "operate": "Operation"
+            }
+          },
+          "stickerMat": {
+            "title": "Sticker Material Library",
+            "list": "Material List",
+            "uploadDesc": "<p>1. Uploadable materials: jpg, png, jpeg, gif images</p> <p>2. Materials are for mixed editing sticker use, please remember!</p>",
+            "tableHeader": {
+              "uname": "Category Name",
+              "content": "Subtitle",
+              "num": "Material Count",
+              "create_time": "Creation Time",
+              "operate": "Operation"
+            }
+          },
+          "preClip": {
+            "title": "Pre-edit Materials",
+            "list": "Material List",
+            "uploadDesc": "<p>1. Uploadable materials: images, videos, music, etc.</p> <p>2. Materials are for video mixed editing use, and will not be used as source videos for published videos, please remember!</p> <p>3. If deleting materials, please confirm that this material is not in mixed editing state! Otherwise, mixed editing will fail!</p> <p>4. Due to API restrictions, the maximum upload size for materials is 50MB!</p> <p>5. It is recommended to upload MP4 format videos, as other formats may not support preview due to OSS impact!</p>",
+            "tableHeader": {
+              "uname": "Category Name",
+              "content": "Subtitle",
+              "num": "Material Count",
+              "create_time": "Creation Time",
+              "operate": "Operation"
+            }
+          },
+          "mixedShearWarehouse": {
+            "title": "Mixed Editing Library",
+            "list": "Mixed List"
+          }
+        }
+      },
+      "schedule": {
+        "title": "Scheduled Tasks",
+        "children": {
+          "viewSchedule": "View Schedule"
+        }
+      }
+    },
+    "system": {
+      "title": "System Settings",
+      "children": {
+        "pathConfig": {
+          "title": "Path Configuration",
+          "version": "Current Version",
+          "nowAppPath": "Current Software Path",
+          "resourcesPath": "Resource Storage Path",
+          "mobilePath": "Mobile Resource Path",
+          "language": "Switch Language",
+          "tips": "The application needs to be reset after configuration changes, do you want to reset?",
+          "success": "Save completed",
+          "later": "Reset later",
+          "confirm": "Confirm reset",
+          "successTips": "Please click the reset button below after modifying all configurations"
+        },
+        "btn": {
+          "save": "Save",
+          "reset": "Reset",
+          "replace": "replace",
+          "quit": "Quit",
+          "cancel": "Cancel",
+          "resetApp": "Reset Software"
+        }
+      }
+    },
+    "notice": {
+      "title": "Usage Notice",
+      "main": "<h2>Usage Notice</h2> <p>1. Welcome to use this software and service. This software is developed for promotional purposes and is used in industry promotion and lead generation. Our software is not free and contains no viruses.</p> <p>2. This software is not responsible for any accidents, negligence, contract destruction, defamation, copyright or intellectual property infringement and any losses caused by the use of this system software. It is not related to the software developer and service provider, and does not assume any legal responsibility.</p> <p>3. The business entities we provide software for should accept legal and compliant uses, and should not use this software system for illegal business activities. We are only software developers and do not take any joint responsibility for any business results. We are not responsible for any legal consequences arising from the use of the software and do not assume any legal responsibility.</p> <p>4. Any company or individual's behavior of publishing and spreading our software on the network is allowed, but we developers are not responsible for any legal and criminal incidents that may be caused by the company or individual's spreading of the software, and we developers are not responsible for any legal and criminal incidents that may be caused by individual's spreading of the software.</p>"
+    },
+    "course": {
+      "title": "User Guide"
+    },
+    "login": {
+      "title": "System Login",
+      "username": "Username",
+      "password": "Password",
+      "login": "Login",
+      "exit": "Logout"
+    },
+    "btn": {
+      "save": "Save",
+      "close": "Close",
+      "addGrouping": "Add Group",
+      "addTask": "Add Task",
+      "delete": "Delete",
+      "deleteTask": "Delete Task",
+      "edit": "Edit",
+      "add": "Add",
+      "execute": "Execute",
+      "deactivate": "Deactivate",
+      "start": "Start",
+      "stop": "Stop",
+      "stopAll": "Stop All",
+      "message": "Message",
+      "determine": "Confirm",
+      "cancel": "Cancel",
+      "view": "View",
+      "searchContent": "Search Group Devices",
+      "creditsAdd": "Add Opening/Ending Credits",
+      "upload": "Upload",
+      "uploadSourceMaterial": "Upload Material",
+      "uploadChild": {
+        "message": "Please upload mp4 format video",
+        "success": "Upload successful",
+        "fail": "Upload failed"
+      },
+      "delectChild": {
+        "determineMessage": "Are you sure you want to delete this material?",
+        "message": "Please select the material to delete",
+        "success": "Delete successful",
+        "fail": "Delete failed"
+      },
+      "sourceMaterial": "Material List",
+      "captionAdd": "Add Caption Group",
+      "captionEdit": "Edit Caption Group",
+      "musicAddType": "Add Music Material Category",
+      "stickerMatAdd": "Add Sticker Material Category",
+      "preClipAdd": "Add Pre-edit Material Category",
+      "createMixedShear": "Create Advanced Mixed Editing",
+      "listTitle": "'s List",
+      "selectListArr1": "Selected",
+      "selectListArr2": "materials",
+      "sourceMaterialAdd": "Add Material",
+      "allSelect": "Select All",
+      "cancelSelect": "Cancel Selection",
+      "pushResources": "Push Resources",
+      "pushMessage": "Push to Device (Multiple Selection):",
+      "download": "Download to Local",
+      "downChild": {
+        "loading": "Downloading...",
+        "success": "Download successful",
+        "successMessage": "Video downloaded and saved successfully",
+        "fail": "Download failed",
+        "timeout": "Download timeout, please try again",
+        "pushing": "Pushing...",
+        "pushSuccess": "Push successful",
+        "pushFail": "Error downloading or saving video",
+        "message": "Please select the material to download"
+      },
+      "dirErrorMessage": "Failed to get folder, please check if the resource folder exists, go to settings to view",
+      "sourceMaterialDelect": "Delete Material",
+      "local": "Local",
+      "cloud": "Cloud",
+      "uploadTime": "Upload Time",
+      "uploadFileMsg": "Drag files here or <em>click to upload</em>",
+      "addScript": "Add Script",
+      "delScript": "Delete Script",
+      "addImage": "Add Image",
+      "delImage": "Delete Image",
+      "addVideo": "Add Video",
+      "delVideo": "Delete Video",
+      "selectMessage": "Please select"
+    },
+    "public": {
+      "groupName": "Group Name",
+      "deviceName": "Device Name",
+      "search": "Search Group Devices",
+      "operation": "Operation",
+      "notRuning": "Not Running",
+      "empty": "Cannot be empty",
+      "message": {
+        "blogger": "Maximum 200 bloggers",
+        "limitation": "Maximum 200",
+        "maxTips": "Maximum support",
+        "closeDialog": "Are you sure you want to close the current dialog?",
+        "tips": "Notification",
+        "lackDelect": "Please check the tasks to be deleted",
+        "delectDetermine1": "Are you sure you want to delete these",
+        "delectDetermine2": "tasks?",
+        "lackStop": "Please check the tasks to be paused",
+        "stopDetermine1": "Are you sure you want to pause these",
+        "stopDetermine2": "tasks?",
+        "empty": "Cannot be empty",
+        "warptips": "For multiple values, please use line breaks to separate",
+        "uploadTips": "For multiple values, please use English commas to separate ,,,",
+        "group_device_name": "Device group and device number cannot be empty!",
+        "videoUndefined": "Video file does not exist!",
+        "imageUndefined": "Image file does not exist!"
+      }
+    }
+  }
+}

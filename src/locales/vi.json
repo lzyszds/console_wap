@@ -1,0 +1,1209 @@
+{
+  "navigation": {
+    "dashboard": {
+      "title": "Quản lý hậu trường",
+      "device": {
+        "title": "Quản lý thiết bị",
+        "children": {
+          "group": {
+            "title": "Quản lý nhóm",
+            "tableHeader": {
+              "cate_name": "Tên nhóm",
+              "describe": "Mô tả nhóm",
+              "device_count": "Số lượng thiết bị",
+              "up_time": "Thời gian",
+              "status": "Trạng thái nhóm",
+              "create_time": "Thời gian tạo",
+              "selectDev": "Chọn thiết bị"
+            }
+          },
+          "deviceList": {
+            "title": "Danh sách thiết bị",
+            "tableHeader": {
+              "id": "Id",
+              "equipment_nickname": "Tên thiết bị",
+              "equipment_number": "Số thiết bị",
+              "backups_time": "Thời gian sao lưu gần nhất",
+              "create_time": "Thời gian tạo",
+              "remarks": "Ghi chú",
+              "operate": "Thao tác",
+              "backup": "Sao lưu",
+              "editRemark": "Sửa ghi chú",
+              "switchBackup": "Chuyển sao lưu",
+              "backuptip": "Nhập số thiết bị để sao lưu",
+              "delete": "Xóa",
+              "edit": "Sửa",
+              "historyBackUp": "Sao lưu lịch sử",
+              "backUpTime": "Thời gian sao lưu",
+              "flashingMachine": "Flash một chạm"
+            }
+          }
+        }
+      },
+      "taskParams": {
+        "title": "Quản lý nhiệm vụ",
+        "tiktok": {
+          "title": "TikTok",
+          "children": {
+            "yanghao": {
+              "title": "Nuôi dưỡng tài khoản một chạm",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "wayType": "Loại nuôi dưỡng",
+                "wayTypeList": [
+                  "Nuôi dưỡng hệ thống",
+                  "Chỉ định người dùng"
+                ],
+                "bloggerId": "ID người dùng",
+                "search_name": "Từ khóa tìm kiếm",
+                "follow_probability": "Xác suất theo dõi",
+                "like_probability": "Xác suất thích",
+                "see_comment_probability": "Xác suất xem bình luận",
+                "hair_comment_probability": "Xác suất bình luận",
+                "collectProbability": "Xác suất lưu trữ",
+                "duration_stay": "Thời gian dừng/giây",
+                "seeCount": "Số lượt xem",
+                "script_grouping_name": "Loại kịch bản",
+                "number_maintenance_duration": "Thời gian nuôi dưỡng/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "update": {
+              "title": "Cập nhật thông tin",
+              "tableHeader": {
+                "update_value": "Mục chỉnh sửa",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "order": "Thứ tự",
+                "imagesContent": "Ảnh đại diện",
+                "name": "Tên người dùng",
+                "bio": "Tiểu sử",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "getuid": {
+              "title": "Thu thập dữ liệu",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Thu thập liên kết video",
+                  "Thu thập người dùng bình luận video",
+                  "Thu thập danh sách người dùng",
+                  "Thu thập danh sách người theo dõi của người dùng chỉ định",
+                  "Thu thập danh sách người hâm mộ của người dùng chỉ định",
+                  "Thu thập người hâm mộ của người dùng trong phòng trực tiếp",
+                  "",
+                  "Thu thập người dùng thích bài đăng của mình",
+                  "Thu thập người dùng bình luận bài đăng của mình"
+                ],
+                "blogger_ids": "ID người dùng",
+                "keyword": "Từ khóa",
+                "fans_num": "Số lượng người hâm mộ",
+                "fans_area": "Nguồn thu thập",
+                "collection_num": "Số lượng thu thập",
+                "details": "Chi tiết nhiệm vụ",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo",
+                "dialogTitle": "Chi tiết thu thập"
+              }
+            },
+            "follow": {
+              "title": "Theo dõi hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "follow_way": "Cách theo dõi",
+                "followWayList": [
+                  "Người hâm mộ của người dùng",
+                  "Người dùng chỉ định",
+                  "Đề xuất hệ thống",
+                  "",
+                  "",
+                  "Theo dõi danh bạ",
+                  "Theo dõi người thích",
+                  "Theo dõi người bình luận",
+                  "Theo dõi lại người hâm mộ"
+                ],
+                "blogger_ids": "ID người dùng",
+                "search_name": "Từ khóa tìm kiếm",
+                "collect_percent": "Xác suất theo dõi",
+                "like_percent": "Xác suất thích",
+                "follow_range": "Phạm vi theo dõi",
+                "follow_range_list": [
+                  "Người hâm mộ"
+                ],
+                "follow_num": "Số lượng theo dõi",
+                "follow_time": "Thời gian giãn cách/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "message": {
+              "title": "Nhắn tin hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "message_num": "Số lượng tin nhắn",
+                "message_content": "Nội dung tin nhắn",
+                "message_time": "Thời gian giãn cách/giây",
+                "private_message": "Người nhận tin nhắn",
+                "private_message_list": [
+                  "Bạn bè"
+                ],
+                "address": "Nhập địa điểm",
+                "details": "Chi tiết nhiệm vụ",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "post": {
+              "title": "Đăng bài ma trận",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "upload_content_arr": "Nội dung đăng",
+                "upload_type": "Loại đăng",
+                "upload_type_list": [
+                  "Video",
+                  "Hình ảnh"
+                ],
+                "title": "Tiêu đề",
+                "topic": "Chủ đề",
+                "topic_tips": " #chủ đề #chủ đề #chủ đề",
+                "call_who": "Gắn thẻ ai trong bài đăng",
+                "call_who_tips": "tên người dùng, tên người dùng, tên người dùng",
+                "address": "Địa điểm",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "like": {
+              "title": "Thích hàng loạt",
+              "tableHeader": {
+                "bloggerId": "ID người dùng",
+                "pending_execution_time": "Thời gian giãn cách/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "comment": {
+              "title": "Bình luận hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "keyword": "Từ khóa video",
+                "content": "Nội dung bình luận",
+                "task_num": "Số lượng bình luận",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            }
+          }
+        },
+        "douyin": {
+          "title": "Douyin",
+          "children": {
+            "yanghao": {
+              "title": "Nuôi dưỡng tài khoản một chạm",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "wayType": "Loại nuôi dưỡng",
+                "wayTypeList": [
+                  "Nuôi dưỡng hệ thống",
+                  "Chỉ định người dùng",
+                  "Video",
+                  "Phòng trực tiếp"
+                ],
+                "bloggerId": "ID người dùng",
+                "search_name": "Từ khóa tìm kiếm",
+                "follow_probability": "Xác suất theo dõi",
+                "like_probability": "Xác suất thích",
+                "see_comment_probability": "Xác suất xem bình luận",
+                "hair_comment_probability": "Xác suất bình luận",
+                "collectProbability": "Xác suất lưu trữ",
+                "duration_stay": "Thời gian dừng/giây",
+                "seeCount": "Số lượt xem",
+                "script_grouping_name": "Loại kịch bản",
+                "number_maintenance_duration": "Thời gian nuôi dưỡng/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "update": {
+              "title": "Cập nhật thông tin",
+              "tableHeader": {
+                "update_value": "Mục chỉnh sửa",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "order": "Thứ tự",
+                "imagesContent": "Ảnh đại diện",
+                "name": "Tên người dùng",
+                "bio": "Tiểu sử",
+                "sex": "Giới tính",
+                "man": "Nam",
+                "woman": "Nữ",
+                "notDisplay": "Không hiển thị",
+                "birthday": "Ngày sinh",
+                "location": "Khu vực",
+                "country": "Quốc gia",
+                "province": "Tỉnh",
+                "city": "Thành phố",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "getuid": {
+              "title": "Thu thập dữ liệu",
+              "tableHeader": {
+                "collAreaselect": [
+                  "Thu thập liên kết video",
+                  "Thu thập người dùng bình luận video",
+                  "Thu thập danh sách người dùng",
+                  "Thu thập danh sách người theo dõi của người dùng chỉ định",
+                  "Thu thập danh sách người hâm mộ của người dùng chỉ định",
+                  "Thu thập người hâm mộ của người dùng trong phòng trực tiếp",
+                  "",
+                  "Thu thập người dùng thích bài đăng của mình",
+                  "Thu thập người dùng bình luận bài đăng của mình"
+                ],
+                "blogger_ids": "ID người dùng",
+                "keyword": "Từ khóa",
+                "coll_direction": "Hướng thu thập",
+                "coll_direction_list": [
+                  "Video",
+                  "Phòng trực tiếp"
+                ],
+                "search_type": "Cách tìm kiếm",
+                "search_type_list": [
+                  "Từ khóa",
+                  "Liên kết"
+                ],
+                "link": "Liên kết",
+                "fans_num": "Số lượng người hâm mộ",
+                "fans_num_list": [
+                  "Không giới hạn",
+                  "Dưới 1000",
+                  "1k-10k",
+                  "10k-100k",
+                  "100k-1M",
+                  "Trên 1M"
+                ],
+                "user_type": "Loại người dùng",
+                "user_type_list": [
+                  "Không giới hạn",
+                  "Người dùng thông thường",
+                  "Doanh nghiệp xác minh",
+                  "Cá nhân xác minh"
+                ],
+                "see_num": [
+                  "Số lượng người dùng xem",
+                  "Số lượng video xem"
+                ],
+                "collection_num": [
+                  "Số lượng người hâm mộ thu thập",
+                  "Số lượng thu thập"
+                ],
+                "followers_num": "Số lượng người theo dõi thu thập",
+                "coll_area": "Nguồn thu thập",
+                "details": "Chi tiết nhiệm vụ",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo",
+                "dialogTitle": "Chi tiết thu thập"
+              }
+            },
+            "follow": {
+              "title": "Theo dõi hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "follow_way": "Cách theo dõi",
+                "followWayList": [
+                  "Người hâm mộ của người dùng",
+                  "Người dùng chỉ định",
+                  "Đề xuất hệ thống",
+                  "Người dùng của video tìm kiếm theo từ khóa",
+                  "Người bình luận của video chỉ định",
+                  "Người hâm mộ của bạn bè",
+                  "Theo dõi danh bạ",
+                  "Theo dõi người thích",
+                  "Theo dõi người bình luận",
+                  "Theo dõi lại người hâm mộ"
+                ],
+                "blogger_ids": "ID người dùng",
+                "search_name": "Từ khóa tìm kiếm",
+                "comment_section_keywords": "Từ khóa bình luận",
+                "before_operation": "Thao tác trước",
+                "latestVideo": "Xem video mới nhất",
+                "collect_percent": "Xác suất theo dõi",
+                "like_percent": "Xác suất thích",
+                "comment_percent": "Xác suất bình luận",
+                "comment_content": "Nội dung bình luận",
+                "after_operation": "Thao tác sau",
+                "private_message": "Tin nhắn riêng",
+                "private_message_list": [
+                  "Bạn bè",
+                  "Người hâm mộ"
+                ],
+                "message_content": "Nội dung tin nhắn",
+                "follow_num": "Số lượng theo dõi",
+                "follow_time": "Thời gian giãn cách/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "message": {
+              "title": "Nhắn tin hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "message_num": "Số lượng tin nhắn",
+                "message_content": "Nội dung tin nhắn",
+                "message_time": "Thời gian giãn cách/giây",
+                "private_message": "Người nhận tin nhắn",
+                "private_message_list": [
+                  "Bạn bè",
+                  "Trang chủ"
+                ],
+                "details": "Chi tiết nhiệm vụ",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "post": {
+              "title": "Đăng bài ma trận",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "upload_content_arr": "Nội dung đăng",
+                "upload_type": "Loại đăng",
+                "upload_type_list": [
+                  "Video",
+                  "Hình ảnh"
+                ],
+                "title": "Tiêu đề",
+                "topic": "Chủ đề",
+                "topic_tips": " #chủ đề #chủ đề #chủ đề",
+                "call_who": "Gắn thẻ ai trong bài đăng",
+                "call_who_tips": "tên người dùng, tên người dùng, tên người dùng",
+                "address": "Địa điểm",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "comment": {
+              "title": "Bình luận hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "comment_way": "Cách bình luận",
+                "commentWayList": [
+                  "Tìm kiếm video bằng từ khóa",
+                  "Người dùng bình luận trong video chỉ định",
+                  "Bình luận trong phòng trực tiếp",
+                  "Bình luận video mới nhất của người dùng chỉ định",
+                  "Bình luận người dùng đã bình luận bài đăng của mình"
+                ],
+                "keyword": "Từ khóa tìm kiếm",
+                "bloggerId": "ID người dùng",
+                "content": "Nội dung bình luận",
+                "see_num": "Số lần xem",
+                "comment_num": "Số lần bình luận",
+                "collect_percent": "Xác suất lưu trữ",
+                "follow_percent": "Xác suất theo dõi",
+                "like_percent": "Xác suất thích",
+                "comment_content": "Nội dung bình luận",
+                "comment_percent": "Xác suất bình luận",
+                "comment_section": "Bình luận chỉ định",
+                "comment_section_list": [
+                  "Bình luận người dùng theo thứ tự",
+                  "Bình luận dựa trên từ khóa trong phần bình luận"
+                ],
+                "comment_section_keywords": "Từ khóa khớp trong phần bình luận",
+                "duration_interval": "Thời gian giãn cách/giây",
+                "duration_stay": "Thời gian dừng/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            }
+          }
+        },
+        "line": {
+          "title": "Line",
+          "children": {
+            "yanghao": {
+              "title": "Nuôi dưỡng tài khoản",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "wayType": "Loại nuôi dưỡng",
+                "wayTypeList": [
+                  "HÔM NAY",
+                  "Trò chuyện bạn bè",
+                  "Trò chuyện nhóm"
+                ],
+                "friend_name": "Tên bạn bè",
+                "group_name": "Tên nhóm",
+                "search_name": "Từ khóa tìm kiếm",
+                "message_value": "Nội dung tin nhắn",
+                "duration_interval": "Khoảng thời gian/giây",
+                "duration_chat": "Thời gian trò chuyện/giây",
+                "number_maintenance_duration": "Thời gian nuôi dưỡng/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "update": {
+              "title": "Cập nhật hồ sơ",
+              "tableHeader": {
+                "update_value": "Mục chỉnh sửa",
+                "imagesContent": "Ảnh đại diện",
+                "name": "Tên người dùng",
+                "bio": "Tiểu sử",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "order": "Thứ tự",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "addFriend": {
+              "title": "Thêm bạn bè",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "AddFriendWayList": [
+                  "Tìm kiếm thêm - ID bạn bè",
+                  "Đề xuất chính thức",
+                  "Những người bạn có thể biết",
+                  "Cài đặt thêm bạn bè"
+                ],
+                "AddFriend_way": "Phương thức thêm bạn bè",
+                "friends_ids": "ID bạn bè",
+                "friends_phone": "Số điện thoại bạn bè",
+                "message_content": "Nội dung tin nhắn",
+                "add_total_number": "Số lượng thêm",
+                "addFrends_atuo_setting": "Tự động thêm bạn bè",
+                "addFrends_allow_setting": "Cho phép thêm bạn bè",
+                "AddFriend_time": "Khoảng thời gian/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "post": {
+              "title": "Đăng bài ma trận",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "upload_content_arr": "Nội dung bài đăng",
+                "upload_type": "Loại bài đăng",
+                "image": "Hình ảnh",
+                "video": "Video",
+                "title": "Tiêu đề",
+                "uploadTips": "Đối với nhiều giá trị, vui lòng phân tách bằng dấu phẩy tiếng Anh ,,,",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Tương tác nhóm hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "grouping_name": "Tên nhóm",
+                "message_content": "Tin nhắn ngẫu nhiên",
+                "duration_interval": "Khoảng thời gian/giây",
+                "duration_chat": "Khoảng thời gian trò chuyện/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            }
+          }
+        },
+        "whatsapp": {
+          "title": "WhatsApp",
+          "children": {
+            "update": {
+              "title": "Cập nhật hồ sơ",
+              "tableHeader": {
+                "updateList": {
+                  "upload_content_arr": "Ảnh đại diện",
+                  "name": "Tên",
+                  "userStatus": "Trạng thái",
+                  "pwdVerify": "Xác minh mật khẩu"
+                },
+                "update_value": "Mục chỉnh sửa",
+                "regulation": "Quy tắc",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "yanghao": {
+              "title": "Nuôi dưỡng tài khoản",
+              "tableHeader": {
+                "wayType": "Loại nuôi dưỡng",
+                "friendPhone": "Số điện thoại bạn bè",
+                "friend": "Trò chuyện bạn bè",
+                "group": "Trò chuyện nhóm",
+                "wsGroupName": "Tên nhóm",
+                "chatDuration": "Thời gian trò chuyện/giây",
+                "chatInterva": "Khoảng thời gian trò chuyện/giây",
+                "romdomMessage": "Tin nhắn ngẫu nhiên",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "addFriend": {
+              "title": "Thêm bạn bè",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Phương thức thêm",
+                  "lxr": "Danh bạ",
+                  "txl": "Bạn bè trong sổ địa chỉ"
+                },
+                "callType": {
+                  "title": "Loại cuộc gọi",
+                  "yuyin": "Cuộc gọi thoại",
+                  "video": "Cuộc gọi video"
+                },
+                "hangUpTime": "Thời gian cúp máy",
+                "contactsUploadList": "Tải lên số điện thoại",
+                "num": "Số lượng",
+                "time": "Khoảng thời gian",
+                "randomMessage": "Tin nhắn ngẫu nhiên",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "uploadTips1": "Đối với nhiều giá trị, vui lòng phân tách bằng dấu phẩy tiếng Anh ,,,",
+                "uploadTips2": "Tên|Họ|Mã quốc gia|Số điện thoại (không có mã quốc gia)"
+              }
+            },
+            "stirFryGroups": {
+              "title": "Tương tác nhóm hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "stirfry_groups_id": "Tên nhóm để tương tác",
+                "message_time": "Khoảng thời gian/giây",
+                "stirfry_timer": "Thời gian tương tác/giây",
+                "romdomMessage": "Tin nhắn ngẫu nhiên",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "message": {
+              "title": "Tin nhắn hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Cá nhân",
+                "private_message": {
+                  "title": "Người nhận tin nhắn",
+                  "all": "Tất cả bạn bè",
+                  "appoint": "Bạn bè cụ thể"
+                },
+                "friend_id": "ID bạn bè",
+                "romdomMessage": "Tin nhắn ngẫu nhiên",
+                "message_time": "Khoảng thời gian/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "title": "Snapchat",
+          "children": {
+            "yanghao": {
+              "title": "Nuôi dưỡng tài khoản",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Loại nuôi dưỡng",
+                  "gs": "Nuôi dưỡng Story",
+                  "jgd": "Nuôi dưỡng Spotlight"
+                },
+                "see_count": "Số lượt xem",
+                "follow_probability": "Xác suất theo dõi",
+                "like_probability": "Xác suất thích",
+                "hair_comment_probability": "Xác suất bình luận",
+                "comment_content": "Nội dung bình luận",
+                "duration_stay": "Thời gian dừng lại/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "update": {
+              "title": "Cập nhật hồ sơ",
+              "tableHeader": {
+                "update_value": "Mục chỉnh sửa",
+                "imagesContent": "Ảnh đại diện",
+                "realName": "Tên thật",
+                "username": "Tên người dùng",
+                "bio": "Tiểu sử",
+                "birthday": "Ngày sinh",
+                "location": {
+                  "title": "Vị trí",
+                  "country": "Quốc gia",
+                  "province": "Tỉnh",
+                  "city": "Thành phố"
+                },
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "likeLink": {
+              "title": "Thích và bình luận",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Loại nguồn",
+                  "base": "Ngẫu nhiên",
+                  "link": "Liên kết"
+                },
+                "link_urls": "Liên kết bài đăng",
+                "see_count": "Số lượt xem",
+                "follow_probability": "Xác suất theo dõi",
+                "like_probability": "Xác suất thích",
+                "hair_comment_probability": "Xác suất bình luận",
+                "comment_content": "Nội dung bình luận",
+                "duration_stay": "Thời gian dừng lại/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "post": {
+              "title": "Đăng bài ma trận",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Loại nuôi dưỡng",
+                  "gs": "Nuôi dưỡng Story",
+                  "jgd": "Nuôi dưỡng Spotlight"
+                },
+                "videoContent": "Nội dung phương tiện",
+                "mediaSuffic": "Phần mở rộng phương tiện",
+                "txt": "Nội dung văn bản",
+                "isAddMusic": {
+                  "title": "Thêm nhạc",
+                  "yes": "Có",
+                  "no": "Không"
+                },
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "addFriend": {
+              "title": "Thêm bạn bè",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Phương thức thêm",
+                  "tuijian": "Đề xuất",
+                  "txl": "Sổ địa chỉ"
+                },
+                "chatType": {
+                  "title": "Loại nội dung",
+                  "text": "Văn bản",
+                  "image": "Hình ảnh",
+                  "text_image": "Văn bản/Hình ảnh",
+                  "isChat": "Bắt buộc trò chuyện",
+                  "yes": "Có",
+                  "no": "Không"
+                },
+                "text": "Tin nhắn văn bản",
+                "imagesContent": "Lựa chọn hình ảnh",
+                "addNumber": "Số lượng thêm",
+                "addGap": "Khoảng thời gian thêm/giây",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "message": {
+              "title": "Tin nhắn hàng loạt",
+              "tableHeader": {
+                "chatNumber": "Số lượng tin nhắn",
+                "duration_interval": "Khoảng thời gian tin nhắn/giây",
+                "chatType": {
+                  "title": "Loại nội dung",
+                  "text": "Văn bản",
+                  "image": "Hình ảnh",
+                  "text_image": "Văn bản/Hình ảnh"
+                },
+                "imagesContent": "Lựa chọn hình ảnh",
+                "msgChat": "Nội dung tin nhắn",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "comment": {
+              "title": "Bình luận hàng loạt",
+              "tableHeader": {
+                "tip": "Đối với nhiều đầu vào, phân tách bằng dấu phẩy tiếng Anh",
+                "linkUrls": "Liên kết bài đăng",
+                "maxRoll": "Số lần cuộn bình luận tối đa",
+                "keywords": "Khớp từ khóa",
+                "keywordNum": "Số lượng thao tác khớp từ khóa tối đa",
+                "follow_probability": "Xác suất theo dõi",
+                "like_probability": "Xác suất thích",
+                "hair_comment_probability": "Xác suất bình luận",
+                "comment_content": "Nội dung bình luận",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "getuid": {
+              "title": "Thu thập dữ liệu",
+              "tableHeader": {
+                "keywords": "Khớp từ khóa",
+                "tip": "Đối với nhiều đầu vào, phân tách bằng dấu phẩy tiếng Anh",
+                "coll_type": "Loại Acquisition",
+                "collType_option": {
+                  "gjc": "Thu thập từ khóa",
+                  "txl": "Thu thập sổ địa chỉ"
+                },
+                "collection_num": "Số lượng thu thập",
+                "collComment_num": "Số lượng thu thập bình luận",
+                "duration_interval": "Khoảng thời gian thu thập/giây",
+                "details": "Chi tiết nhiệm vụ",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo",
+                "dialogTitle": "Chi tiết thu thập"
+              }
+            },
+            "logTask": {
+              "title": "Nhật ký nhiệm vụ",
+              "tableHeader": {}
+            }
+          }
+        },
+        "instagram": {
+          "title": "Instagram",
+          "children": {
+            "yanghao": {
+              "title": "Nuôi Dưỡng Tài Khoản Một Chạm",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "wayType": {
+                  "title": "Loại Nuôi Dưỡng",
+                  "home": "Đề Xuất Trang Chủ",
+                  "appoint": "Tài Khoản Chỉ Định",
+                  "keyword": "Khớp Từ Khóa"
+                },
+                "recommend": "Loại Đề Xuất",
+                "recommend_option": [
+                  "Trang chủ",
+                  "Reels"
+                ],
+                "keyword": "Từ khóa",
+                "account": "ID Tài khoản",
+                "tip": "Nhập nhiều, phân cách bằng dấu phẩy",
+                "see_count": "Số Lượt Xem",
+                "follow_probability": "Xác Suất Theo Dõi",
+                "like_probability": "Xác Suất Thích",
+                "hair_comment_probability": "Xác Suất Bình Luận",
+                "comment_content": "Nội Dung Bình Luận",
+                "duration_stay": "Thời Gian Dừng/Giây",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo"
+              }
+            },
+            "update": {
+              "title": "Cập Nhật Hồ Sơ",
+              "tableHeader": {
+                "update_value": "Mục Chỉnh Sửa",
+                "imagesContent": "Ảnh Đại Diện",
+                "realName": "Tên Thật",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "order": "Thứ tự",
+                "bio": "Tiểu sử",
+                "gender": {
+                  "title": "Giới tính",
+                  "male": "Nam",
+                  "female": "Nữ",
+                  "unspecified": "Không muốn trả lời"
+                },
+                "links": "Trang Cá Nhân",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo"
+              }
+            },
+            "post": {
+              "title": "Đăng Bài Ma Trận",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Loại Ma Trận",
+                  "image": "Hình Ảnh",
+                  "video": "Video"
+                },
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "videoContent": "Nội Dung Phương Tiện",
+                "mediaSuffic": "Hậu Tố Phương Tiện",
+                "txt": "Nội Dung Văn Bản",
+                "address": "Địa Chỉ",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo"
+              }
+            },
+            "addFriend": {
+              "title": "Thêm Bạn Bè",
+              "tableHeader": {
+                "wayType": {
+                  "title": "Phương Thức Thêm",
+                  "tuijian": "Đề Xuất",
+                  "txl": "Danh Bạ"
+                },
+                "chatType": {
+                  "title": "Loại Nội Dung",
+                  "text": "Văn Bản",
+                  "image": "Hình Ảnh",
+                  "text_image": "Văn Bản/Hình Ảnh",
+                  "isChat": "Bắt Buộc Trò Chuyện",
+                  "yes": "Có",
+                  "no": "Không"
+                },
+                "text": "Tin Nhắn Văn Bản",
+                "imagesContent": "Chọn Hình Ảnh",
+                "addNumber": "Số Lượng Thêm",
+                "addGap": "Khoảng Cách Thêm/giây",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo"
+              }
+            },
+            "message": {
+              "title": "Tin Nhắn Hàng Loạt",
+              "tableHeader": {
+                "duration_interval": "Khoảng Cách Tin Nhắn/giây",
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "chatType": {
+                  "title": "Hướng Tin Nhắn",
+                  "account": "Nhắn Tin Tài Khoản Cụ Thể",
+                  "fans": "Nhắn Tin Người Theo Dõi",
+                  "follow": "Nhắn Tin Người Đang Theo Dõi"
+                },
+                "cententType": {
+                  "title": "Loại Nội Dung",
+                  "text": "Văn Bản",
+                  "image": "Hình Ảnh",
+                  "text_image": "Văn Bản/Hình Ảnh"
+                },
+                "accounts": "ID Tài Khoản",
+                "chatNumber": "Số Lượng Tin Nhắn",
+                "imagesContent": "Chọn Hình Ảnh",
+                "msgChat": "Nội Dung Tin Nhắn",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo"
+              }
+            },
+            "follow": {
+              "title": "Theo dõi hàng loạt",
+              "tableHeader": {
+                "regulation": "Quy tắc",
+                "whole": "Tất cả",
+                "separate": "Riêng lẻ",
+                "followBefore": "Thao tác trước khi theo dõi",
+                "duration_stay": "Thời gian dừng lại",
+                "viewPostsNumber": "Số lượng bài viết đã xem",
+                "collectProbability": "Xác suất thu thập",
+                "like_probability": "Xác suất thích",
+                "hair_comment_probability": "Xác suất bình luận",
+                "comment_content": "Nội dung bình luận",
+                "follow_interval": "Khoảng thời gian theo dõi",
+                "follow_interval_start": "Thời gian bắt đầu khoảng thời gian theo dõi",
+                "follow_interval_end": "Thời gian kết thúc khoảng thời gian theo dõi",
+                "follow_type": "Loại theo dõi",
+                "follow_type_option": [
+                  "Người hâm mộ tài khoản được chỉ định",
+                  "Tài khoản được chỉ định",
+                  "Đề xuất của hệ thống",
+                  "Từ khóa phổ biến",
+                  "Theo dõi người dùng bình luận hoặc thích liên kết bài viết"
+                ],
+                "usernames": "Tài khoản người được chỉ định",
+                "number": "Số lượng theo dõi",
+                "keywords": "Đối sánh từ khóa",
+                "links": "Theo dõi địa chỉ liên kết",
+                "commentFilter": "Đối sánh từ khóa bình luận",
+                "commentFollowNumber": "Số lượng theo dõi từ bình luận",
+                "likeNum": "Số lượng theo dõi từ lượt thích",
+                "no": "Không",
+                "yes": "Có",
+                "status": "Trạng thái nhiệm vụ",
+                "create_time": "Thời gian tạo"
+              }
+            },
+            "getuid": {
+              "title": "Thu Thập Dữ Liệu",
+              "tableHeader": {
+                "keywords": "Tài Khoản Người Ảnh Hưởng Chỉ Định",
+                "tip": "Nhập nhiều, phân cách bằng dấu phẩy",
+                "fansNum": "Số Lượng Thu Thập Người Theo Dõi",
+                "followNum": "Số Lượng Thu Thập Đang Theo Dõi",
+                "duration_interval": "Khoảng Cách Thu Thập/giây",
+                "details": "Chi Tiết Nhiệm Vụ",
+                "status": "Trạng Thái Nhiệm Vụ",
+                "create_time": "Thời Gian Tạo",
+                "dialogTitle": "Chi Tiết Thu Thập"
+              }
+            },
+            "logTask": {
+              "title": "Nhật Ký Nhiệm Vụ",
+              "tableHeader": {}
+            }
+          }
+        }
+      },
+      "resourceManagement": {
+        "title": "Quản lý tài nguyên",
+        "children": {
+          "scripts": {
+            "title": "Tài nguyên kịch bản",
+            "formLabel": {
+              "appPlatform": "Nền tảng ứng dụng",
+              "selectScriptType": "Chọn loại kịch bản",
+              "scriptContent": "Nội dung kịch bản",
+              "selectMessage": "Vui lòng chọn"
+            },
+            "tableHeader": {
+              "scriptContent": "Nội dung kịch bản",
+              "scriptGroupingId": "ID danh mục",
+              "scriptGroupingName": "Danh mục kịch bản",
+              "appType": "Loại ứng dụng",
+              "createTime": "Thời gian tạo",
+              "operate": "Thao tác"
+            }
+          },
+          "images": {
+            "title": "Tài nguyên hình ảnh",
+            "tableHeader": ""
+          },
+          "videos": {
+            "title": "Tài nguyên video",
+            "tableHeader": ""
+          },
+          "addressBook": {
+            "title": "Tải lên sổ địa chỉ",
+            "formLabel": {
+              "selectGroup": "Chọn nhóm",
+              "selectDevice": "Chọn thiết bị",
+              "uploadFile": "Tải lên sổ địa chỉ",
+              "message": "Chỉ có thể tải lên một tệp, chỉ hỗ trợ tệp định dạng vcf",
+              "sussess": "Tải lên thành công",
+              "fail": "Tải lên thất bại",
+              "deletionMessage": {
+                "title": "Vui lòng tải lên sổ địa chỉ",
+                "device": "Vui lòng chọn thiết bị",
+                "fileTypeError": "Tệp tải lên chỉ có thể ở định dạng vcf!"
+              }
+            }
+          }
+        }
+      },
+      "aiClip": {
+        "title": "Chỉnh sửa AI",
+        "uploadTime": "Thời gian tải lên",
+        "children": {
+          "credits": {
+            "title": "Phần mở đầu và kết thúc",
+            "list": "Danh sách tài liệu",
+            "uploadDesc": "<p>1. Có thể tải lên video</p> <p>2. Tài liệu được sử dụng cho phần mở đầu và kết thúc trong chỉnh sửa hỗn hợp</p> <p>3. Nếu xóa tài liệu, vui lòng đảm bảo tài liệu này không nằm trong trạng thái nhiệm vụ đã xuất bản hiện tại! Nếu không, nhiệm vụ sẽ thất bại!</p> <p>4. Do giới hạn giao diện, kích thước tải lên tối đa cho tài liệu là 50M!</p> <p>5. Khuyến nghị tải lên video định dạng MP4. Do giới hạn OSS, các định dạng video khác không hỗ trợ xem trước!</p>"
+          },
+          "captions": {
+            "title": "Quản lý phụ đề"
+          },
+          "musicalMat": {
+            "title": "Thư viện tài liệu âm nhạc",
+            "list": "Danh sách tài liệu",
+            "uploadDesc": "<p>1. Tài liệu có thể tải lên: nhạc định dạng MP3</p> <p>2. Tài liệu được sử dụng cho chỉnh sửa hỗn hợp, hãy nhớ!</p>"
+          },
+          "stickerMat": {
+            "title": "Thư viện tài liệu sticker",
+            "list": "Danh sách tài liệu",
+            "uploadDesc": "<p>1. Tài liệu có thể tải lên: tài liệu hình ảnh jpg, png, jpeg, gif</p> <p>2. Tài liệu được sử dụng cho sticker trong chỉnh sửa hỗn hợp, hãy nhớ!</p>"
+          },
+          "preClip": {
+            "title": "Tài liệu tiền chỉnh sửa",
+            "list": "Danh sách tài liệu",
+            "uploadDesc": "<p>1. Tài liệu có thể tải lên: hình ảnh, video, nhạc, v.v.</p> <p>2. Tài liệu được sử dụng cho chỉnh sửa video hỗn hợp, không phải là nguồn video cho video đã xuất bản, hãy nhớ!</p> <p>3. Nếu xóa tài liệu, vui lòng đảm bảo tài liệu này không nằm trong trạng thái đang trộn hiện tại! Nếu không, việc trộn sẽ thất bại!</p> <p>4. Do giới hạn giao diện, kích thước tải lên tối đa cho tài liệu là 50M!</p> <p>5. Khuyến nghị tải lên video định dạng MP4. Do giới hạn OSS, các định dạng video khác không hỗ trợ xem trước!</p>"
+          },
+          "mixedShearWarehouse": {
+            "title": "Thư viện chỉnh sửa hỗn hợp",
+            "list": "Danh sách chỉnh sửa hỗn hợp"
+          }
+        }
+      },
+      "schedule": {
+        "title": "Nhiệm vụ theo lịch",
+        "children": {
+          "viewSchedule": "Xem lịch"
+        }
+      }
+    },
+    "system": {
+      "title": "Cài đặt hệ thống",
+      "children": {
+        "pathConfig": {
+          "title": "Cấu hình đường dẫn",
+          "version": "Phiên bản hiện tại",
+          "nowAppPath": "Đường dẫn phần mềm hiện tại",
+          "resourcesPath": "Đường dẫn lưu trữ tài nguyên",
+          "mobilePath": "Đường dẫn tài nguyên di động",
+          "language": "Chuyển đổi ngôn ngữ",
+          "tips": "Ứng dụng cần được đặt lại sau khi thay đổi cấu hình, bạn có muốn đặt lại không?",
+          "success": "Lưu hoàn tất",
+          "later": "Đặt lại sau",
+          "confirm": "Xác nhận đặt lại",
+          "successTips": "Vui lòng nhấp vào nút đặt lại bên dưới sau khi sửa đổi tất cả cấu hình"
+        },
+        "btn": {
+          "save": "Lưu",
+          "reset": "Đặt lại",
+          "replace": "Thay thế",
+          "quit": "Thoát",
+          "cancel": "Hủy",
+          "resetApp": "Đặt lại phần mềm"
+        }
+      }
+    },
+    "notice": {
+      "title": "Thông báo sử dụng",
+      "main": "<h2>Thông báo sử dụng</h2> <p>1. Chào mừng bạn sử dụng phần mềm và dịch vụ này. Phần mềm này được phát triển cho mục đích quảng bá và được sử dụng trong việc quảng bá ngành và tạo khách hàng tiềm năng. Phần mềm của chúng tôi không miễn phí và không chứa virus.</p> <p>2. Phần mềm này không chịu trách nhiệm cho bất kỳ tai nạn, sơ suất, phá hủy hợp đồng, phỉ báng, vi phạm bản quyền hoặc sở hữu trí tuệ và bất kỳ tổn thất nào gây ra bởi việc sử dụng hệ thống phần mềm này. Nó không liên quan đến nhà phát triển phần mềm và nhà cung cấp dịch vụ, và không chịu bất kỳ trách nhiệm pháp lý nào.</p> <p>3. Các đơn vị kinh doanh mà chúng tôi cung cấp phần mềm cho nên chấp nhận các sử dụng hợp pháp và tuân thủ, và không nên sử dụng hệ thống phần mềm này cho các hoạt động kinh doanh bất hợp pháp. Chúng tôi chỉ là nhà phát triển phần mềm và không chịu bất kỳ trách nhiệm chung nào đối với bất kỳ kết quả kinh doanh nào. Chúng tôi không chịu trách nhiệm cho bất kỳ hậu quả pháp lý nào phát sinh từ việc sử dụng phần mềm và không chịu bất kỳ trách nhiệm pháp lý nào.</p> <p>4. Bất kỳ hành vi nào của công ty hoặc cá nhân xuất bản và phát tán phần mềm của chúng tôi trên mạng đều được cho phép, nhưng chúng tôi, các nhà phát triển, không chịu trách nhiệm cho bất kỳ sự cố pháp lý và hình sự nào có thể gây ra bởi việc công ty hoặc cá nhân phát tán phần mềm, và chúng tôi, các nhà phát triển, không chịu trách nhiệm cho bất kỳ sự cố pháp lý và hình sự nào có thể gây ra bởi việc cá nhân phát tán phần mềm.</p>"
+    },
+    "course": {
+      "title": "Hướng dẫn sử dụng"
+    },
+    "login": {
+      "title": "Đăng nhập hệ thống",
+      "username": "Tên đăng nhập",
+      "password": "Mật khẩu",
+      "login": "Đăng nhập",
+      "exit": "Đăng xuất"
+    },
+    "btn": {
+      "save": "Lưu",
+      "close": "Đóng",
+      "addGrouping": "Thêm nhóm",
+      "addTask": "Thêm nhiệm vụ",
+      "delete": "Xóa",
+      "deleteTask": "Xóa nhiệm vụ",
+      "edit": "Chỉnh sửa",
+      "add": "Thêm",
+      "execute": "Thực thi",
+      "deactivate": "Vô hiệu hóa",
+      "start": "Bắt đầu",
+      "stop": "Dừng",
+      "stopAll": "Dừng tất cả",
+      "message": "Tin nhắn",
+      "determine": "Xác nhận",
+      "cancel": "Hủy",
+      "view": "Xem",
+      "searchContent": "Tìm kiếm thiết bị nhóm",
+      "creditsAdd": "Thêm phần mở đầu/kết thúc",
+      "upload": "Tải lên",
+      "uploadSourceMaterial": "Tải lên tài liệu",
+      "uploadChild": {
+        "message": "Vui lòng tải lên video định dạng mp4",
+        "success": "Tải lên thành công",
+        "fail": "Tải lên thất bại"
+      },
+      "delectChild": {
+        "determineMessage": "Bạn có chắc chắn muốn xóa tài liệu này không?",
+        "message": "Vui lòng chọn tài liệu cần xóa",
+        "success": "Xóa thành công",
+        "fail": "Xóa thất bại"
+      },
+      "sourceMaterial": "Danh sách tài liệu",
+      "captionAdd": "Thêm nhóm phụ đề",
+      "captionEdit": "Chỉnh sửa nhóm phụ đề",
+      "musicAddType": "Thêm danh mục tài liệu âm nhạc",
+      "stickerMatAdd": "Thêm danh mục tài liệu sticker",
+      "preClipAdd": "Thêm danh mục tài liệu tiền chỉnh sửa",
+      "createMixedShear": "Tạo chỉnh sửa hỗn hợp nâng cao",
+      "listTitle": "danh sách của",
+      "selectListArr1": "Đã chọn",
+      "selectListArr2": "tài liệu",
+      "sourceMaterialAdd": "Thêm tài liệu",
+      "allSelect": "Chọn tất cả",
+      "cancelSelect": "Hủy chọn",
+      "pushResources": "Đẩy tài liệu",
+      "pushMessage": "Đẩy đến thiết bị (Chọn nhiều):",
+      "download": "Tải về máy",
+      "downChild": {
+        "loading": "Đang tải xuống...",
+        "success": "Tải xuống thành công",
+        "successMessage": "Video đã được tải xuống và lưu thành công",
+        "fail": "Tải xuống thất bại",
+        "timeout": "Hết thời gian tải xuống, vui lòng thử lại",
+        "pushing": "Đang đẩy...",
+        "pushSuccess": "Đẩy thành công",
+        "pushFail": "Lỗi khi tải xuống hoặc lưu video",
+        "message": "Vui lòng chọn tài liệu để tải xuống"
+      },
+      "dirErrorMessage": "Không thể lấy thư mục, vui lòng kiểm tra xem thư mục tài nguyên có tồn tại không, hãy vào cài đặt để xem",
+      "sourceMaterialDelect": "Xóa tài liệu",
+      "local": "Cục bộ",
+      "cloud": "Đám mây",
+      "uploadTime": "Thời gian tải lên",
+      "uploadFileMsg": "Kéo tệp vào đây hoặc <em>nhấp để tải lên</em>",
+      "addScript": "Thêm kịch bản",
+      "delScript": "Xóa kịch bản",
+      "addImage": "Thêm hình ảnh",
+      "delImage": "Xóa hình ảnh",
+      "addVideo": "Thêm video",
+      "delVideo": "Xóa video",
+      "selectMessage": "Vui lòng chọn"
+    },
+    "public": {
+      "groupName": "Tên nhóm",
+      "deviceName": "Tên thiết bị",
+      "search": "Tìm kiếm thiết bị nhóm",
+      "operation": "Thao tác",
+      "notRuning": "Không chạy",
+      "empty": "Không thể để trống",
+      "message": {
+        "blogger": "Tối đa 200 blogger",
+        "limitation": "Tối đa 200",
+        "maxTips": "Hỗ trợ tối đa",
+        "closeDialog": "Bạn có chắc chắn muốn đóng hộp thoại hiện tại không?",
+        "tips": "Thông báo",
+        "lackDelect": "Vui lòng chọn các nhiệm vụ cần xóa",
+        "delectDetermine1": "Bạn có chắc chắn muốn xóa",
+        "delectDetermine2": "nhiệm vụ này không?",
+        "lackStop": "Vui lòng chọn các nhiệm vụ cần tạm dừng",
+        "stopDetermine1": "Bạn có chắc chắn muốn tạm dừng",
+        "stopDetermine2": "nhiệm vụ này không?",
+        "empty": "Không thể để trống",
+        "warptips": "Đối với nhiều giá trị, vui lòng sử dụng dấu xuống dòng để phân tách",
+        "uploadTips": "Đối với nhiều giá trị, vui lòng sử dụng dấu phẩy tiếng Anh để phân tách ,,,",
+        "group_device_name": "Nhóm thiết bị và số thiết bị không thể để trống!",
+        "videoUndefined": "Tệp video không tồn tại!",
+        "imageUndefined": "Tệp hình ảnh không tồn tại!"
+      }
+    }
+  }
+}
